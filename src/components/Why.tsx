@@ -67,7 +67,7 @@ export default function Why() {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                "After using Fisch Macro, my game efficiency increased by 200%! No longer need to spend a lot of time on repetitive tasks, can focus on other interesting parts of the game."
+                &quot;After using Fisch Macro, my game efficiency increased by 200%! No longer need to spend a lot of time on repetitive tasks, can focus on other interesting parts of the game.&quot;
               </p>
             </div>
 
@@ -82,7 +82,7 @@ export default function Why() {
                 </div>
               </div>
               <p className="text-gray-600 dark:text-gray-300">
-                "This is the best Fisch Macro I've used, with a friendly interface, powerful features, and most importantly, very safe. I've been using it for over a year without any issues."
+                &quot;This is the best Fisch Macro I&apos;ve used, with a friendly interface, powerful features, and most importantly, very safe. I&apos;ve been using it for over a year without any issues.&quot;
               </p>
             </div>
           </motion.div>

@@ -33,7 +33,7 @@ export default function OtherVersions() {
                   </a>
                 </div>
                 <div className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-600 rounded-lg">
-                  <span className="text-gray-700 dark:text-gray-200">Skate's Fisch Macro</span>
+                  <span className="text-gray-700 dark:text-gray-200">Skate&apos;s Fisch Macro</span>
                   <a 
                     href="https://github.com/SkateF/Skate-s-Fisch-Macro"
                     target="_blank"
