@@ -41,7 +41,7 @@ export default function Contact() {
         subject: '',
         message: ''
       });
-    } catch (_err) {
+    } catch {
       setSubmitError('There was an error submitting your message. Please try again later.');
     } finally {
       setIsSubmitting(false);
