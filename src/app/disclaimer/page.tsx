@@ -20,7 +20,7 @@ export default function Disclaimer() {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">Website Disclaimer</h2>
             <p>
-              The information provided by Fisch Macro ("we," "us," or "our") on fischmacroo.com (the "Site") is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
+              The information provided by Fisch Macro (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) on fischmacroo.com (the &quot;Site&quot;) is for general informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">External Links Disclaimer</h2>
@@ -33,12 +33,12 @@ export default function Disclaimer() {
               Fisch Macro is a third-party tool designed to automate certain aspects of the Roblox Fisch game. It is not affiliated with, endorsed by, or connected to Roblox Corporation or the developers of the Fisch game. Use of Fisch Macro is at your own risk and discretion.
             </p>
             <p>
-              We make no guarantees regarding the performance, compatibility, or safety of Fisch Macro with any game or platform. Users should be aware that the use of automation tools may potentially violate the terms of service of certain games or platforms. It is the user's responsibility to ensure that their use of Fisch Macro complies with all applicable terms of service, rules, and policies.
+              We make no guarantees regarding the performance, compatibility, or safety of Fisch Macro with any game or platform. Users should be aware that the use of automation tools may potentially violate the terms of service of certain games or platforms. It is the user&apos;s responsibility to ensure that their use of Fisch Macro complies with all applicable terms of service, rules, and policies.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">Fair Use Disclaimer</h2>
             <p>
-              This Site may contain copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available in our efforts to provide information and tools to enhance the gaming experience. We believe this constitutes a "fair use" of any such copyrighted material as provided for in section 107 of the US Copyright Law.
+              This Site may contain copyrighted material the use of which has not always been specifically authorized by the copyright owner. We are making such material available in our efforts to provide information and tools to enhance the gaming experience. We believe this constitutes a &quot;fair use&quot; of any such copyrighted material as provided for in section 107 of the US Copyright Law.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">Errors and Omissions Disclaimer</h2>
