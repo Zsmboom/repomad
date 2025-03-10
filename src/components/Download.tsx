@@ -93,7 +93,7 @@ export default function Download() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-blue-100 mb-6 max-w-3xl mx-auto"
           >
-            Fisch macro is the most popular macro among Roblox gamers. Many new & old players are searching for Macro files, that's why we launched <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a>. Macro files are downloaded only from this website.
+            Fisch macro is the most popular macro among Roblox gamers. Many new & old players are searching for Macro files, that&apos;s why we launched <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a>. Macro files are downloaded only from this website.
           </motion.p>
         </div>
 
@@ -165,7 +165,7 @@ export default function Download() {
           <div className="flex items-center mb-6">
             <FiShield className="h-6 w-6 text-green-300 mr-3" />
             <p className="text-blue-50">
-              All our macros have been scanned with VirusTotal for your safety. Click on the "Virus Check" link next to each download to view the scan results.
+              All our macros have been scanned with VirusTotal for your safety. Click on the &quot;Virus Check&quot; link next to each download to view the scan results.
             </p>
           </div>
           <div className="flex items-center mb-6">
@@ -255,7 +255,7 @@ export default function Download() {
               <h3 className="text-xl font-semibold">Mac</h3>
             </div>
             <p className="text-blue-50">
-              Coming soon. Developers might release a Mac version (codenamed "Aurium") in the near future.
+              Coming soon. Developers might release a Mac version (codenamed &quot;Aurium&quot;) in the near future.
             </p>
           </motion.div>
 
@@ -283,7 +283,7 @@ export default function Download() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="text-center"
         >
-          <p className="text-xl mb-6">Without any further ado, let's get started. Visit <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a> for more information.</p>
+          <p className="text-xl mb-6">Without any further ado, let&apos;s get started. Visit <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a> for more information.</p>
           <Link 
             href="#how-to" 
             className="btn btn-primary inline-block"

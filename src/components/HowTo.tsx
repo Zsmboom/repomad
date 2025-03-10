@@ -53,8 +53,8 @@ export default function HowTo() {
               </h4>
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>Double-click on the AutoHotkey installer file</li>
-                <li>When prompted, allow file permissions by selecting "yes"</li>
-                <li>Choose "Express Installation" to complete the setup</li>
+                <li>When prompted, allow file permissions by selecting &quot;yes&quot;</li>
+                <li>Choose &quot;Express Installation&quot; to complete the setup</li>
                 <li>Wait for the installation to complete</li>
               </ol>
             </div>
@@ -67,7 +67,7 @@ export default function HowTo() {
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>Open your Roblox account and launch the Fisch game</li>
                 <li>Navigate to game settings within Roblox</li>
-                <li>Make sure "UI Navigation Tool" is enabled</li>
+                <li>Make sure &quot;UI Navigation Tool&quot; is enabled</li>
                 <li><strong>Important:</strong> The macro will not function properly if this setting is disabled</li>
               </ol>
             </div>
@@ -79,7 +79,7 @@ export default function HowTo() {
               </h4>
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
                 <li>Right-click on the downloaded macro file</li>
-                <li>Select "Open with AutoHotkey" from the context menu</li>
+                <li>Select &quot;Open with AutoHotkey&quot; from the context menu</li>
                 <li>The macro interface will appear on your screen</li>
                 <li>You are now ready to start automating your fishing activities!</li>
               </ol>

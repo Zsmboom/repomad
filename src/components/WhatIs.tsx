@@ -25,7 +25,7 @@ export default function WhatIs() {
             <li>Improve resource collection efficiency</li>
             <li>Save time and effort</li>
             <li>Get a better gaming experience</li>
-            <li>Continue game progress even when you're not at your computer</li>
+            <li>Continue game progress even when you&apos;re not at your computer</li>
           </ul>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
             Fisch Macro uses advanced simulation technology to mimic real player operations, making it safe and reliable without posing any risk to your game account.
