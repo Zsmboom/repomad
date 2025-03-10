@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TN Auto Click Macro
 
-## Getting Started
+一个基于 AutoHotkey v1 的自动点击宏工具。
 
-First, run the development server:
+## 功能特点
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 单点模式：在固定位置重复点击
+- 双点模式：在两个位置之间交替点击
+- 随机点击：在窗口内随机位置点击
+- 长按点击：模拟鼠标长按
+- 按键连发：重复发送指定按键
+- 图像搜索：基于图像识别进行点击
+- 像素搜索：基于屏幕颜色进行点击
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 使用要求
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- AutoHotkey v1
+- Windows 操作系统
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 使用说明
 
-## Learn More
+1. 运行脚本后，输入目标窗口名称（可使用"Get Name"按钮获取）
+2. 设置点击速度（毫秒）
+3. 选择所需的点击模式
+4. 按 F1 可随时停止脚本
 
-To learn more about Next.js, take a look at the following resources:
+## 配置文件
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+程序会在文档目录下创建 `iniclick.ini` 配置文件，保存用户设置。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 注意事项
 
-## Deploy on Vercel
+- 使用图像搜索功能时，请选择清晰的目标图像
+- 使用像素搜索时，建议先使用取色功能获取准确的颜色值
+- 脚本运行时请确保目标窗口处于激活状态
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 版权信息
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Created by Tab Nation 2025

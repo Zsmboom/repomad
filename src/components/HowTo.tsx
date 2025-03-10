@@ -1,0 +1,176 @@
+'use client';
+
+import { motion } from 'framer-motion';
+import { FiDownload, FiSettings, FiPlay, FiSmartphone, FiAlertCircle } from 'react-icons/fi';
+import { FaApple, FaWindows } from 'react-icons/fa';
+
+export default function HowTo() {
+  return (
+    <section id="how-to" className="section bg-gray-50 dark:bg-gray-800">
+      <div className="container">
+        <div className="text-center mb-12">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="heading"
+          >
+            How to Use Fisch Macro
+          </motion.h2>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            className="subheading"
+          >
+            Fisch macro gives you an advantage in-game through automatic actions. Follow our guide for a complete setup.
+          </motion.p>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 md:p-8 mb-10"
+        >
+          <div className="flex items-center mb-4">
+            <FiAlertCircle className="text-amber-500 h-6 w-6 mr-3" />
+            <p className="text-gray-700 dark:text-gray-200 italic">
+              While Fisch Macro provides automation advantages, we encourage users to also develop their skills by playing the game manually for the best overall experience.
+            </p>
+          </div>
+          
+          <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">Step-by-Step Installation Guide</h3>
+          
+          <div className="space-y-6">
+            <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
+              <h4 className="font-semibold text-lg mb-2 flex items-center">
+                <FiDownload className="mr-2 text-blue-600 dark:text-blue-400" /> 
+                Step 1: Install AutoHotkey
+              </h4>
+              <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+                <li>Double-click on the AutoHotkey installer file</li>
+                <li>When prompted, allow file permissions by selecting "yes"</li>
+                <li>Choose "Express Installation" to complete the setup</li>
+                <li>Wait for the installation to complete</li>
+              </ol>
+            </div>
+            
+            <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
+              <h4 className="font-semibold text-lg mb-2 flex items-center">
+                <FiSettings className="mr-2 text-blue-600 dark:text-blue-400" /> 
+                Step 2: Configure Roblox Settings
+              </h4>
+              <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+                <li>Open your Roblox account and launch the Fisch game</li>
+                <li>Navigate to game settings within Roblox</li>
+                <li>Make sure "UI Navigation Tool" is enabled</li>
+                <li><strong>Important:</strong> The macro will not function properly if this setting is disabled</li>
+              </ol>
+            </div>
+            
+            <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
+              <h4 className="font-semibold text-lg mb-2 flex items-center">
+                <FiPlay className="mr-2 text-blue-600 dark:text-blue-400" /> 
+                Step 3: Run the Macro
+              </h4>
+              <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+                <li>Right-click on the downloaded macro file</li>
+                <li>Select "Open with AutoHotkey" from the context menu</li>
+                <li>The macro interface will appear on your screen</li>
+                <li>You are now ready to start automating your fishing activities!</li>
+              </ol>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Mobile and Mac Information */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+          {/* Mobile Information */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md"
+          >
+            <div className="flex items-center mb-4">
+              <FiSmartphone className="h-6 w-6 text-blue-500 mr-3" />
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Mobile Version Status</h3>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              I know many of you are waiting for Fisch macro mobile version and especially for Android & iOS versions but unfortunately, Fisch macro for Android and iOS is not officially available right now.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Be cautious of unofficial tutorials and articles available over the internet that are completely baseless. Following these tutorials may disrupt your gaming experience.
+            </p>
+          </motion.div>
+
+          {/* Mac Information */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md"
+          >
+            <div className="flex items-center mb-4">
+              <FaApple className="h-6 w-6 text-blue-500 mr-3" />
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Mac Version Coming Soon</h3>
+            </div>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              Good news for Fisch players: Fisch macro for Mac may be launched by the first week of March. Developers named it Aurium but it is not free.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300">
+              Mac macro may come with a new GUI. Stay tuned to our website for the official release announcement and download instructions.
+            </p>
+          </motion.div>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+          className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md mb-10"
+        >
+          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">System Requirements</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex items-start">
+              <FaWindows className="h-5 w-5 mr-3 mt-1 text-blue-500" />
+              <div>
+                <p className="font-semibold">Windows Compatibility</p>
+                <p className="text-gray-600 dark:text-gray-300">Windows 10 or 11 recommended</p>
+              </div>
+            </div>
+            <div className="flex items-start">
+              <FiSettings className="h-5 w-5 mr-3 mt-1 text-blue-500" />
+              <div>
+                <p className="font-semibold">Required Software</p>
+                <p className="text-gray-600 dark:text-gray-300">AutoHotkey must be installed</p>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.5 }}
+          className="text-center"
+        >
+          <a 
+            href="#download" 
+            className="btn btn-primary inline-block"
+          >
+            Download Now
+          </a>
+        </motion.div>
+      </div>
+    </section>
+  );
+} 

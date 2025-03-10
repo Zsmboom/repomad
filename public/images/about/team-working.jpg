@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Placeholder Image</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: 400px;
+      background-color: #4f46e5;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      font-size: 40px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  Team Working
+</body>
+</html>
+  
