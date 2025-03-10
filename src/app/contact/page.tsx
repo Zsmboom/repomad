@@ -41,7 +41,7 @@ export default function Contact() {
         subject: '',
         message: ''
       });
-    } catch (error) {
+    } catch (err) {
       setSubmitError('There was an error submitting your message. Please try again later.');
     } finally {
       setIsSubmitting(false);
@@ -72,7 +72,7 @@ export default function Contact() {
             ) : (
               <>
                 <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">
-                  Have questions or feedback? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.
+                  Have questions or feedback? We&apos;d love to hear from you. Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
                 
                 {submitError && (
