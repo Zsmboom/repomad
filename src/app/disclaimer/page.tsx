@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Disclaimer | Fisch Macro',
+  title: 'Disclaimer | Fisch Macro - Automation Macro Tool for Roblox Fisch Game',
   description: 'Legal disclaimer for Fisch Macro, an automation tool for Roblox Fisch game.',
 };
 

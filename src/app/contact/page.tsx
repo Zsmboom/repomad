@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { FiMail, FiMessageCircle, FiUser, FiGithub, FiTwitter, FiYoutube } from 'react-icons/fi';
+import { FaDiscord } from 'react-icons/fa';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -187,14 +188,17 @@ export default function Contact() {
               <p className="text-gray-600 dark:text-gray-300 mb-4">Follow us on social media for updates, tips, and community discussions.</p>
               
               <div className="flex space-x-4">
-                <a href="https://github.com/fischmacroo" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/fischmacroo" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <FiGithub className="h-6 w-6" />
                 </a>
-                <a href="https://twitter.com/fischmacroo" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/FischOnROBLOX" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
                   <FiTwitter className="h-6 w-6" />
                 </a>
-                <a href="https://youtube.com/fischmacroo" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youtube.com/@FischONRoblox" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                   <FiYoutube className="h-6 w-6" />
+                </a>
+                <a href="https://discord.com/invite/cuKz5SK3md" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                  <FaDiscord className="h-6 w-6" />
                 </a>
               </div>
             </div>

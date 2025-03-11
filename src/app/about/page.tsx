@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: 'About Us | Fisch Macro',
+  title: 'About Us | Fisch Macro - Automation Macro Tool for Roblox Fisch Game',
   description: 'Learn about the team behind Fisch Macro, an automation tool for Roblox Fisch game.',
 };
 

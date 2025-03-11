@@ -14,7 +14,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
+            <Link href="/" className="flex items-center" aria-label="Home">
               <Image 
                 src="/images/logo/logo.svg" 
                 alt="Fisch Macro Logo" 
@@ -57,6 +57,7 @@ export default function Header() {
               type="button"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             >
               {isMenuOpen ? (
                 <FiX className="h-6 w-6" />

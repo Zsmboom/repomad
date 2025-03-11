@@ -36,14 +36,14 @@ export default function HowTo() {
           transition={{ duration: 0.5 }}
           className="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 md:p-8 mb-10"
         >
-          <div className="flex items-center mb-4">
+          <div className="flex items-start bg-amber-50 dark:bg-amber-900/30 p-4 rounded-lg mb-8">
             <FiAlertCircle className="text-amber-500 h-6 w-6 mr-3" />
             <p className="text-gray-700 dark:text-gray-200 italic">
               While Fisch Macro provides automation advantages, we encourage users to also develop their skills by playing the game manually for the best overall experience.
             </p>
           </div>
           
-          <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">Step-by-Step Installation Guide</h3>
+          <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">Step-by-Step Installation Macro in Fisch</h3>
           
           <div className="space-y-6">
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">

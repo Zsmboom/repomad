@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Fisch Macro',
+  title: 'Privacy Policy | Fisch Macro - Automation Macro Tool for Roblox Fisch Game',
   description: 'Privacy policy for Fisch Macro, an automation tool for Roblox Fisch game.',
 };
 

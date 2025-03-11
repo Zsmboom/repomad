@@ -74,7 +74,7 @@ const macroFiles = [
 
 export default function Download() {
   return (
-    <section id="download" className="section bg-blue-600 text-white">
+    <section id="download" className="section bg-gray-800 text-white">
       <div className="container">
         <div className="text-center mb-12">
           <motion.h2 
@@ -91,13 +91,13 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-xl text-blue-100 mb-6 max-w-3xl mx-auto"
+            className="text-xl text-gray-300 mb-6 max-w-3xl mx-auto"
           >
-            Fisch macro is the most popular macro among Roblox gamers. Many new & old players are searching for Macro files, that&apos;s why we launched <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a>. Macro files are downloaded only from this website.
+            Fisch macro is the most popular macro among Roblox gamers. Many new & old players are searching for Macro files, that&apos;s why we launched <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline" aria-label="Fisch Macro Official Website">fischmacroo.com</a>. Macro files are downloaded only from this website.
           </motion.p>
         </div>
 
-        {/* Steps to Download */}
+        {/* How to Macro */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -105,15 +105,15 @@ export default function Download() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-10"
         >
-          <h3 className="text-2xl font-semibold mb-4">Steps to Download FischMacro</h3>
-          <ol className="space-y-3 text-blue-50 list-none">
+          <h3 className="text-2xl font-semibold mb-4">How to Macro in Fisch</h3>
+          <ol className="space-y-3 text-gray-200 list-none">
             <li className="flex items-start">
               <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>First visit the site <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a></span>
+              <span>First visit the site <a href="https://fischmacroo.com/" className="text-gray-300 hover:underline" aria-label="Fisch Macro Official Website">fischmacroo.com</a></span>
             </li>
             <li className="flex items-start">
               <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>1st Download Autohotkey (v1.1 or v2) from <a href="https://www.autohotkey.com/" className="text-blue-300 hover:underline" target="_blank" rel="noopener noreferrer">autohotkey</a></span>
+              <span>Download Autohotkey (v1.1 or v2) from <a href="https://www.autohotkey.com/" className="text-gray-300 hover:underline" target="_blank" rel="noopener noreferrer" aria-label="AutoHotkey Official Website">autohotkey.com</a></span>
             </li>
             <li className="flex items-start">
               <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
@@ -205,7 +205,8 @@ export default function Download() {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a 
                     href={file.downloadUrl} 
-                    className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                    className="inline-flex items-center justify-center px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-500 transition-colors"
+                    aria-label={`Download ${file.name}`}
                   >
                     <FiDownload className="mr-2" />
                     Download
@@ -214,7 +215,8 @@ export default function Download() {
                     href={file.virusTotalUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+                    className="inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors"
+                    aria-label={`Virus check for ${file.name}`}
                   >
                     <FiShield className="mr-2" />
                     Virus Check
@@ -235,10 +237,10 @@ export default function Download() {
             className="bg-white/10 backdrop-blur-sm rounded-lg p-6"
           >
             <div className="flex items-center mb-4">
-              <FaWindows className="h-8 w-8 text-blue-300 mr-3" />
+              <FaWindows className="h-8 w-8 text-gray-300 mr-3" />
               <h3 className="text-xl font-semibold">Windows</h3>
             </div>
-            <p className="text-blue-50">
+            <p className="text-gray-200">
               Fully supported. All versions of Fisch Macro work perfectly on Windows 10 and 11.
             </p>
           </motion.div>
@@ -251,10 +253,10 @@ export default function Download() {
             className="bg-white/10 backdrop-blur-sm rounded-lg p-6"
           >
             <div className="flex items-center mb-4">
-              <FaApple className="h-8 w-8 text-blue-300 mr-3" />
+              <FaApple className="h-8 w-8 text-gray-300 mr-3" />
               <h3 className="text-xl font-semibold">Mac</h3>
             </div>
-            <p className="text-blue-50">
+            <p className="text-gray-200">
               Coming soon. Developers might release a Mac version (codenamed &quot;Aurium&quot;) in the near future.
             </p>
           </motion.div>
@@ -267,10 +269,10 @@ export default function Download() {
             className="bg-white/10 backdrop-blur-sm rounded-lg p-6"
           >
             <div className="flex items-center mb-4">
-              <FaMobileAlt className="h-8 w-8 text-blue-300 mr-3" />
+              <FaMobileAlt className="h-8 w-8 text-gray-300 mr-3" />
               <h3 className="text-xl font-semibold">Mobile</h3>
             </div>
-            <p className="text-blue-50">
+            <p className="text-gray-200">
               Not available. Currently there are no plans for Android or iOS versions of Fisch Macro.
             </p>
           </motion.div>
@@ -283,10 +285,11 @@ export default function Download() {
           transition={{ duration: 0.5, delay: 0.8 }}
           className="text-center"
         >
-          <p className="text-xl mb-6">Without any further ado, let&apos;s get started. Visit <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a> for more information.</p>
+          <p className="text-xl mb-6">Without any further ado, let&apos;s get started. Visit <a href="https://fischmacroo.com/" className="text-gray-300 hover:underline" aria-label="Fisch Macro Official Website">fischmacroo.com</a> for more information.</p>
           <Link 
             href="#how-to" 
-            className="btn btn-primary inline-block"
+            className="inline-flex items-center justify-center px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-500 transition-colors"
+            aria-label="Learn how to use Fisch Macro"
           >
             How to Use Fisch Macro
           </Link>

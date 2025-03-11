@@ -23,10 +23,10 @@ export default function Hero() {
               Enhance your Roblox Fisch gaming experience with automated operations, easy resource collection, and improved efficiency.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-              <Link href="/#download" className="btn btn-primary text-center">
+              <Link href="/#download" className="btn btn-primary text-center" aria-label="Download Fisch Macro">
                 Download Now
               </Link>
-              <Link href="/#how-to" className="btn bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 text-center">
+              <Link href="/#how-to" className="btn bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 text-center" aria-label="Learn how to use Fisch Macro">
                 Learn More
               </Link>
               <a 
@@ -34,6 +34,7 @@ export default function Hero() {
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn bg-blue-500 text-white hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-center"
+                aria-label="Play Fisch on Roblox"
               >
                 Play Fisch
               </a>

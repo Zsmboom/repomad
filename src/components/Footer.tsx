@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { FiGithub, FiTwitter, FiMail, FiYoutube } from 'react-icons/fi';
+import { FaDiscord } from 'react-icons/fa';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,17 +20,20 @@ export default function Footer() {
               Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.
             </p>
             <div className="flex space-x-4">
-              <a href="https://github.com/fischmacroo" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/fischmacroo" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <FiGithub className="h-5 w-5" />
               </a>
-              <a href="https://twitter.com/fischmacroo" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/FischOnROBLOX" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
                 <FiTwitter className="h-5 w-5" />
               </a>
-              <a href="mailto:contact@fischmacroo.com" className="text-gray-400 hover:text-white">
+              <a href="mailto:contact@fischmacroo.com" className="text-gray-400 hover:text-white" aria-label="Email">
                 <FiMail className="h-5 w-5" />
               </a>
-              <a href="https://youtube.com/fischmacroo" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.youtube.com/@FischONRoblox" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                 <FiYoutube className="h-5 w-5" />
+              </a>
+              <a href="https://discord.com/invite/cuKz5SK3md" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                <FaDiscord className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -61,6 +65,11 @@ export default function Footer() {
               <li>
                 <Link href="/#faq" className="text-gray-400 hover:text-white">
                   FAQ
+                </Link>
+              </li>
+              <li>
+                <Link href="/#download" className="text-gray-400 hover:text-white">
+                  Download
                 </Link>
               </li>
             </ul>
