@@ -7,10 +7,19 @@ import Link from 'next/link';
 
 const macroFiles = [
   {
+    name: '(Best) Xan V3 (Irus v6)',
+    description: 'Latest version with enhanced fishing automation and resource collection features, includes Irus v6 enhancements',
+    size: '61 KB',
+    date: 'March 11, 2025',
+    downloadUrl: '/downloads/Xan.V3.ahk',
+    virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0',
+    isNew: true
+  },
+  {
     name: 'Fisch Macro v12 with Config (Updated)',
     description: 'Latest version with improved fishing automation and resource collection, includes configuration files',
     size: '12.5 KB',
-    date: 'May 15, 2023',
+    date: 'March 1, 2025',
     downloadUrl: '/downloads/Fisch Macro v12 with Config (Updated).rar',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0'
   },
@@ -18,7 +27,7 @@ const macroFiles = [
     name: 'Fisch Macro v11 Shake Only (New)',
     description: 'Specialized version focusing only on shake functionality',
     size: '8.2 KB',
-    date: 'April 10, 2023',
+    date: 'February 20, 2025',
     downloadUrl: '/downloads/Fisch Macro V11 Shake Only.ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/d81f664a1bbaef9cb6f3a0757ac6ca656807ea9cba4ed3f9f3132e19d55093cb'
   },
@@ -26,7 +35,7 @@ const macroFiles = [
     name: 'Xan Legacy (New)',
     description: 'Legacy version of the popular Xan macro with classic features',
     size: '9.7 KB',
-    date: 'April 5, 2023',
+    date: 'February 10, 2025',
     downloadUrl: '/downloads/Xan LEGACY.ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/09af2b815992d7d2f83acf82fcc78c147994a9ee286a957a974c48ef9d637e49'
   },
@@ -34,7 +43,7 @@ const macroFiles = [
     name: 'Biblical Accuracy (for Seraphic) (New)',
     description: 'Special version optimized for Seraphic fishing style',
     size: '10.3 KB',
-    date: 'April 15, 2023',
+    date: 'January 25, 2025',
     downloadUrl: '/downloads/Biblical Accuracy (for Seraphic).ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/1d60c7602da7a72529c1b79b27cefd5b5335a58f10bffee2185154ea18e27f69'
   },
@@ -42,7 +51,7 @@ const macroFiles = [
     name: 'Fisch Macro V12 (feat IRUS)',
     description: 'V12 version featuring IRUS enhancements for improved performance',
     size: '11.8 KB',
-    date: 'May 1, 2023',
+    date: 'January 15, 2025',
     downloadUrl: '/downloads/Fisch Macro V12 (feat. IRUS).ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/ddb7e78d5c7bf7621c85d0204689df57e0a8acbbe10abafd763e63df8256229e'
   },
@@ -50,7 +59,7 @@ const macroFiles = [
     name: 'Angel\'s True Form (V12 Seraphic)',
     description: 'V12 version optimized for Seraphic fishing with advanced features',
     size: '11.2 KB',
-    date: 'May 5, 2023',
+    date: 'January 10, 2025',
     downloadUrl: '/downloads/Angel\'s True Form (V12 Seraphic).ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/b6a06d95159c4413b821d806b83e7e56d10972d2c3db1b0f4ac0d44d516dc2cb'
   },
@@ -58,7 +67,7 @@ const macroFiles = [
     name: 'v12 No GUI',
     description: 'Lightweight version without graphical interface for minimal resource usage',
     size: '7.5 KB',
-    date: 'April 25, 2023',
+    date: 'January 5, 2025',
     downloadUrl: '/downloads/V12 no GUI.ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/e3a00c1d175ecdc700254d7f92baa8e18b08edfb04cffe0ec336ba9e5ea0a583'
   },
@@ -66,7 +75,7 @@ const macroFiles = [
     name: 'Fisch Macro v11 (Updated on Feb)',
     description: 'February update of the stable v11 version with bug fixes',
     size: '9.8 KB',
-    date: 'February 20, 2023',
+    date: 'January 1, 2025',
     downloadUrl: '/downloads/Fisch Macro V11.ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/44ac95254e84dd288997d3c89cf2d68ece2ca81d7b86513341a8bc762725ad22'
   }
@@ -160,7 +169,7 @@ export default function Download() {
         >
           <h3 className="text-2xl font-semibold mb-4">Available Versions</h3>
           <p className="mb-6 text-blue-50">
-            Fisch macro is currently available in multiple versions including v12, v11, Xan Legacy, Biblical Accuracy, IRUS, and more. Check your favourite macro right now and enjoy Fisch gaming. Join the telegram Channel for updates or visit <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a> regularly for the latest versions.
+            Fisch macro is currently available in multiple versions including the latest <strong>(Best) Xan V3 (Irus v6)</strong>, v12, v11, Xan Legacy, Biblical Accuracy, IRUS, and more. The newest Xan V3 version provides enhanced fishing automation with Irus v6 features for optimal performance. Check your favourite macro right now and enjoy Fisch gaming. Join the telegram Channel for updates or visit <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a> regularly for the latest versions.
           </p>
           <div className="flex items-center mb-6">
             <FiShield className="h-6 w-6 text-green-300 mr-3" />
@@ -193,10 +202,22 @@ export default function Download() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 * index }}
-              className="bg-white text-gray-900 rounded-lg shadow-lg overflow-hidden"
+              className={`bg-white text-gray-900 rounded-lg shadow-lg overflow-hidden ${file.isNew ? 'ring-4 ring-blue-500 relative' : ''}`}
             >
+              {file.isNew && (
+                <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-lg font-bold">
+                  LATEST VERSION
+                </div>
+              )}
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{file.name}</h3>
+                <h3 className="text-xl font-bold mb-2">
+                  {file.name}
+                  {file.isNew && (
+                    <span className="ml-2 inline-block bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse">
+                      NEW
+                    </span>
+                  )}
+                </h3>
                 <p className="text-gray-600 mb-4">{file.description}</p>
                 <div className="flex flex-wrap items-center text-sm text-gray-500 space-x-4 mb-4">
                   <span>Size: {file.size}</span>
@@ -205,11 +226,12 @@ export default function Download() {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <a 
                     href={file.downloadUrl} 
-                    className="inline-flex items-center justify-center px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-500 transition-colors"
+                    className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md transition-colors download-btn"
                     aria-label={`Download ${file.name}`}
+                    data-text="Download"
                   >
                     <FiDownload className="mr-2" />
-                    Download
+                    <span className="sr-only">Download</span>
                   </a>
                   <a 
                     href={file.virusTotalUrl}

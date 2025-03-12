@@ -59,4 +59,8 @@ body {
   .subheading {
     @apply text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-3xl mx-auto;
   }
+  
+  .download-btn::after {
+    content: attr(data-text);
+  }
 }
