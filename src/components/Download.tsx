@@ -11,7 +11,7 @@ const macroFiles = [
     description: 'Latest version of Skate\'s popular Fisch Macro with enhanced features and optimizations',
     size: '36 KB',
     date: 'March 15, 2025',
-    downloadUrl: '/downloads/Skate\'s Fisch Macro v13.ahk',
+    downloadUrl: '/downloads/Skate Fisch Macro v13.ahk',
     virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0',
     isNew: true
   },

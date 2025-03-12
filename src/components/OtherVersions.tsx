@@ -61,7 +61,7 @@ export default function OtherVersions() {
                     <p className="text-gray-300 text-sm mt-1">Latest version of Skate's popular Fisch Macro with enhanced features</p>
                   </div>
                   <Link 
-                    href="/downloads/Skate's Fisch Macro v13.ahk"
+                    href="/downloads/Skate Fisch Macro v13.ahk"
                     className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition-colors download-btn"
                     download
                     data-text="Download"
