@@ -12,7 +12,7 @@ const macroFiles = [
     size: '36 KB',
     date: 'March 15, 2025',
     downloadUrl: '/downloads/Skate Fisch Macro v13.ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0',
+    virusTotalUrl: 'https://github.com/SkateF/Skate-s-Fisch-Macro',
     isNew: true
   },
   {
@@ -246,11 +246,12 @@ export default function Download() {
                     href={file.virusTotalUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors"
-                    aria-label={`Virus check for ${file.name}`}
+                    className={`inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors ${file.name.includes('Skate') ? 'github-btn' : 'virus-check-btn'}`}
+                    aria-label={file.name.includes('Skate') ? `View ${file.name} on GitHub` : `Virus check for ${file.name}`}
+                    data-text={file.name.includes('Skate') ? 'View on GitHub' : 'Virus Check'}
                   >
                     <FiShield className="mr-2" />
-                    Virus Check
+                    <span className="sr-only">{file.name.includes('Skate') ? 'View on GitHub' : 'Virus Check'}</span>
                   </a>
                 </div>
               </div>

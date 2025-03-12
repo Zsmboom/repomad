@@ -63,4 +63,12 @@ body {
   .download-btn::after {
     content: attr(data-text);
   }
+  
+  .virus-check-btn::after {
+    content: attr(data-text);
+  }
+  
+  .github-btn::after {
+    content: attr(data-text);
+  }
 }
