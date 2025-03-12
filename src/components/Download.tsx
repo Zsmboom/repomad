@@ -10,7 +10,7 @@ const macroFiles = [
     name: 'Skate\'s Fisch Macro v13',
     description: 'Latest version of Skate\'s popular Fisch Macro with enhanced features and optimizations',
     size: '36 KB',
-    date: 'March 15, 2025',
+    date: 'March 11, 2025',
     downloadUrl: '/downloads/Skate Fisch Macro v13.ahk',
     virusTotalUrl: 'https://github.com/SkateF/Skate-s-Fisch-Macro',
     isNew: true
