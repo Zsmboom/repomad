@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Fisch Macro | Automation Macro Tool for Roblox Fisch Game",
+  title: "Fisch Macro[Latest], including V13, V12, Xan V3",
   description: "Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.",
   keywords: "Fisch, Fisch Macro, Roblox, macro, automation, game tool, fishing, resource collection",
   authors: [{ name: "Fisch Macro Team" }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     icon: '/favicon.svg',
   },
   openGraph: {
-    title: "Fisch Macro | Automation Macro Tool for Roblox Fisch Game",
+    title: "Fisch Macro[Latest], including V13, V12, Xan V3",
     description: "Enhance your Roblox Fisch gaming experience with automated operations, easy resource collection, and improved efficiency.",
     url: "https://fischmacroo.com",
     siteName: "Fisch Macro",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fisch Macro | Automation Macro Tool for Roblox Fisch Game",
+    title: "Fisch Macro[Latest], including V13, V12, Xan V3",
     description: "Enhance your Roblox Fisch gaming experience with automated operations, easy resource collection, and improved efficiency.",
     creator: "@fischmacroo",
     images: ['/images/og-image.svg'],
