@@ -60,6 +60,48 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="canonical" href="https://fischmacroo.com" />
+        {/* 结构化数据 - 产品统计信息 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+              {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "Fisch Macro",
+                "applicationCategory": "GameApplication",
+                "operatingSystem": "Windows",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "0",
+                  "priceCurrency": "USD"
+                },
+                "aggregateRating": {
+                  "@type": "AggregateRating",
+                  "ratingValue": "4.8",
+                  "ratingCount": "10000",
+                  "bestRating": "5",
+                  "worstRating": "1"
+                },
+                "description": "Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.",
+                "applicationSubCategory": "Automation Tool",
+                "availableOnDevice": "PC",
+                "featureList": [
+                  "200% Efficiency Boost",
+                  "24/7 Availability",
+                  "Automated Operations",
+                  "Resource Collection"
+                ],
+                "screenshot": "https://fischmacroo.com/images/og-image.svg",
+                "softwareVersion": "V13",
+                "author": {
+                  "@type": "Organization",
+                  "name": "Fisch Macro Team"
+                }
+              }
+            `,
+          }}
+        />
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGQD4HK34H"></script>
         <script
