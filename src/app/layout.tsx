@@ -9,6 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://fischmacroo.com'),
   title: "Fisch Macro[Latest], including V13, V12, Xan V3",
   description: "Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.",
   keywords: "Fisch, Fisch Macro, Roblox, macro, automation, game tool, fishing, resource collection",
@@ -59,7 +60,6 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="canonical" href="https://fischmacroo.com" />
         {/* 结构化数据 - 产品统计信息 */}
         <script
           type="application/ld+json"

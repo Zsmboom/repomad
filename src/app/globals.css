@@ -72,3 +72,31 @@ body {
     content: attr(data-text);
   }
 }
+
+/* Mobile Optimizations */
+@media (max-width: 640px) {
+  /* Improve touch targets */
+  button, 
+  [role="button"],
+  .btn {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Reduce motion */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  
+  /* Improve form elements */
+  input,
+  select,
+  textarea {
+    @apply text-base;
+    font-size: 16px !important; /* Prevent iOS zoom */
+  }
+}
