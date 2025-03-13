@@ -24,7 +24,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link href="/#download" className="btn btn-primary text-center" aria-label="Download Fisch Macro">
-                Download Now
+                fisch macro download
               </Link>
               <Link href="/#how-to" className="btn bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 text-center" aria-label="Learn how to use Fisch Macro">
                 Learn More

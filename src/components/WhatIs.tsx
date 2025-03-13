@@ -13,7 +13,7 @@ export default function WhatIs() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="heading mb-8">What is Fisch Macro?</h2>
+          <h2 className="heading mb-8">macro for fisch</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
             Fisch Macro is an automation tool designed specifically for the <a href="https://www.roblox.com/games/16732694052/Fisch-2X-XP" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium">Fisch game on Roblox</a>. It can simulate player operations, automatically complete repetitive tasks in the game, such as fishing and resource collection, thereby improving game efficiency and experience.
           </p>

@@ -49,12 +49,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#what-is" className="text-gray-400 hover:text-white">
-                  What is Fisch Macro
+                  macro for fisch
                 </Link>
               </li>
               <li>
                 <Link href="/#how-to" className="text-gray-400 hover:text-white">
-                  How to Use
+                  how to macro fisch
                 </Link>
               </li>
               <li>
@@ -69,7 +69,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#download" className="text-gray-400 hover:text-white">
-                  Download
+                  fisch macro download
                 </Link>
               </li>
             </ul>

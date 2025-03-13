@@ -31,10 +31,10 @@ export default function Header() {
               Features
             </Link>
             <Link href="/#what-is" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              What is Fisch Macro
+              macro for fisch
             </Link>
             <Link href="/#how-to" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              How to Use
+              how to macro fisch
             </Link>
             <Link href="/#why" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               Why Choose Us
@@ -47,7 +47,7 @@ export default function Header() {
           {/* Download Button */}
           <div className="hidden md:flex">
             <Link href="/#download" className="btn btn-primary">
-              Download Now
+              fisch macro download
             </Link>
           </div>
 
@@ -85,14 +85,14 @@ export default function Header() {
               className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(false)}
             >
-              What is Fisch Macro
+              macro for fisch
             </Link>
             <Link 
               href="/#how-to" 
               className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(false)}
             >
-              How to Use
+              how to macro fisch
             </Link>
             <Link 
               href="/#why" 
@@ -113,7 +113,7 @@ export default function Header() {
               className="block px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
               onClick={() => setIsMenuOpen(false)}
             >
-              Download Now
+              fisch macro download
             </Link>
           </div>
         </div>

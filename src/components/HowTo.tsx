@@ -16,7 +16,7 @@ export default function HowTo() {
             transition={{ duration: 0.5 }}
             className="heading"
           >
-            How to Use Fisch Macro
+            how to macro fisch
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -167,7 +167,7 @@ export default function HowTo() {
             href="#download" 
             className="btn btn-primary inline-block"
           >
-            Download Now
+            fisch macro download
           </a>
         </motion.div>
       </div>
