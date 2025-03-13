@@ -8,6 +8,7 @@ import FAQ from '@/components/FAQ';
 import Download from '@/components/Download';
 import Footer from '@/components/Footer';
 import OtherVersions from '@/components/OtherVersions';
+import ShareSection from '@/components/ShareSection';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Why />
         <Download />
         <OtherVersions />
+        <ShareSection />
         <FAQ />
       </main>
       <Footer />

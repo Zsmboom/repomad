@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FiMenu, FiX } from 'react-icons/fi';
+import HeaderShareButton from './HeaderShareButton';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,6 +43,7 @@ export default function Header() {
             <Link href="/#faq" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               FAQ
             </Link>
+            <HeaderShareButton />
           </nav>
 
           {/* Download Button */}
@@ -108,6 +110,9 @@ export default function Header() {
             >
               FAQ
             </Link>
+            <div className="block px-3 py-2 text-gray-700 dark:text-gray-300">
+              <HeaderShareButton />
+            </div>
             <Link 
               href="/#download" 
               className="block px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"

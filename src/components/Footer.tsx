@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { FiGithub, FiTwitter, FiMail, FiYoutube } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
+import ShareButtons from './ShareButtons';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -19,7 +20,7 @@ export default function Footer() {
             <p className="text-gray-400 mb-4 max-w-md">
               Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.
             </p>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mb-4">
               <a href="https://github.com/fischmacroo" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <FiGithub className="h-5 w-5" />
               </a>
@@ -35,6 +36,16 @@ export default function Footer() {
               <a href="https://discord.com/invite/cuKz5SK3md" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                 <FaDiscord className="h-5 w-5" />
               </a>
+            </div>
+            <div className="mt-4">
+              <p className="text-sm text-gray-400 mb-2">Share our website:</p>
+              <ShareButtons 
+                url="https://fischmacroo.com"
+                title="Fisch Macro - Automation Tool for Roblox Fisch Game"
+                description="Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience."
+                iconSize={24} 
+                className="mt-2" 
+              />
             </div>
           </div>
 
@@ -112,4 +123,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-} 
+}
