@@ -17,17 +17,17 @@ export default function Hero() {
             className="text-center md:text-left"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Fisch <span className="text-blue-600 dark:text-blue-400">Macro Latest Version</span>, including V13, V12, Xan V3
+              Fisch Macro <span className="text-blue-600 dark:text-blue-400">Latest Version</span>, including Fisch Macro V13, Fisch Macro V12, Fisch Macro Xan V3
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
-              Fisch macro is a game macro for Roblox's Fisch game. It automates the fishing process so that players can achieve a higher ranking in a short time. But macro in a Fisch game can't be good ethically because it doesn't improve your skills. We provide the following versions: Skate's Fisch Macro v13, (Best) Xan V3 (Irus v6), Fisch Macro v12 with Config, Fisch Macro v11 Shake Only, and Xan Legacy. We will update with the latest versions as soon as they are available.
+              Fisch Macro is a game macro for Roblox's Fisch game. Fisch Macro automates the fishing process so that players can achieve a higher ranking in a short time. Fisch Macro enhances your gameplay experience. Fisch Macro is designed to be user-friendly and efficient. With Fisch Macro, you can focus on enjoying the game while the Fisch Macro handles repetitive tasks. Fisch Macro is regularly updated to ensure compatibility with the latest game versions. We provide the following Fisch Macro versions: Skate's Fisch Macro v13, (Best) Fisch Macro Xan V3 (Irus v6), Fisch Macro v12 with Config, Fisch Macro v11 Shake Only, and Fisch Macro Xan Legacy. We will update with the latest Fisch Macro versions as soon as they are available.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link href="/#download" className="btn btn-primary text-center" aria-label="Download Fisch Macro">
-                fisch macro download
+                Fisch Macro Download
               </Link>
               <Link href="/#how-to" className="btn bg-gray-200 text-gray-800 hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 text-center" aria-label="Learn how to use Fisch Macro">
-                Learn More
+                Learn About Fisch Macro
               </Link>
               <a 
                 href="https://www.roblox.com/games/16732694052/Fisch-2X-XP" 
@@ -36,7 +36,7 @@ export default function Hero() {
                 className="btn bg-blue-500 text-white hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-700 text-center"
                 aria-label="Play Fisch on Roblox"
               >
-                Play Fisch
+                Play Fisch with Fisch Macro
               </a>
             </div>
           </motion.div>
@@ -51,7 +51,7 @@ export default function Hero() {
             <div className="relative w-full h-full min-h-[300px] rounded-lg overflow-hidden">
               <Image 
                 src="/images/hero/fisch-hero.jpg" 
-                alt="Fisch Game Screenshot" 
+                alt="Fisch Macro Game Screenshot" 
                 fill
                 className="object-cover"
                 priority
@@ -69,19 +69,19 @@ export default function Hero() {
         >
           <div>
             <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">10,000+</p>
-            <p className="text-gray-600 dark:text-gray-300">Users</p>
+            <p className="text-gray-600 dark:text-gray-300">Fisch Macro Users</p>
           </div>
           <div>
             <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">4.8/5</p>
-            <p className="text-gray-600 dark:text-gray-300">User Rating</p>
+            <p className="text-gray-600 dark:text-gray-300">Fisch Macro Rating</p>
           </div>
           <div>
             <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">200%</p>
-            <p className="text-gray-600 dark:text-gray-300">Efficiency Boost</p>
+            <p className="text-gray-600 dark:text-gray-300">Fisch Macro Efficiency</p>
           </div>
           <div>
             <p className="text-3xl font-bold text-blue-600 dark:text-blue-400">24/7</p>
-            <p className="text-gray-600 dark:text-gray-300">Support</p>
+            <p className="text-gray-600 dark:text-gray-300">Fisch Macro Support</p>
           </div>
         </motion.div>
       </div>

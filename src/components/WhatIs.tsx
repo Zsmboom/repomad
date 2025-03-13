@@ -13,22 +13,22 @@ export default function WhatIs() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="heading mb-8">macro for fisch</h2>
+          <h2 className="heading mb-8">Fisch Macro for Fisch Game</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Fisch Macro is an automation tool designed specifically for the <a href="https://www.roblox.com/games/16732694052/Fisch-2X-XP" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium">Fisch game on Roblox</a>. It can simulate player operations, automatically complete repetitive tasks in the game, such as fishing and resource collection, thereby improving game efficiency and experience.
+            Fisch Macro is an automation tool designed specifically for the <a href="https://www.roblox.com/games/16732694052/Fisch-2X-XP" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium">Fisch game on Roblox</a>. Fisch Macro can simulate player operations, automatically complete repetitive tasks in the game, such as fishing and resource collection, thereby improving game efficiency and experience. Fisch Macro is the preferred choice for players looking to optimize their gameplay.
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
             By using Fisch Macro, you can:
           </p>
           <ul className="list-disc text-left max-w-xl mx-auto mb-6 text-gray-600 dark:text-gray-300 space-y-2">
-            <li>Automatically complete repetitive tasks in the game</li>
-            <li>Improve resource collection efficiency</li>
-            <li>Save time and effort</li>
-            <li>Get a better gaming experience</li>
-            <li>Continue game progress even when you&apos;re not at your computer</li>
+            <li>Fisch Macro helps automatically complete repetitive tasks in the game</li>
+            <li>Fisch Macro improves resource collection efficiency</li>
+            <li>Fisch Macro saves your time and effort</li>
+            <li>Fisch Macro provides a better gaming experience</li>
+            <li>Fisch Macro continues game progress even when you&apos;re not at your computer</li>
           </ul>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Fisch Macro uses advanced simulation technology to mimic real player operations, making it safe and reliable without posing any risk to your game account.
+            Fisch Macro uses advanced simulation technology to mimic real player operations, making Fisch Macro safe and reliable without posing any risk to your game account. Fisch Macro is constantly updated to ensure compatibility with the latest game versions. Fisch Macro is designed with user experience in mind, making it accessible for players of all skill levels.
           </p>
           <div className="mt-8">
             <a 
@@ -37,7 +37,7 @@ export default function WhatIs() {
               rel="noopener noreferrer"
               className="btn btn-primary"
             >
-              Play Fisch on Roblox
+              Play Fisch with Fisch Macro
             </a>
           </div>
         </motion.div>

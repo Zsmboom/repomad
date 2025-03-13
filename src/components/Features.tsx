@@ -6,33 +6,33 @@ import { FiTarget, FiClock, FiShield, FiSettings, FiZap, FiRefreshCw } from 'rea
 const features = [
   {
     icon: <FiTarget className="h-8 w-8 text-blue-500" />,
-    title: 'Automated Fishing',
-    description: 'Automate the fishing process without manual operation, improving fishing efficiency and success rate.'
+    title: 'Fisch Macro Automated Fishing',
+    description: 'Fisch Macro automates the fishing process without manual operation, improving fishing efficiency and success rate with Fisch Macro technology.'
   },
   {
     icon: <FiClock className="h-8 w-8 text-blue-500" />,
-    title: 'Scheduled Tasks',
-    description: 'Set scheduled tasks to execute specific operations at specific times, making the most of your gaming time.'
+    title: 'Fisch Macro Scheduled Tasks',
+    description: 'Fisch Macro sets scheduled tasks to execute specific operations at specific times, making the most of your gaming time with Fisch Macro.'
   },
   {
     icon: <FiShield className="h-8 w-8 text-blue-500" />,
-    title: 'Safe & Reliable',
-    description: 'Uses advanced simulation technology to mimic real player operations, reducing detection risk.'
+    title: 'Fisch Macro Safety',
+    description: 'Fisch Macro uses advanced simulation technology to mimic real player operations, reducing detection risk. Fisch Macro is safe & reliable.'
   },
   {
     icon: <FiSettings className="h-8 w-8 text-blue-500" />,
-    title: 'Highly Customizable',
-    description: 'Provides rich customization options to adjust macro behavior and parameters according to your needs.'
+    title: 'Customizable Fisch Macro',
+    description: 'Fisch Macro provides rich customization options to adjust Fisch Macro behavior and parameters according to your needs.'
   },
   {
     icon: <FiZap className="h-8 w-8 text-blue-500" />,
-    title: 'Resource Optimization',
-    description: 'Optimizes resource acquisition paths, improving game resource collection efficiency and accelerating game progress.'
+    title: 'Fisch Macro Resource Optimization',
+    description: 'Fisch Macro optimizes resource acquisition paths, improving game resource collection efficiency and accelerating game progress with Fisch Macro.'
   },
   {
     icon: <FiRefreshCw className="h-8 w-8 text-blue-500" />,
-    title: 'Regular Updates',
-    description: 'Regular updates to adapt to game changes, ensuring the macro is always compatible with the latest version of the game.'
+    title: 'Regular Fisch Macro Updates',
+    description: 'Fisch Macro receives regular updates to adapt to game changes, ensuring Fisch Macro is always compatible with the latest version of the game.'
   }
 ];
 
@@ -48,7 +48,7 @@ export default function Features() {
             transition={{ duration: 0.5 }}
             className="heading"
           >
-            Powerful Features
+            Powerful Fisch Macro Features
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -57,7 +57,7 @@ export default function Features() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="subheading"
           >
-            Fisch Macro provides multiple features to help you get a better experience in Roblox Fisch game
+            Fisch Macro provides multiple features to help you get a better experience in Roblox Fisch game. Fisch Macro is designed to enhance your gameplay.
           </motion.p>
         </div>
 
