@@ -17,7 +17,11 @@ export const metadata: Metadata = {
   creator: "Fisch Macro Team",
   publisher: "Fisch Macro",
   icons: {
-    icon: '/favicon.svg',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', type: 'image/x-icon' }
+    ],
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     title: "Fisch Macro[Latest], including V13, V12, Xan V3",
@@ -67,6 +71,8 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="alternate icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         {/* 结构化数据 - 产品统计信息 */}
         <script
           type="application/ld+json"

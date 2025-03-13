@@ -117,8 +117,180 @@ export default function GoogleSearchPreview({
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
-              <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg mb-4 flex items-center justify-center">
-                <span className="text-gray-500 dark:text-gray-400">Fisch Macro 图片</span>
+              {/* 鱼形图像 */}
+              <div className="aspect-video bg-gray-100 dark:bg-gray-700 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                <svg 
+                  viewBox="0 0 300 150" 
+                  className="w-full h-full"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  {/* 水波纹背景 */}
+                  <defs>
+                    <linearGradient id="water-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stopColor="#E0F2FE" className="dark:stop-color-blue-900" />
+                      <stop offset="100%" stopColor="#BFDBFE" className="dark:stop-color-blue-800" />
+                    </linearGradient>
+                    <clipPath id="fish-scene-clip">
+                      <rect x="0" y="0" width="300" height="150" rx="8" />
+                    </clipPath>
+                  </defs>
+                  
+                  {/* 背景 */}
+                  <rect x="0" y="0" width="300" height="150" fill="url(#water-gradient)" clipPath="url(#fish-scene-clip)" />
+                  
+                  {/* 水波纹 */}
+                  <motion.path
+                    initial={{ x: -300 }}
+                    animate={{ x: 0 }}
+                    transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+                    d="M0,80 C30,70 60,90 90,80 C120,70 150,90 180,80 C210,70 240,90 270,80 C300,70 330,90 360,80 L360,150 L0,150 Z"
+                    fill="#93C5FD"
+                    opacity="0.3"
+                    clipPath="url(#fish-scene-clip)"
+                  />
+                  
+                  <motion.path
+                    initial={{ x: -300 }}
+                    animate={{ x: 0 }}
+                    transition={{ duration: 15, repeat: Infinity, ease: "linear", delay: 0.5 }}
+                    d="M0,100 C30,90 60,110 90,100 C120,90 150,110 180,100 C210,90 240,110 270,100 C300,90 330,110 360,100 L360,150 L0,150 Z"
+                    fill="#93C5FD"
+                    opacity="0.2"
+                    clipPath="url(#fish-scene-clip)"
+                  />
+                  
+                  {/* 鱼 */}
+                  <motion.g
+                    initial={{ x: -50, rotate: 0 }}
+                    animate={{ 
+                      x: 350,
+                      rotate: [0, 5, 0, -5, 0]
+                    }}
+                    transition={{ 
+                      x: { duration: 8, repeat: Infinity, repeatType: "reverse" },
+                      rotate: { duration: 2, repeat: Infinity, repeatType: "reverse" }
+                    }}
+                  >
+                    {/* 鱼身 */}
+                    <path
+                      d="M0,75 C10,60 30,50 50,75 C70,100 90,90 100,75 C90,60 70,50 50,75 C30,100 10,90 0,75 Z"
+                      fill="#3B82F6"
+                      stroke="#2563EB"
+                      strokeWidth="2"
+                    />
+                    
+                    {/* 鱼尾 */}
+                    <motion.path
+                      animate={{ 
+                        d: [
+                          "M0,75 C-10,60 -15,90 0,75 Z",
+                          "M0,75 C-15,60 -10,90 0,75 Z",
+                          "M0,75 C-10,60 -15,90 0,75 Z"
+                        ]
+                      }}
+                      transition={{ duration: 1, repeat: Infinity }}
+                      fill="#3B82F6"
+                      stroke="#2563EB"
+                      strokeWidth="2"
+                    />
+                    
+                    {/* 鱼眼 */}
+                    <circle cx="85" cy="70" r="5" fill="#1E40AF" />
+                    <circle cx="85" cy="70" r="2" fill="white" />
+                    
+                    {/* 鱼鳍 */}
+                    <path
+                      d="M50,75 C40,55 30,65 40,75"
+                      fill="none"
+                      stroke="#2563EB"
+                      strokeWidth="2"
+                    />
+                    
+                    <path
+                      d="M50,75 C40,95 30,85 40,75"
+                      fill="none"
+                      stroke="#2563EB"
+                      strokeWidth="2"
+                    />
+                  </motion.g>
+                  
+                  {/* 气泡 */}
+                  {[
+                    { cx: 120, cy: 40, r: 3, delay: 0, duration: 5 },
+                    { cx: 180, cy: 60, r: 2, delay: 1, duration: 4 },
+                    { cx: 220, cy: 30, r: 4, delay: 2, duration: 6 },
+                    { cx: 260, cy: 50, r: 2, delay: 3, duration: 5 }
+                  ].map((bubble, i) => (
+                    <motion.circle
+                      key={`bubble-${i}`}
+                      initial={{ y: 150, opacity: 0 }}
+                      animate={{ 
+                        y: -20,
+                        opacity: [0, 1, 1, 0]
+                      }}
+                      transition={{ 
+                        duration: bubble.duration,
+                        repeat: Infinity,
+                        delay: bubble.delay,
+                        ease: "easeInOut",
+                        opacity: {
+                          times: [0, 0.1, 0.9, 1]
+                        }
+                      }}
+                      cx={bubble.cx}
+                      cy={bubble.cy}
+                      r={bubble.r}
+                      fill="white"
+                      opacity="0.7"
+                    />
+                  ))}
+                  
+                  {/* 水草 */}
+                  <motion.path
+                    animate={{ 
+                      d: [
+                        "M40,150 C45,130 35,110 40,90",
+                        "M40,150 C35,130 45,110 40,90",
+                        "M40,150 C45,130 35,110 40,90"
+                      ]
+                    }}
+                    transition={{ duration: 3, repeat: Infinity }}
+                    stroke="#15803D"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                  
+                  <motion.path
+                    animate={{ 
+                      d: [
+                        "M60,150 C65,135 55,120 60,105",
+                        "M60,150 C55,135 65,120 60,105",
+                        "M60,150 C65,135 55,120 60,105"
+                      ]
+                    }}
+                    transition={{ duration: 2.5, repeat: Infinity, delay: 0.5 }}
+                    stroke="#15803D"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                  
+                  <motion.path
+                    animate={{ 
+                      d: [
+                        "M250,150 C255,135 245,120 250,105",
+                        "M250,150 C245,135 255,120 250,105",
+                        "M250,150 C255,135 245,120 250,105"
+                      ]
+                    }}
+                    transition={{ duration: 3.5, repeat: Infinity, delay: 0.7 }}
+                    stroke="#15803D"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                  
+                  {/* Fisch Macro 文字 */}
+                  <text x="150" y="30" textAnchor="middle" className="text-lg font-bold fill-blue-800 dark:fill-white">Fisch Macro</text>
+                </svg>
               </div>
               
               <div className="flex items-center mb-2">
