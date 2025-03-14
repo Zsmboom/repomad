@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiUsers, FiStar, FiTrendingUp, FiClock } from 'react-icons/fi';

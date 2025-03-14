@@ -1,5 +1,6 @@
-'use client';
+"use client";
 
+import React from 'react';
 import { motion } from 'framer-motion';
 import { FiDownload, FiSettings, FiPlay, FiSmartphone, FiAlertCircle } from 'react-icons/fi';
 import { FaApple, FaWindows } from 'react-icons/fa';

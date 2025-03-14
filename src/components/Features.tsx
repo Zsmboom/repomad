@@ -1,5 +1,6 @@
-'use client';
+"use client";
 
+import React from 'react';
 import { motion } from 'framer-motion';
 import { FiTarget, FiClock, FiShield, FiSettings, FiZap, FiRefreshCw } from 'react-icons/fi';
 
