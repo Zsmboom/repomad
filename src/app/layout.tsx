@@ -1,6 +1,20 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import fs from 'fs';
+import path from 'path';
+
+// 尝试读取图标版本号
+let iconVersion = '';
+try {
+  const versionFile = path.join(process.cwd(), 'public', 'favicon-version.json');
+  if (fs.existsSync(versionFile)) {
+    const versionData = JSON.parse(fs.readFileSync(versionFile, 'utf8'));
+    iconVersion = `-v${versionData.version}`;
+  }
+} catch (error) {
+  console.error('Error reading favicon version:', error);
+}
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,9 +33,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico', type: 'image/x-icon' }
+      { url: iconVersion ? `/favicon${iconVersion}.ico` : '/favicon.ico', type: 'image/x-icon' },
+      { url: iconVersion ? `/favicon-16x16${iconVersion}.png` : '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: iconVersion ? `/favicon-32x32${iconVersion}.png` : '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: iconVersion ? `/favicon-48x48${iconVersion}.png` : '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
+      { url: iconVersion ? `/favicon-64x64${iconVersion}.png` : '/favicon-64x64.png', sizes: '64x64', type: 'image/png' },
+      { url: iconVersion ? `/favicon-128x128${iconVersion}.png` : '/favicon-128x128.png', sizes: '128x128', type: 'image/png' },
+      { url: iconVersion ? `/favicon-256x256${iconVersion}.png` : '/favicon-256x256.png', sizes: '256x256', type: 'image/png' }
     ],
-    apple: '/apple-touch-icon.png',
+    apple: iconVersion ? `/apple-touch-icon${iconVersion}.png` : '/apple-touch-icon.png',
   },
   openGraph: {
     title: "Fisch Macro[Latest], including V13, V12, Xan V3",
@@ -70,9 +90,23 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* 防止浏览器缓存图标 */}
+        <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Expires" content="0" />
+        
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="alternate icon" href={iconVersion ? `/favicon${iconVersion}.ico` : "/favicon.ico"} type="image/x-icon" />
+        <link rel="apple-touch-icon" href={iconVersion ? `/apple-touch-icon${iconVersion}.png` : "/apple-touch-icon.png"} />
+        
+        {/* 添加多尺寸图标引用 */}
+        <link rel="icon" type="image/png" sizes="16x16" href={iconVersion ? `/favicon-16x16${iconVersion}.png` : "/favicon-16x16.png"} />
+        <link rel="icon" type="image/png" sizes="32x32" href={iconVersion ? `/favicon-32x32${iconVersion}.png` : "/favicon-32x32.png"} />
+        <link rel="icon" type="image/png" sizes="48x48" href={iconVersion ? `/favicon-48x48${iconVersion}.png` : "/favicon-48x48.png"} />
+        <link rel="icon" type="image/png" sizes="64x64" href={iconVersion ? `/favicon-64x64${iconVersion}.png` : "/favicon-64x64.png"} />
+        <link rel="icon" type="image/png" sizes="128x128" href={iconVersion ? `/favicon-128x128${iconVersion}.png` : "/favicon-128x128.png"} />
+        <link rel="icon" type="image/png" sizes="256x256" href={iconVersion ? `/favicon-256x256${iconVersion}.png` : "/favicon-256x256.png"} />
+        
         {/* 结构化数据 - 产品统计信息 */}
         <script
           type="application/ld+json"
