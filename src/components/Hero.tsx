@@ -17,7 +17,7 @@ export default function Hero() {
             className="text-center md:text-left"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-6">
-              Fisch Macro <span className="text-blue-600 dark:text-blue-400">Latest Version</span>, including Fisch Macro V13, Fisch Macro V12, Fisch Macro Xan V3
+              Fisch Macro <span className="text-blue-600 dark:text-blue-400">NEW</span>, including Fisch Macro V13, Fisch Macro V12, Fisch Macro V11, Fisch Macro Xan V3
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
               Fisch Macro is a game macro for Roblox's Fisch game. Fisch Macro automates the fishing process so that players can achieve a higher ranking in a short time. Fisch Macro enhances your gameplay experience. Fisch Macro is designed to be user-friendly and efficient. With Fisch Macro, you can focus on enjoying the game while the Fisch Macro handles repetitive tasks. Fisch Macro is regularly updated to ensure compatibility with the latest game versions. We provide the following Fisch Macro versions: Skate's Fisch Macro v13, (Best) Fisch Macro Xan V3 (Irus v6), Fisch Macro v12 with Config, Fisch Macro v11 Shake Only, and Fisch Macro Xan Legacy. We will update with the latest Fisch Macro versions as soon as they are available.
