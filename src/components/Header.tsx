@@ -37,8 +37,8 @@ export default function Header() {
             <Link href="/#how-to" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               how to macro fisch
             </Link>
-            <Link href="/#why" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              Why Choose Us
+            <Link href="/How-To-AFK-Farm-In-Roblox-Fisch" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+              Guide
             </Link>
             <Link href="/#faq" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               FAQ
@@ -97,11 +97,11 @@ export default function Header() {
               how to macro fisch
             </Link>
             <Link 
-              href="/#why" 
+              href="/How-To-AFK-Farm-In-Roblox-Fisch" 
               className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(false)}
             >
-              Why Choose Us
+              Guide
             </Link>
             <Link 
               href="/#faq" 
