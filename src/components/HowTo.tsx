@@ -58,6 +58,13 @@ export default function HowTo() {
                 <li>Choose &quot;Express Installation&quot; to complete the Fisch Macro setup</li>
                 <li>Wait for the installation to complete before using Fisch Macro</li>
               </ol>
+              <div className="mt-4">
+                <img 
+                  src="/images/step1.png" 
+                  alt="Install AutoHotkey for Fisch Macro" 
+                  className="rounded-lg shadow-md w-full max-w-md mx-auto"
+                />
+              </div>
             </div>
             
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
@@ -71,6 +78,13 @@ export default function HowTo() {
                 <li>Make sure &quot;UI Navigation Tool&quot; is enabled for Fisch Macro to work properly</li>
                 <li><strong>Important:</strong> Fisch Macro will not function properly if this setting is disabled</li>
               </ol>
+              <div className="mt-4">
+                <img 
+                  src="/images/step2.png" 
+                  alt="Configure Roblox Settings for Fisch Macro" 
+                  className="rounded-lg shadow-md w-full max-w-md mx-auto"
+                />
+              </div>
             </div>
             
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
@@ -84,6 +98,13 @@ export default function HowTo() {
                 <li>The Fisch Macro interface will appear on your screen</li>
                 <li>You are now ready to start automating your fishing activities with Fisch Macro!</li>
               </ol>
+              <div className="mt-4">
+                <img 
+                  src="/images/step3.png" 
+                  alt="Run the Fisch Macro" 
+                  className="rounded-lg shadow-md w-full max-w-md mx-auto"
+                />
+              </div>
             </div>
           </div>
         </motion.div>
