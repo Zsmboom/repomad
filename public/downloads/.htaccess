@@ -1,0 +1,9 @@
+# 防止搜索引擎索引下载目录中的文件
+<IfModule mod_headers.c>
+    <FilesMatch "\.(ahk|rar|ico|png|svg)$">
+        Header set X-Robots-Tag "noindex, nofollow"
+    </FilesMatch>
+</IfModule>
+
+# 禁止目录列表
+Options -Indexes 

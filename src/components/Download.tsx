@@ -238,6 +238,7 @@ export default function Download() {
                     className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md transition-colors download-btn"
                     aria-label={`Download ${file.name}`}
                     data-text="Download"
+                    rel="nofollow"
                   >
                     <FiDownload className="mr-2" />
                     <span className="sr-only">Download</span>
@@ -245,7 +246,7 @@ export default function Download() {
                   <a 
                     href={file.virusTotalUrl}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className={`inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors ${file.name.includes('Skate') ? 'github-btn' : 'virus-check-btn'}`}
                     aria-label={file.name.includes('Skate') ? `View ${file.name} on GitHub` : `Virus check for ${file.name}`}
                     data-text={file.name.includes('Skate') ? 'View on GitHub' : 'Virus Check'}
