@@ -96,6 +96,7 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
+        <meta name="yandex-verification" content="04d92479a1e2f52a" />
         
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="alternate icon" href={iconVersion ? `/favicon${iconVersion}.ico` : "/favicon.ico"} type="image/x-icon" />
