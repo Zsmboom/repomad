@@ -24,7 +24,7 @@ interface GoogleSearchSchemaProps {
 }
 
 export default function GoogleSearchSchema({
-  title = "Fisch Macro[Latest], including V13, V12, Xan V3",
+  title = "Fisch Macro roblox[Latest], including V13, V12, Xan V3",
   description = "Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.",
   imageUrl = "https://fischmacroo.com/images/og-image.svg",
   datePublished = "2023-01-01T00:00:00Z",
