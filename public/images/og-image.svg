@@ -2,19 +2,57 @@
   <rect width="100%" height="100%" fill="#1e40af"/>
   <rect x="50" y="50" width="1100" height="530" rx="15" fill="#2563eb"/>
   
-  <text x="600" y="200" font-family="Arial, sans-serif" font-size="80px" font-weight="bold" fill="#ffffff" text-anchor="middle">
+  <!-- 添加鱼图标 -->
+  <g transform="translate(320, 160) scale(2)">
+    <!-- 鱼身 -->
+    <path 
+      d="M25,50 C35,35 55,25 75,50 C55,75 35,65 25,50 Z" 
+      fill="#DBEAFE" 
+      stroke="#2563EB" 
+      stroke-width="2"
+    />
+    
+    <!-- 鱼尾 -->
+    <path 
+      d="M25,50 C15,35 15,65 25,50 Z" 
+      fill="#DBEAFE" 
+      stroke="#2563EB" 
+      stroke-width="2"
+    />
+    
+    <!-- 鱼眼 -->
+    <circle cx="65" cy="45" r="5" fill="#1E40AF" />
+    <circle cx="65" cy="45" r="2" fill="white" />
+    
+    <!-- 鱼鳍 -->
+    <path 
+      d="M50,50 C40,30 30,40 40,50" 
+      fill="none" 
+      stroke="#DBEAFE" 
+      stroke-width="2"
+    />
+    
+    <path 
+      d="M50,50 C40,70 30,60 40,50" 
+      fill="none" 
+      stroke="#DBEAFE" 
+      stroke-width="2"
+    />
+  </g>
+  
+  <text x="680" y="200" font-family="Arial, sans-serif" font-size="80px" font-weight="bold" fill="#ffffff" text-anchor="middle">
     Fisch Macro
   </text>
   
-  <text x="600" y="300" font-family="Arial, sans-serif" font-size="40px" fill="#e0f2fe" text-anchor="middle">
+  <text x="680" y="300" font-family="Arial, sans-serif" font-size="40px" fill="#e0f2fe" text-anchor="middle">
     Automation Tool for Roblox Fisch Game
   </text>
   
-  <text x="600" y="400" font-family="Arial, sans-serif" font-size="30px" fill="#bfdbfe" text-anchor="middle">
+  <text x="680" y="400" font-family="Arial, sans-serif" font-size="30px" fill="#bfdbfe" text-anchor="middle">
     Enhance your gaming experience with automated fishing
   </text>
   
-  <text x="600" y="550" font-family="Arial, sans-serif" font-size="24px" fill="#93c5fd" text-anchor="middle">
+  <text x="680" y="550" font-family="Arial, sans-serif" font-size="24px" fill="#93c5fd" text-anchor="middle">
     www.fischmacroo.com
   </text>
 </svg>

@@ -142,7 +142,9 @@ export default function RootLayout({
                   "Automated Operations",
                   "Resource Collection"
                 ],
-                "screenshot": "https://fischmacroo.com/images/og-image.svg",
+                "screenshot": "https://fischmacroo.com/images/fisch-shot.jpg",
+                "image": "https://fischmacroo.com/images/og-image.svg",
+                "logo": "https://fischmacroo.com/favicon.svg",
                 "softwareVersion": "V13",
                 "author": {
                   "@type": "Organization",

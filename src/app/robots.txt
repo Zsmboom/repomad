@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /api/
-
-# 确保搜索引擎知道网站的规范版本
-Host: https://fischmacroo.com
-
-# 网站地图
-Sitemap: https://fischmacroo.com/sitemap.xml 
