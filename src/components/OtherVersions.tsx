@@ -59,7 +59,7 @@ export default function OtherVersions() {
                         NEW
                       </span>
                     </span>
-                    <p className="text-gray-300 text-sm mt-1">最新更新版本的fisch宏，增强了钓鱼功能和性能优化</p>
+                    <p className="text-gray-300 text-sm mt-1">Latest updated version with enhanced fishing features and performance optimizations</p>
                   </div>
                   <Link 
                     href="/downloads/fischmacro-v12-update.rar"
