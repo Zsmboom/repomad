@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Fisch Macro - Automation Macro Tool for Roblox Fisch Game',
-  description: 'Privacy policy for Fisch Macro, an automation tool for Roblox Fisch game.',
+  title: 'Privacy Policy | REPO Mod - Download and Install Mods for REPO Games',
+  description: 'Privacy policy for REPO Mod, the leading website for REPO game mods and customizations.',
 };
 
 export default function PrivacyPolicy() {
@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">Introduction</h2>
             <p>
-              At Fisch Macro, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
+              At REPO Mod, we respect your privacy and are committed to protecting your personal data. This privacy policy will inform you about how we look after your personal data when you visit our website and tell you about your privacy rights and how the law protects you.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">The Data We Collect</h2>
@@ -68,7 +68,7 @@ export default function PrivacyPolicy() {
               If you have any questions about this privacy policy or our privacy practices, please contact us at:
             </p>
             <p className="mb-4">
-              Email: <a href="mailto:privacy@fischmacroo.com" className="text-blue-600 hover:underline">privacy@fischmacroo.com</a>
+              Email: <a href="mailto:privacy@repomod.com" className="text-blue-600 hover:underline">privacy@repomod.com</a>
             </p>
           </div>
         </div>

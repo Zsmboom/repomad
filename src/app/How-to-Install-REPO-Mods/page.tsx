@@ -139,11 +139,11 @@ export default function GuidePage() {
                     Popular R.E.P.O Mods
                   </h3>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>R.E.P.O. Roles - Adds unique player roles</li>
-                    <li>MorePlayers - Customize player count</li>
-                    <li>MoreStamina - Realistic stamina system</li>
-                    <li>ShrinkerCart - Coming soon</li>
-                    <li>Enemy Location - Coming soon</li>
+                    <li><a href="http://localhost:3000/#download" className="text-blue-600 dark:text-blue-400 hover:underline">R.E.P.O. Roles</a> - Adds unique player roles</li>
+                    <li><a href="http://localhost:3000/#download" className="text-blue-600 dark:text-blue-400 hover:underline">MorePlayers</a> - Customize player count</li>
+                    <li><a href="http://localhost:3000/#download" className="text-blue-600 dark:text-blue-400 hover:underline">MoreStamina</a> - Realistic stamina system</li>
+                    <li><a href="http://localhost:3000/#download" className="text-blue-600 dark:text-blue-400 hover:underline">ShrinkerCart</a> - Coming soon</li>
+                    <li><a href="http://localhost:3000/#download" className="text-blue-600 dark:text-blue-400 hover:underline">Enemy Location</a> - Coming soon</li>
                   </ul>
                 </div>
               </div>

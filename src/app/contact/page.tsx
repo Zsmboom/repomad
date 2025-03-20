@@ -73,7 +73,7 @@ export default function Contact() {
             ) : (
               <>
                 <p className="text-gray-600 dark:text-gray-300 mb-6 text-center">
-                  Have questions or feedback? We&apos;d love to hear from you. Fill out the form below and we&apos;ll get back to you as soon as possible.
+                  Have questions about mods, installation, or want to report an issue? We&apos;d love to hear from you. Fill out the form below and we&apos;ll get back to you as soon as possible.
                 </p>
                 
                 {submitError && (
@@ -133,9 +133,10 @@ export default function Contact() {
                     >
                       <option value="">Select a subject</option>
                       <option value="General Inquiry">General Inquiry</option>
-                      <option value="Technical Support">Technical Support</option>
-                      <option value="Feature Request">Feature Request</option>
-                      <option value="Bug Report">Bug Report</option>
+                      <option value="Mod Support">Mod Support</option>
+                      <option value="Installation Help">Installation Help</option>
+                      <option value="Report a Bug">Report a Bug</option>
+                      <option value="Mod Submission">Mod Submission</option>
                       <option value="Other">Other</option>
                     </select>
                   </div>
@@ -177,27 +178,27 @@ export default function Contact() {
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold mb-4">Email Us</h2>
               <p className="text-gray-600 dark:text-gray-300 mb-2">For general inquiries:</p>
-              <a href="mailto:info@fischmacroo.com" className="text-blue-600 dark:text-blue-400 hover:underline">info@fischmacroo.com</a>
+              <a href="mailto:info@repomod.com" className="text-blue-600 dark:text-blue-400 hover:underline">info@repomod.com</a>
               
-              <p className="text-gray-600 dark:text-gray-300 mt-4 mb-2">For technical support:</p>
-              <a href="mailto:support@fischmacroo.com" className="text-blue-600 dark:text-blue-400 hover:underline">support@fischmacroo.com</a>
+              <p className="text-gray-600 dark:text-gray-300 mt-4 mb-2">For mod support:</p>
+              <a href="mailto:support@repomod.com" className="text-blue-600 dark:text-blue-400 hover:underline">support@repomod.com</a>
             </div>
             
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6">
               <h2 className="text-xl font-semibold mb-4">Connect With Us</h2>
-              <p className="text-gray-600 dark:text-gray-300 mb-4">Follow us on social media for updates, tips, and community discussions.</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">Follow us on social media for updates, new mods, and community discussions.</p>
               
               <div className="flex space-x-4">
-                <a href="https://github.com/fischmacroo" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/repomod" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <FiGithub className="h-6 w-6" />
                 </a>
-                <a href="https://x.com/FischOnROBLOX" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                <a href="https://x.com/repomod" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
                   <FiTwitter className="h-6 w-6" />
                 </a>
-                <a href="https://www.youtube.com/@FischONRoblox" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <a href="https://www.youtube.com/@repomod" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                   <FiYoutube className="h-6 w-6" />
                 </a>
-                <a href="https://discord.com/invite/cuKz5SK3md" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+                <a href="https://discord.com/invite/repomod" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                   <FaDiscord className="h-6 w-6" />
                 </a>
               </div>
