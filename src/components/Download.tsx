@@ -7,6 +7,15 @@ import Link from 'next/link';
 
 const macroFiles = [
   {
+    name: 'fisch macro v12 update3.18',
+    description: '最新更新版本的fisch宏，增强了钓鱼功能和性能优化',
+    size: '16 KB',
+    date: 'March 20, 2025',
+    downloadUrl: '/downloads/fischmacro-v12-update.rar',
+    virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0',
+    isNew: true
+  },
+  {
     name: 'Skate\'s Fisch Macro v13',
     description: 'Latest version of Skate\'s popular Fisch Macro with enhanced features and optimizations',
     size: '36 KB',

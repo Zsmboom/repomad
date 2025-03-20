@@ -54,6 +54,25 @@ export default function OtherVersions() {
                 <div className="flex items-center justify-between p-4 bg-white/5 rounded-lg">
                   <div>
                     <span className="text-gray-200 font-semibold">
+                      fisch macro v12 update3.18
+                      <span className="ml-2 inline-block bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse">
+                        NEW
+                      </span>
+                    </span>
+                    <p className="text-gray-300 text-sm mt-1">最新更新版本的fisch宏，增强了钓鱼功能和性能优化</p>
+                  </div>
+                  <Link 
+                    href="/downloads/fischmacro-v12-update.rar"
+                    className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-500 transition-colors download-btn"
+                    download
+                    data-text="Download"
+                  >
+                    <span className="sr-only">Download</span>
+                  </Link>
+                </div>
+                <div className="flex items-center justify-between p-4 bg-white/5 rounded-lg">
+                  <div>
+                    <span className="text-gray-200 font-semibold">
                       Skate&apos;s Fisch Macro v13
                       <span className="ml-2 inline-block bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse">
                         NEW
