@@ -32,16 +32,14 @@ export const metadata: Metadata = {
   publisher: "REPOMOD Team",
   icons: {
     icon: [
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' },
-      { url: '/images/favicon.png', type: 'image/png' }
+      { url: `/favicon-16x16${iconVersion}.png`, sizes: '16x16', type: 'image/png' },
+      { url: `/favicon-32x32${iconVersion}.png`, sizes: '32x32', type: 'image/png' },
+      { url: `/favicon-48x48${iconVersion}.png`, sizes: '48x48', type: 'image/png' },
+      { url: `/favicon-64x64${iconVersion}.png`, sizes: '64x64', type: 'image/png' },
+      { url: `/favicon-128x128${iconVersion}.png`, sizes: '128x128', type: 'image/png' },
+      { url: `/favicon-256x256${iconVersion}.png`, sizes: '256x256', type: 'image/png' }
     ],
-    apple: '/images/favicon.png',
+    apple: `/apple-touch-icon${iconVersion}.png`,
   },
   openGraph: {
     title: "REPOMOD[NEW]-The most complete R.E.P.O mods",
@@ -103,19 +101,19 @@ export default function RootLayout({
         <meta httpEquiv="Expires" content="0" />
         
         {/* favicon基本设置 */}
-        <link rel="icon" href={`/favicon.ico?v=${Date.now()}`} type="image/x-icon" />
-        <link rel="shortcut icon" href={`/favicon.ico?v=${Date.now()}`} type="image/x-icon" />
-        <link rel="icon" href={`/images/favicon.png?v=${Date.now()}`} type="image/png" />
-        <link rel="alternate icon" href={`/images/favicon.png?v=${Date.now()}`} type="image/png" />
-        <link rel="apple-touch-icon" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" href={`/favicon${iconVersion}.ico`} type="image/x-icon" />
+        <link rel="shortcut icon" href={`/favicon${iconVersion}.ico`} type="image/x-icon" />
+        <link rel="icon" href={`/favicon${iconVersion}.png`} type="image/png" />
+        <link rel="alternate icon" href={`/favicon${iconVersion}.png`} type="image/png" />
+        <link rel="apple-touch-icon" href={`/apple-touch-icon${iconVersion}.png`} />
         
         {/* 添加多尺寸图标引用 */}
-        <link rel="icon" type="image/png" sizes="16x16" href={`/images/favicon.png?v=${Date.now()}`} />
-        <link rel="icon" type="image/png" sizes="32x32" href={`/images/favicon.png?v=${Date.now()}`} />
-        <link rel="icon" type="image/png" sizes="48x48" href={`/images/favicon.png?v=${Date.now()}`} />
-        <link rel="icon" type="image/png" sizes="64x64" href={`/images/favicon.png?v=${Date.now()}`} />
-        <link rel="icon" type="image/png" sizes="128x128" href={`/images/favicon.png?v=${Date.now()}`} />
-        <link rel="icon" type="image/png" sizes="256x256" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" type="image/png" sizes="16x16" href={`/favicon-16x16${iconVersion}.png`} />
+        <link rel="icon" type="image/png" sizes="32x32" href={`/favicon-32x32${iconVersion}.png`} />
+        <link rel="icon" type="image/png" sizes="48x48" href={`/favicon-48x48${iconVersion}.png`} />
+        <link rel="icon" type="image/png" sizes="64x64" href={`/favicon-64x64${iconVersion}.png`} />
+        <link rel="icon" type="image/png" sizes="128x128" href={`/favicon-128x128${iconVersion}.png`} />
+        <link rel="icon" type="image/png" sizes="256x256" href={`/favicon-256x256${iconVersion}.png`} />
         
         {/* 结构化数据 - 产品统计信息 */}
         <script
