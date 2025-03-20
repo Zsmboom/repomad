@@ -28,8 +28,8 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-10">
-            <Link href="/#features" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              Features
+            <Link href="/" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+              Home
             </Link>
             <Link href="/#what-is" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               About Mods
@@ -73,11 +73,11 @@ export default function Header() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link 
-              href="/#features" 
+              href="/" 
               className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              Home
             </Link>
             <Link 
               href="/#what-is" 

@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About Us | REPO Mod - Download and Install Mods for REPO Games',
@@ -13,7 +14,8 @@ export default function About() {
       <Header />
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-3xl font-bold mb-8 text-center">About REPO Mod</h1>
+          <h1 className="text-3xl font-bold mb-4 text-center">About REPO Mod</h1>
+          <p className="mb-8 text-center"><Link href="/" className="text-blue-600 hover:underline">← Back to Home</Link></p>
           
           <div className="max-w-4xl mx-auto">
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8 mb-12">

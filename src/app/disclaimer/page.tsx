@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Metadata } from 'next';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Disclaimer | REPO Mod - Download and Install Mods for REPO Games',
@@ -13,7 +14,8 @@ export default function Disclaimer() {
       <Header />
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-3xl font-bold mb-8">Disclaimer</h1>
+          <h1 className="text-3xl font-bold mb-4">Disclaimer</h1>
+          <p className="mb-8"><Link href="/" className="text-blue-600 hover:underline">← Back to Home</Link></p>
           
           <div className="prose prose-lg max-w-none">
             <p className="mb-4">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>

@@ -29,8 +29,8 @@ interface ShareButtonsProps {
 
 export default function ShareButtons({
   url = 'https://repomod.com',
-  title = 'REPO - Cooperative Horror Game by semiwork',
-  description = 'REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. Released in early access on February 26, 2025, REPO supports up to 6 players online.',
+  title = 'REPO MOD - Modifications for REPO',
+  description = 'REPO MOD enhances the REPO cooperative horror game with additional features, improvements and customization options for a better gameplay experience.',
   className = '',
   iconSize = 32,
   round = true

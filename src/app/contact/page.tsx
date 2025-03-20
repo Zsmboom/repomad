@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { FiMail, FiMessageCircle, FiUser, FiGithub, FiTwitter, FiYoutube } from 'react-icons/fi';
 import { FaDiscord } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -54,7 +55,8 @@ export default function Contact() {
       <Header />
       <main className="flex-grow">
         <div className="container mx-auto px-4 py-12">
-          <h1 className="text-3xl font-bold mb-8 text-center">Contact Us</h1>
+          <h1 className="text-3xl font-bold mb-4 text-center">Contact Us</h1>
+          <p className="mb-8 text-center"><Link href="/" className="text-blue-600 hover:underline">← Back to Home</Link></p>
           
           <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 md:p-8">
             {submitSuccess ? (

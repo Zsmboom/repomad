@@ -22,6 +22,13 @@ export default function Hero() {
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-lg mx-auto md:mx-0">
               The premier collection of REPO MODS for the popular online co-op horror game. Our REPO MODS enhance your gameplay with expanded multiplayer options, allowing up to 6 players to enjoy improved physics-based interactions. REPO MODS are designed to transform your REPO experience with carefully crafted enhancements that respect the original game's vision.
             </p>
+            
+            <div className="bg-blue-50 dark:bg-gray-700 border-l-4 border-blue-500 p-4 mb-6 rounded-r-md">
+              <p className="text-gray-700 dark:text-gray-200">
+                <span className="font-semibold">Stay Updated!</span> We upload new mods and updates as soon as they're available. Bookmark this site to discover the latest REPO MODS first!
+              </p>
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link href="/#download" className="btn btn-primary text-center" aria-label="Download REPO MODS">
                 Get REPO MODS

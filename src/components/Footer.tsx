@@ -15,10 +15,10 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-blue-400">REPO</span>
+              <span className="text-2xl font-bold text-blue-400">REPO MOD</span>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">
-              REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. Released in early access, it supports up to 6 players navigating dangerous environments to collect valuable items.
+              REPO MOD provides enhancements and modifications for REPO, the cooperative horror game developed by semiwork. Our mods add new features, improve gameplay and create customization options for players.
             </p>
             <div className="flex space-x-4 mb-4">
               <a href="https://github.com/semiwork" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
@@ -39,8 +39,8 @@ export default function Footer() {
             </div>
             <ShareButtons 
               url="https://repomod.com"
-              title="REPO - Cooperative Horror Game by semiwork"
-              description="REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. Released in early access on February 26, 2025, REPO supports up to 6 players online."
+              title="REPO MOD - Modifications for REPO"
+              description="REPO MOD enhances the REPO cooperative horror game with additional features, improvements and customization options for a better gameplay experience."
               className="justify-start"
             />
           </div>
@@ -56,7 +56,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#what-is" className="text-gray-400 hover:text-white">
-                  About REPO
+                  About REPO MOD
                 </Link>
               </li>
               <li>
@@ -107,7 +107,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center md:flex md:justify-between md:text-left">
           <p className="text-gray-400 mb-4 md:mb-0">
-            &copy; {currentYear} REPO. All rights reserved. Developed by semiwork.
+            &copy; {currentYear} REPO MOD. All rights reserved.
           </p>
           <div className="text-gray-500 text-sm flex flex-wrap justify-center md:justify-end gap-4">
             <Link href="/privacy" className="hover:text-gray-300">

@@ -51,6 +51,19 @@ export default function Features() {
           >
             REPO MOD FEATURE
           </motion.h2>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.05 }}
+            className="flex justify-center mb-4"
+          >
+            <div className="inline-block bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-4 py-2 rounded-full text-sm font-medium">
+              New mods and updates are uploaded immediately upon release! Bookmark us for instant access to the latest content.
+            </div>
+          </motion.div>
+          
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

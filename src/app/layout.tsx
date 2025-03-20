@@ -141,7 +141,7 @@ export default function RootLayout({
                   "bestRating": "5",
                   "worstRating": "1"
                 },
-                "description": "REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. It supports up to 6 players working together online to navigate dangerous environments and collect valuable items.",
+                "description": "REPO MOD enhances the REPO cooperative horror game with additional features, improvements and customization options for a better gameplay experience. Discover the best mods for REPO.",
                 "genre": ["Horror", "Cooperative", "Action"],
                 "gamePlatform": ["PC"],
                 "applicationSubCategory": "Horror Game",
