@@ -6,36 +6,36 @@ import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
 const faqs = [
   {
-    question: 'What is REPO?',
-    answer: 'REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. It supports up to 6 players working together online. The game is set in a future world where players are employed by artificial intelligence to venture into abandoned human ruins to collect valuable items while facing various dangers.'
+    question: 'What are REPO mods?',
+    answer: 'REPO mods are custom modifications created by the community for the game REPO. These mods can add new content, alter gameplay mechanics, introduce new items, or change visual aspects of the game to enhance your gaming experience.'
   },
   {
-    question: 'When was REPO released?',
-    answer: 'REPO was released in early access on February 26, 2025 on the Steam platform. The game is still under active development with regular updates and new content being added.'
+    question: 'How do I install REPO mods?',
+    answer: 'Installing REPO mods is simple. First, download the mod files from our website. Then, locate your REPO game installation folder, find the "mods" directory, and place the downloaded files there. Restart your game, and the mods should be activated automatically. For detailed instructions, visit our "How to Install REPO Mods" page.'
   },
   {
-    question: 'How many players can play REPO together?',
-    answer: 'REPO supports up to 6 players in online cooperative mode. Players can work together to complete missions, gather resources, and survive the dangerous environments.'
+    question: 'Are REPO mods compatible with the latest game version?',
+    answer: 'Most mods on our site are updated regularly to maintain compatibility with the latest REPO version. Each mod listing includes information about which game versions it supports. We recommend checking this information before installing to ensure compatibility.'
   },
   {
-    question: 'What are the minimum system requirements for REPO?',
-    answer: 'For the best experience, we recommend a PC with at least an Intel Core i5 processor, 8GB RAM, NVIDIA GTX 1060 or equivalent graphics card, Windows 10 operating system, and 20GB of available storage space. The game may run on lower specifications but performance might be affected.'
+    question: 'Can I use multiple REPO mods simultaneously?',
+    answer: 'Yes, you can use multiple mods at the same time. However, some mods may conflict with each other if they modify the same game elements. We recommend starting with a few mods and gradually adding more while testing for compatibility issues between them.'
   },
   {
-    question: 'Is REPO available on platforms other than PC?',
-    answer: 'Currently, REPO is only available for PC through the Steam platform. There are plans to potentially expand to other platforms in the future, but no specific dates have been announced yet.'
+    question: 'Will using REPO mods affect my online gameplay?',
+    answer: 'This depends on the mod and server settings. Some mods are client-side only and won\'t affect online play, while others may require all players in a session to have the same mods installed. Some servers may restrict the use of certain mods. Always check the mod description for multiplayer compatibility information.'
   },
   {
-    question: 'Does REPO have single-player mode?',
-    answer: 'Yes, REPO can be played solo, though the game is designed with cooperative gameplay in mind. Playing alone may present additional challenges as the game missions are balanced for team play.'
+    question: 'Are REPO mods safe to download and use?',
+    answer: 'All mods on our platform are scanned for malware and reviewed before being made available. However, as with any user-created content, we recommend using caution. Only download mods from trusted sources like our website, and make sure your antivirus software is up to date.'
   },
   {
-    question: 'How often does REPO receive updates?',
-    answer: 'As an early access game, REPO receives regular updates from the developers. These typically include bug fixes, performance improvements, new content, and gameplay enhancements based on community feedback.'
+    question: 'How can I create my own REPO mods?',
+    answer: 'To create REPO mods, you\'ll need basic programming knowledge and familiarity with the game\'s modding API. Start by checking out our modding guides and tutorials. The REPO modding community is also very helpful for beginners. You can join our Discord server to connect with other modders.'
   },
   {
-    question: 'Is there a roadmap for future REPO development?',
-    answer: 'Yes, the developers at semiwork have published a roadmap outlining planned features and content for REPO. This includes additional environments, new enemy types, expanded storyline, and more gameplay mechanics to be added during the early access period.'
+    question: 'What should I do if a mod isn\'t working correctly?',
+    answer: 'First, verify that the mod is compatible with your game version. Try reinstalling the mod or checking for updates. If issues persist, check our forums or the mod\'s comment section for known issues and solutions. You can also contact the mod creator directly or post in our troubleshooting forum for community assistance.'
   }
 ];
 
@@ -66,7 +66,7 @@ export default function FAQ() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="subheading"
           >
-            Everything you need to know about REPO
+            Everything you need to know about REPO mods
           </motion.p>
         </div>
 
@@ -111,10 +111,10 @@ export default function FAQ() {
             Have more questions? Contact our support team
           </p>
           <a 
-            href="mailto:support@repogame.com" 
+            href="mailto:support@repomods.com" 
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
-            support@repogame.com
+            support@repomods.com
           </a>
         </motion.div>
       </div>
