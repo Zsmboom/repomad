@@ -10,7 +10,7 @@ interface CanonicalProps {
  * @returns 完整的规范链接URL对象，可用于Next.js的metadata
  */
 export function generateCanonical(path: string = '') {
-  const baseUrl = 'https://fischmacroo.com';
+  const baseUrl = 'https://repomod.com';
   const canonicalUrl = path ? `${baseUrl}/${path.replace(/^\//, '')}` : baseUrl;
   
   return {
@@ -25,7 +25,7 @@ export function generateCanonical(path: string = '') {
  * 注意：在App Router中，推荐使用metadata对象而不是此组件
  */
 const Canonical: React.FC<CanonicalProps> = ({ path = '' }) => {
-  const baseUrl = 'https://fischmacroo.com';
+  const baseUrl = 'https://repomod.com';
   const canonicalUrl = path ? `${baseUrl}/${path.replace(/^\//, '')}` : baseUrl;
 
   // 在客户端添加canonical链接

@@ -17,8 +17,8 @@ export default function Header() {
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center" aria-label="Home">
               <Image 
-                src="/images/logo/logo.svg" 
-                alt="Fisch Macro Logo" 
+                src="/images/logo/repomod-logo.jpg" 
+                alt="REPO Game Logo" 
                 width={150} 
                 height={40} 
                 priority
@@ -32,12 +32,9 @@ export default function Header() {
               Features
             </Link>
             <Link href="/#what-is" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              macro for fisch
+              About Mods
             </Link>
-            <Link href="/#how-to" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
-              how to macro fisch
-            </Link>
-            <Link href="/How-To-AFK-Farm-In-Roblox-Fisch" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+            <Link href="/How-to-Install-REPO-Mods" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               Guide
             </Link>
             <Link href="/#faq" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
@@ -49,7 +46,7 @@ export default function Header() {
           {/* Download Button */}
           <div className="hidden md:flex">
             <Link href="/#download" className="btn btn-primary">
-              fisch macro download
+              Download Mods
             </Link>
           </div>
 
@@ -87,17 +84,10 @@ export default function Header() {
               className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(false)}
             >
-              macro for fisch
+              About Mods
             </Link>
             <Link 
-              href="/#how-to" 
-              className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              how to macro fisch
-            </Link>
-            <Link 
-              href="/How-To-AFK-Farm-In-Roblox-Fisch" 
+              href="/How-to-Install-REPO-Mods" 
               className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -118,7 +108,7 @@ export default function Header() {
               className="block px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600"
               onClick={() => setIsMenuOpen(false)}
             >
-              fisch macro download
+              Download Mods
             </Link>
           </div>
         </div>

@@ -14,31 +14,29 @@ export default function WhatIs() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="heading mb-8">Fisch Macro for Fisch Game</h2>
+          <h2 className="heading mb-8">REPOMOD[NEW] - The most complete R.E.P.O mods</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Fisch Macro is an automation tool designed specifically for the <a href="https://www.roblox.com/games/16732694052/Fisch-2X-XP" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium">Fisch game on Roblox</a>. Fisch Macro can simulate player operations, automatically complete repetitive tasks in the game, such as fishing and resource collection, thereby improving game efficiency and experience. Fisch Macro is the preferred choice for players looking to optimize their gameplay.
+            REPO MODS are professionally crafted modifications for <a href="https://store.steampowered.com/app/3241660/REPO/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium">REPO</a>, the cooperative horror game developed by semiwork. Our REPO MODS enhance the core gameplay experience while preserving the intense atmosphere that REPO fans love. Each REPO MOD is regularly updated to maintain compatibility with the latest version of REPO.
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            By using Fisch Macro, you can:
+            With our REPO MODS, you'll experience:
           </p>
           <ul className="list-disc text-left max-w-xl mx-auto mb-6 text-gray-600 dark:text-gray-300 space-y-2">
-            <li>Fisch Macro helps automatically complete repetitive tasks in the game</li>
-            <li>Fisch Macro improves resource collection efficiency</li>
-            <li>Fisch Macro saves your time and effort</li>
-            <li>Fisch Macro provides a better gaming experience</li>
-            <li>Fisch Macro continues game progress even when you&apos;re not at your computer</li>
+            <li>Enhanced REPO gameplay mechanics with unique player roles</li>
+            <li>REPO MODS for customizable player counts and flexible multiplayer</li>
+            <li>Realistic REPO MODS stamina system for greater immersion</li>
+            <li>REPO MODS performance optimizations for smoother gameplay</li>
+            <li>Full REPO MODS compatibility with the base game and online multiplayer</li>
           </ul>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Fisch Macro uses advanced simulation technology to mimic real player operations, making Fisch Macro safe and reliable without posing any risk to your game account. Fisch Macro is constantly updated to ensure compatibility with the latest game versions. Fisch Macro is designed with user experience in mind, making it accessible for players of all skill levels.
+            Our REPO MODS are designed for players who want to maximize their REPO experience. As you and up to 5 friends explore dangerous environments to locate valuable objects and extract them safely, REPO MODS enhance various aspects of that journey. From REPO MODS physics-based interactions to unique REPO MODS player abilities, these modifications make the handling and transportation of objects more intuitive and responsive, all while maintaining the tension and horror elements that make REPO unique.
           </p>
           <div className="mt-8">
             <a 
-              href="https://www.roblox.com/games/16732694052/Fisch-2X-XP" 
-              target="_blank" 
-              rel="noopener noreferrer"
+              href="/#download" 
               className="btn btn-primary"
             >
-              Play Fisch with Fisch Macro
+              Download REPO MODS
             </a>
           </div>
         </motion.div>

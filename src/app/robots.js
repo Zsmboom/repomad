@@ -15,7 +15,7 @@ export default function robots() {
         ...disallowedExtensions.map(ext => `/*.${ext}$`)
       ],
     },
-    host: 'https://fischmacroo.com',
-    sitemap: 'https://fischmacroo.com/sitemap.xml',
+    host: 'https://repomod.com',
+    sitemap: 'https://repomod.com/sitemap.xml',
   };
 } 

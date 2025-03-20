@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fischmacroo.com/</loc>
+    <loc>https://repomod.com/</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://fischmacroo.com/privacy</loc>
+    <loc>https://repomod.com/privacy</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fischmacroo.com/terms</loc>
+    <loc>https://repomod.com/terms</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fischmacroo.com/disclaimer</loc>
+    <loc>https://repomod.com/disclaimer</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://fischmacroo.com/about</loc>
+    <loc>https://repomod.com/about</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://fischmacroo.com/contact</loc>
+    <loc>https://repomod.com/contact</loc>
     <lastmod>2023-06-01</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://repomod.com/How-to-Install-REPO-Mods</loc>
+    <lastmod>2023-06-01</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 </urlset> 

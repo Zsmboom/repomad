@@ -23,64 +23,56 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://fischmacroo.com'),
-  title: "Fisch Macro roblox[NEW], including V13, V12,V11, Xan V3",
-  description: "Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.",
-  keywords: "Fisch, Fisch Macro, Roblox, macro, automation, game tool, fishing, resource collection",
-  authors: [{ name: "Fisch Macro Team" }],
-  creator: "Fisch Macro Team",
-  publisher: "Fisch Macro",
+  metadataBase: new URL('https://repomod.com'),
+  title: "REPOMOD[NEW]-The most complete R.E.P.O mods",
+  description: "REPOMOD is the ultimate modification for REPO, enhancing the gameplay with improved physics, better co-op features, and performance optimizations for up to 6 players.",
+  keywords: "REPOMOD, REPO mod, REPO game, game modification, cooperative horror, physics-based, repomod.com",
+  authors: [{ name: "REPOMOD Team" }],
+  creator: "REPOMOD Team",
+  publisher: "REPOMOD Team",
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: iconVersion ? `/favicon${iconVersion}.ico` : '/favicon.ico', type: 'image/x-icon' },
-      { url: iconVersion ? `/favicon-16x16${iconVersion}.png` : '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: iconVersion ? `/favicon-32x32${iconVersion}.png` : '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: iconVersion ? `/favicon-48x48${iconVersion}.png` : '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
-      { url: iconVersion ? `/favicon-64x64${iconVersion}.png` : '/favicon-64x64.png', sizes: '64x64', type: 'image/png' },
-      { url: iconVersion ? `/favicon-128x128${iconVersion}.png` : '/favicon-128x128.png', sizes: '128x128', type: 'image/png' },
-      { url: iconVersion ? `/favicon-256x256${iconVersion}.png` : '/favicon-256x256.png', sizes: '256x256', type: 'image/png' }
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' },
+      { url: '/images/favicon.jpg', type: 'image/jpeg' }
     ],
-    apple: iconVersion ? `/apple-touch-icon${iconVersion}.png` : '/apple-touch-icon.png',
+    apple: '/images/favicon.jpg',
   },
   openGraph: {
-    title: "Fisch Macro roblox[NEW], including V13, V12,V11, Xan V3",
-    description: "Enhance your Roblox Fisch gaming experience with automated operations, easy resource collection, and improved efficiency.",
-    url: "https://fischmacroo.com",
-    siteName: "Fisch Macro",
+    title: "REPOMOD[NEW]-The most complete R.E.P.O mods",
+    description: "The ultimate modification for REPO, enhancing the co-op horror experience with improved physics, better features, and performance optimizations.",
+    url: "https://repomod.com",
+    siteName: "REPOMOD",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: '/images/og-image.svg',
+        url: '/images/screenshots/REPO-Game-Screenshot.jpg',
         width: 1200,
         height: 630,
-        alt: 'Fisch Macro - Automation Macro Tool for Roblox Fisch Game',
+        alt: 'REPOMOD - Enhance Your REPO Experience',
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fisch Macro roblox[NEW], including V13, V12,V11, Xan V3",
-    description: "Enhance your Roblox Fisch gaming experience with automated operations, easy resource collection, and improved efficiency.",
-    creator: "@fischmacroo",
-    images: ['/images/og-image.svg'],
+    title: "REPOMOD - Enhance Your REPO Experience",
+    description: "The ultimate modification for REPO, enhancing the co-op horror experience with improved physics, better features, and performance optimizations.",
+    creator: "@semirork",
+    images: ['/images/screenshots/REPO-Game-Screenshot.jpg'],
   },
   robots: {
     index: true,
     follow: true,
     nocache: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-      'max-video-preview': -1,
-      noimageindex: true,
-    },
   },
   alternates: {
-    canonical: 'https://fischmacroo.com',
+    canonical: 'https://repomod.com',
   },
 };
 
@@ -96,19 +88,18 @@ export default function RootLayout({
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
-        <meta name="yandex-verification" content="04d92479a1e2f52a" />
         
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href={iconVersion ? `/favicon${iconVersion}.ico` : "/favicon.ico"} type="image/x-icon" />
-        <link rel="apple-touch-icon" href={iconVersion ? `/apple-touch-icon${iconVersion}.png` : "/apple-touch-icon.png"} />
+        <link rel="icon" href="/images/favicon.jpg" type="image/jpeg" />
+        <link rel="alternate icon" href="/images/favicon.jpg" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/images/favicon.jpg" />
         
         {/* 添加多尺寸图标引用 */}
-        <link rel="icon" type="image/png" sizes="16x16" href={iconVersion ? `/favicon-16x16${iconVersion}.png` : "/favicon-16x16.png"} />
-        <link rel="icon" type="image/png" sizes="32x32" href={iconVersion ? `/favicon-32x32${iconVersion}.png` : "/favicon-32x32.png"} />
-        <link rel="icon" type="image/png" sizes="48x48" href={iconVersion ? `/favicon-48x48${iconVersion}.png` : "/favicon-48x48.png"} />
-        <link rel="icon" type="image/png" sizes="64x64" href={iconVersion ? `/favicon-64x64${iconVersion}.png` : "/favicon-64x64.png"} />
-        <link rel="icon" type="image/png" sizes="128x128" href={iconVersion ? `/favicon-128x128${iconVersion}.png` : "/favicon-128x128.png"} />
-        <link rel="icon" type="image/png" sizes="256x256" href={iconVersion ? `/favicon-256x256${iconVersion}.png` : "/favicon-256x256.png"} />
+        <link rel="icon" type="image/jpeg" sizes="16x16" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/jpeg" sizes="32x32" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/jpeg" sizes="48x48" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/jpeg" sizes="64x64" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/jpeg" sizes="128x128" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/jpeg" sizes="256x256" href="/images/favicon.jpg" />
         
         {/* 结构化数据 - 产品统计信息 */}
         <script
@@ -117,60 +108,40 @@ export default function RootLayout({
             __html: `
               {
                 "@context": "https://schema.org",
-                "@type": "SoftwareApplication",
-                "name": "Fisch Macro",
-                "applicationCategory": "GameApplication",
+                "@type": "VideoGame",
+                "name": "REPO",
+                "applicationCategory": "Game",
                 "operatingSystem": "Windows",
                 "offers": {
                   "@type": "Offer",
-                  "price": "0",
-                  "priceCurrency": "USD"
+                  "price": "19.99",
+                  "priceCurrency": "USD",
+                  "url": "https://store.steampowered.com/app/3241660/REPO/"
                 },
                 "aggregateRating": {
                   "@type": "AggregateRating",
                   "ratingValue": "4.8",
-                  "ratingCount": "10000",
+                  "ratingCount": "2500",
                   "bestRating": "5",
                   "worstRating": "1"
                 },
-                "description": "Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.",
-                "applicationSubCategory": "Automation Tool",
+                "description": "REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. It supports up to 6 players working together online to navigate dangerous environments and collect valuable items.",
+                "genre": ["Horror", "Cooperative", "Action"],
+                "gamePlatform": ["PC"],
+                "applicationSubCategory": "Horror Game",
                 "availableOnDevice": "PC",
-                "featureList": [
-                  "200% Efficiency Boost",
-                  "24/7 Availability",
-                  "Automated Operations",
-                  "Resource Collection"
-                ],
-                "screenshot": "https://fischmacroo.com/images/fisch-shot.jpg",
-                "image": "https://fischmacroo.com/images/og-image.svg",
-                "logo": "https://fischmacroo.com/favicon.svg",
-                "softwareVersion": "V13",
+                "screenshot": "https://repomod.com/images/screenshots/REPO-Game-Screenshot.jpg",
+                "image": "https://repomod.com/images/screenshots/REPO-Game-Screenshot.jpg",
+                "logo": "https://repomod.com/images/logo/repomod-logo.jpg",
+                "softwareVersion": "Early Access",
+                "sameAs": "https://store.steampowered.com/app/3241660/REPO/",
                 "author": {
                   "@type": "Organization",
-                  "name": "Fisch Macro Team"
+                  "name": "semiwork"
                 }
               }
             `,
           }}
-        />
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EGQD4HK34H"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-EGQD4HK34H');
-            `,
-          }}
-        />
-        {/* Google AdSense */}
-        <script 
-          async 
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825534897375588"
-          crossOrigin="anonymous"
         />
       </head>
       <body className="antialiased">

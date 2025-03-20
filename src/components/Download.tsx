@@ -1,101 +1,43 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FiDownload, FiAlertCircle, FiShield, FiCheckSquare } from 'react-icons/fi';
-import { FaWindows, FaApple, FaMobileAlt, FaTelegram } from 'react-icons/fa';
+import { FiDownload, FiAlertCircle, FiShield, FiInfo } from 'react-icons/fi';
+import { FaWindows, FaApple, FaSteam, FaDiscord, FaGithub, FaUserAlt, FaUsers, FaRunning } from 'react-icons/fa';
 import Link from 'next/link';
 
-const macroFiles = [
+const modVersions = [
   {
-    name: 'fisch macro v12 update3.18',
-    description: 'Latest updated version with enhanced fishing features and performance optimizations',
-    size: '16 KB',
-    date: 'March 20, 2025',
-    downloadUrl: '/downloads/fischmacro-v12-update.rar',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0',
+    name: 'R.E.P.O. Roles',
+    description: 'An exciting mod which adds player roles with unique abilities to the game',
+    version: 'v1.3.3',
+    date: 'March 20, 2023',
+    downloadUrl: '/downloads/REPORoles-1.3.3.zip',
+    features: [
+      'Random role assignment each game', 
+      'The Runner - Increased speed', 
+      'The Tank - Double HP, slower movement', 
+      'The Gambler - Random buffs/debuffs', 
+      'The Strongman - Enhanced strength', 
+      'The Ranged Looter - Increased range',
+      'The Athletic - More stamina and jump height',
+      'The Mage - Powerful spell abilities'
+    ],
     isNew: true
   },
   {
-    name: 'Skate\'s Fisch Macro v13',
-    description: 'Latest version of Skate\'s popular Fisch Macro with enhanced features and optimizations',
-    size: '36 KB',
-    date: 'March 11, 2025',
-    downloadUrl: '/downloads/Skate Fisch Macro v13.ahk',
-    virusTotalUrl: 'https://github.com/SkateF/Skate-s-Fisch-Macro',
+    name: 'R.E.P.O. MorePlayers',
+    description: 'A mod that allows you to customize the maximum player count in your games',
+    version: 'v1.0.4',
+    date: 'March 18, 2023',
+    downloadUrl: '/downloads/repo-MorePlayers-1.0.4.zip',
+    features: [
+      'Increase or decrease max player capacity', 
+      'Simple configuration via config file', 
+      'Works with the latest game version',
+      'Compatible with other mods',
+      'Easy installation process'
+    ],
     isNew: true
-  },
-  {
-    name: '(Best) Xan V3 (Irus v6)',
-    description: 'Latest version with enhanced fishing automation and resource collection features, includes Irus v6 enhancements',
-    size: '61 KB',
-    date: 'March 11, 2025',
-    downloadUrl: '/downloads/Xan.V3.ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0',
-    isNew: true
-  },
-  {
-    name: 'Fisch Macro v12 with Config (Updated)',
-    description: 'Latest version with improved fishing automation and resource collection, includes configuration files',
-    size: '12.5 KB',
-    date: 'March 1, 2025',
-    downloadUrl: '/downloads/Fisch Macro v12 with Config (Updated).rar',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/2b9648ed55fc57ffc31812968aa57492a05550b9fa2f5b379e7c432de6fe3ac0'
-  },
-  {
-    name: 'Fisch Macro v11 Shake Only (New)',
-    description: 'Specialized version focusing only on shake functionality',
-    size: '8.2 KB',
-    date: 'February 20, 2025',
-    downloadUrl: '/downloads/Fisch Macro V11 Shake Only.ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/d81f664a1bbaef9cb6f3a0757ac6ca656807ea9cba4ed3f9f3132e19d55093cb'
-  },
-  {
-    name: 'Xan Legacy (New)',
-    description: 'Legacy version of the popular Xan macro with classic features',
-    size: '9.7 KB',
-    date: 'February 10, 2025',
-    downloadUrl: '/downloads/Xan LEGACY.ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/09af2b815992d7d2f83acf82fcc78c147994a9ee286a957a974c48ef9d637e49'
-  },
-  {
-    name: 'Biblical Accuracy (for Seraphic) (New)',
-    description: 'Special version optimized for Seraphic fishing style',
-    size: '10.3 KB',
-    date: 'January 25, 2025',
-    downloadUrl: '/downloads/Biblical Accuracy (for Seraphic).ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/1d60c7602da7a72529c1b79b27cefd5b5335a58f10bffee2185154ea18e27f69'
-  },
-  {
-    name: 'Fisch Macro V12 (feat IRUS)',
-    description: 'V12 version featuring IRUS enhancements for improved performance',
-    size: '11.8 KB',
-    date: 'January 15, 2025',
-    downloadUrl: '/downloads/Fisch Macro V12 (feat. IRUS).ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/ddb7e78d5c7bf7621c85d0204689df57e0a8acbbe10abafd763e63df8256229e'
-  },
-  {
-    name: 'Angel\'s True Form (V12 Seraphic)',
-    description: 'V12 version optimized for Seraphic fishing with advanced features',
-    size: '11.2 KB',
-    date: 'January 10, 2025',
-    downloadUrl: '/downloads/Angel\'s True Form (V12 Seraphic).ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/b6a06d95159c4413b821d806b83e7e56d10972d2c3db1b0f4ac0d44d516dc2cb'
-  },
-  {
-    name: 'v12 No GUI',
-    description: 'Lightweight version without graphical interface for minimal resource usage',
-    size: '7.5 KB',
-    date: 'January 5, 2025',
-    downloadUrl: '/downloads/V12 no GUI.ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/e3a00c1d175ecdc700254d7f92baa8e18b08edfb04cffe0ec336ba9e5ea0a583'
-  },
-  {
-    name: 'Fisch Macro v11 (Updated on Feb)',
-    description: 'February update of the stable v11 version with bug fixes',
-    size: '9.8 KB',
-    date: 'January 1, 2025',
-    downloadUrl: '/downloads/Fisch Macro V11.ahk',
-    virusTotalUrl: 'https://www.virustotal.com/gui/file/44ac95254e84dd288997d3c89cf2d68ece2ca81d7b86513341a8bc762725ad22'
   }
 ];
 
@@ -111,7 +53,7 @@ export default function Download() {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold mb-6"
           >
-            fisch macro download
+            REPOMOD[NEW] - The most complete R.E.P.O mods
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -120,221 +62,270 @@ export default function Download() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-gray-300 mb-6 max-w-3xl mx-auto"
           >
-            Fisch macro is the most popular macro among Roblox gamers. Many new & old players are searching for Macro files, that&apos;s why we launched <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline" aria-label="Fisch Macro Official Website">fischmacroo.com</a>. Macro files are downloaded only from this website.
+            Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates.
           </motion.p>
         </div>
 
-        {/* How to Macro */}
+        {/* Featured Mod: R.E.P.O. Roles */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-10"
+          className="bg-blue-800/30 backdrop-blur-sm rounded-lg p-6 mb-10 border border-blue-500/30"
         >
-          <h3 className="text-2xl font-semibold mb-4">How to Macro in Fisch</h3>
-          <ol className="space-y-3 text-gray-200 list-none">
-            <li className="flex items-start">
-              <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>First visit the site <a href="https://fischmacroo.com/" className="text-gray-300 hover:underline" aria-label="Fisch Macro Official Website">fischmacroo.com</a></span>
-            </li>
-            <li className="flex items-start">
-              <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>Download Autohotkey (v1.1 or v2) from <a href="https://www.autohotkey.com/" className="text-gray-300 hover:underline" target="_blank" rel="noopener noreferrer" aria-label="AutoHotkey Official Website">autohotkey.com</a></span>
-            </li>
-            <li className="flex items-start">
-              <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>Now click on the Fisch script button</span>
-            </li>
-            <li className="flex items-start">
-              <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>Here you select your macro version and hit the download button</span>
-            </li>
-            <li className="flex items-start">
-              <FiCheckSquare className="h-6 w-6 text-green-300 mt-0.5 mr-3 flex-shrink-0" />
-              <span>Now follow the proper guide & complete the setup</span>
-            </li>
-          </ol>
+          <div className="flex flex-col md:flex-row items-start gap-6">
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold mb-4 flex items-center">
+                <FaUserAlt className="mr-3 text-blue-400" /> 
+                Featured Mod: R.E.P.O. Roles <span className="ml-2 text-sm bg-blue-500 px-2 py-1 rounded-full">NEW</span>
+              </h3>
+              <p className="text-gray-200 mb-4">
+                R.E.P.O. Roles is an exciting mod which adds player roles. When starting a game one of the roles will be randomly assigned to the player.
+              </p>
+              <h4 className="text-xl font-medium mb-3 text-blue-300">Available roles:</h4>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4">
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Runner:</span> Runs faster than everyone else!</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Tank:</span> Has double hp but moves slower.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Gambler:</span> Gains a random buff and debuff every game.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Strongman:</span> Is a lot stronger than normal.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Ranged Looter:</span> Has a lot more range and is a bit stronger.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Athletic:</span> Has more stamina and strength and can jump higher.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-400 mr-2">•</span>
+                  <span><span className="font-semibold">The Mage:</span> Uses spells to become incredibly powerful.</span>
+                </li>
+              </ul>
+              <p className="text-gray-200 mb-4">
+                When starting a game one of these roles will be assigned to the player. The role information can be toggled by pressing the "R" key by default. All keybinds used in this mod can be changed in the config file.
+              </p>
+              <p className="text-gray-200 mb-6">
+                More roles will be added in future versions!
+              </p>
+              <a 
+                href="/downloads/REPORoles-1.3.3.zip" 
+                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+              >
+                <FiDownload className="mr-2" />
+                Download R.E.P.O. Roles v1.3.3
+              </a>
+            </div>
+          </div>
         </motion.div>
 
+        {/* Featured Mod: R.E.P.O. MorePlayers */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.25 }}
+          className="bg-indigo-800/30 backdrop-blur-sm rounded-lg p-6 mb-10 border border-indigo-500/30"
+        >
+          <div className="flex flex-col md:flex-row items-start gap-6">
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold mb-4 flex items-center">
+                <FaUsers className="mr-3 text-indigo-400" /> 
+                Featured Mod: R.E.P.O. MorePlayers <span className="ml-2 text-sm bg-indigo-500 px-2 py-1 rounded-full">NEW</span>
+              </h3>
+              <p className="text-gray-200 mb-4">
+                Are you tired of not being able to change the max player count in R.E.P.O.? Well BOY do I have something for you!
+              </p>
+              <p className="text-gray-200 mb-4">
+                MorePlayers is a mod for R.E.P.O. that allows you to decrease or increase the max player cap.
+              </p>
+              <h4 className="text-xl font-medium mb-3 text-indigo-300">How do you change the max players cap?</h4>
+              <p className="text-gray-200 mb-4">
+                Easy! Go to your installation folder for R.E.P.O. (Right click on R.E.P.O. on Steam {'->'} Manage {'->'} Browse local files), go to BepInEx {'->'} config {'->'} zelofi.MorePlayers.cfg, then adjust the "MaxPlayers" value!
+              </p>
+              <div className="bg-gray-900/50 p-4 rounded-md mb-6 text-gray-300 font-mono text-sm">
+                <p className="mb-2"># Configuration file for MorePlayers mod</p>
+                <p className="mb-2">[General Settings]</p>
+                <p className="text-indigo-300">MaxPlayers = 8</p>
+                <p className="mt-2 text-gray-400 text-xs"># Change this number to your desired player count</p>
+              </div>
+              <a 
+                href="/downloads/repo-MorePlayers-1.0.4.zip" 
+                className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors"
+              >
+                <FiDownload className="mr-2" />
+                Download R.E.P.O. MorePlayers v1.0.4
+              </a>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Featured Mod: R.E.P.O. MoreStamina */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-10"
+          className="bg-green-800/30 backdrop-blur-sm rounded-lg p-6 mb-10 border border-green-500/30"
         >
-          <div className="flex items-start mb-6">
-            <FiAlertCircle className="h-6 w-6 text-yellow-300 mt-1 mr-3 flex-shrink-0" />
-            <p className="text-blue-50">
-              Unlike other Roblox macros, Fisch Macros can be downloaded or used to run on Windows. I know this sounds awkward but developers might release Fisch macro mac version. But there is no update for the mobile version (android & ios).
-            </p>
-          </div>
-          <div className="flex items-start">
-            <FiAlertCircle className="h-6 w-6 text-yellow-300 mt-1 mr-3 flex-shrink-0" />
-            <p className="text-blue-50">
-              If you own a Windows system this macro is for you. In this post, we will teach you how to download Fisch macro on Windows and how to use it. If you download from other websites, the macro would not work properly. Always download from <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a>.
-            </p>
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          className="bg-white/10 backdrop-blur-sm rounded-lg p-6 mb-10"
-        >
-          <h3 className="text-2xl font-semibold mb-4">Available Versions</h3>
-          <p className="mb-6 text-blue-50">
-            Fisch macro is currently available in multiple versions including the latest <strong>(Best) Xan V3 (Irus v6)</strong>, v12, v11, Xan Legacy, Biblical Accuracy, IRUS, and more. The newest Xan V3 version provides enhanced fishing automation with Irus v6 features for optimal performance. Check your favourite macro right now and enjoy Fisch gaming. Join the telegram Channel for updates or visit <a href="https://fischmacroo.com/" className="text-blue-300 hover:underline">fischmacroo.com</a> regularly for the latest versions.
-          </p>
-          <div className="flex items-center mb-6">
-            <FiShield className="h-6 w-6 text-green-300 mr-3" />
-            <p className="text-blue-50">
-              All our macros have been scanned with VirusTotal for your safety. Click on the &quot;Virus Check&quot; link next to each download to view the scan results.
-            </p>
-          </div>
-          <div className="flex items-center mb-6">
-            <FiAlertCircle className="h-6 w-6 text-yellow-300 mr-3" />
-            <p className="text-blue-50">
-              <strong>Note:</strong> You need to install AutoHotkey to run these macros. Download it from <a href="https://www.autohotkey.com/" className="text-blue-300 hover:underline" target="_blank" rel="noopener noreferrer">autohotkey</a>.
-            </p>
-          </div>
-          <a 
-            href="https://t.me/fischmacroo" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            className="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 transition-colors"
-          >
-            <FaTelegram className="mr-2" />
-            Join Telegram Channel
-          </a>
-        </motion.div>
-
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
-          {macroFiles.map((file, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.1 * index }}
-              className={`bg-white text-gray-900 rounded-lg shadow-lg overflow-hidden ${file.isNew ? 'ring-4 ring-blue-500 relative' : ''}`}
-            >
-              {file.isNew && (
-                <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-1 rounded-bl-lg font-bold">
-                  LATEST VERSION
+          <div className="flex flex-col md:flex-row items-start gap-6">
+            <div className="flex-1">
+              <h3 className="text-2xl font-semibold mb-4 flex items-center">
+                <FaRunning className="mr-3 text-green-400" /> 
+                Featured Mod: R.E.P.O. MoreStamina <span className="ml-2 text-sm bg-green-500 px-2 py-1 rounded-full">NEW</span>
+              </h3>
+              <p className="text-gray-200 mb-4">
+                This mod makes stamina usage more realistic.
+              </p>
+              <p className="text-gray-200 mb-4">
+                With MoreStamina, you'll experience a more immersive and challenging gameplay as stamina management becomes a critical aspect of your survival strategy.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                <div className="bg-gray-900/50 p-4 rounded-md">
+                  <h4 className="text-lg font-medium mb-2 text-green-300">Key Features:</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-green-400 mr-2">•</span>
+                      <span>Realistic stamina depletion when running and carrying items</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-400 mr-2">•</span>
+                      <span>Weight-based stamina drain for carried objects</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-400 mr-2">•</span>
+                      <span>Improved stamina recovery mechanics</span>
+                    </li>
+                  </ul>
                 </div>
-              )}
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">
-                  {file.name}
-                  {file.isNew && (
-                    <span className="ml-2 inline-block bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full animate-pulse">
-                      NEW
-                    </span>
-                  )}
-                </h3>
-                <p className="text-gray-600 mb-4">{file.description}</p>
-                <div className="flex flex-wrap items-center text-sm text-gray-500 space-x-4 mb-4">
-                  <span>Size: {file.size}</span>
-                  <span>Released: {file.date}</span>
-                </div>
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <a 
-                    href={file.downloadUrl} 
-                    className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-md transition-colors download-btn"
-                    aria-label={`Download ${file.name}`}
-                    data-text="Download"
-                    rel="nofollow"
-                  >
-                    <FiDownload className="mr-2" />
-                    <span className="sr-only">Download</span>
-                  </a>
-                  <a 
-                    href={file.virusTotalUrl}
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    className={`inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-500 transition-colors ${file.name.includes('Skate') ? 'github-btn' : 'virus-check-btn'}`}
-                    aria-label={file.name.includes('Skate') ? `View ${file.name} on GitHub` : `Virus check for ${file.name}`}
-                    data-text={file.name.includes('Skate') ? 'View on GitHub' : 'Virus Check'}
-                  >
-                    <FiShield className="mr-2" />
-                    <span className="sr-only">{file.name.includes('Skate') ? 'View on GitHub' : 'Virus Check'}</span>
-                  </a>
+                <div className="bg-gray-900/50 p-4 rounded-md">
+                  <h4 className="text-lg font-medium mb-2 text-green-300">Benefits:</h4>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-green-400 mr-2">•</span>
+                      <span>More strategic gameplay</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-400 mr-2">•</span>
+                      <span>Enhanced immersion</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-green-400 mr-2">•</span>
+                      <span>Compatible with all other REPO mods</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* Platform Compatibility */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.5 }}
-            className="bg-white/10 backdrop-blur-sm rounded-lg p-6"
-          >
-            <div className="flex items-center mb-4">
-              <FaWindows className="h-8 w-8 text-gray-300 mr-3" />
-              <h3 className="text-xl font-semibold">Windows</h3>
+              <a 
+                href="/downloads/repo-MoreStamina-1.0.1.zip" 
+                className="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+              >
+                <FiDownload className="mr-2" />
+                Download R.E.P.O. MoreStamina v1.0.1
+              </a>
             </div>
-            <p className="text-gray-200">
-              Fully supported. All versions of Fisch Macro work perfectly on Windows 10 and 11.
-            </p>
-          </motion.div>
+          </div>
+        </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="bg-white/10 backdrop-blur-sm rounded-lg p-6"
-          >
-            <div className="flex items-center mb-4">
-              <FaApple className="h-8 w-8 text-gray-300 mr-3" />
-              <h3 className="text-xl font-semibold">Mac</h3>
-            </div>
-            <p className="text-gray-200">
-              Coming soon. Developers might release a Mac version (codenamed &quot;Aurium&quot;) in the near future.
-            </p>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.7 }}
-            className="bg-white/10 backdrop-blur-sm rounded-lg p-6"
-          >
-            <div className="flex items-center mb-4">
-              <FaMobileAlt className="h-8 w-8 text-gray-300 mr-3" />
-              <h3 className="text-xl font-semibold">Mobile</h3>
-            </div>
-            <p className="text-gray-200">
-              Not available. Currently there are no plans for Android or iOS versions of Fisch Macro.
-            </p>
-          </motion.div>
-        </div>
-
+        {/* Coming Soon Mods */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.8 }}
-          className="text-center"
+          transition={{ duration: 0.5, delay: 0.35 }}
+          className="bg-purple-800/30 backdrop-blur-sm rounded-lg p-6 mb-10 border border-purple-500/30"
         >
-          <p className="text-xl mb-6">Without any further ado, let&apos;s get started. Visit <a href="https://fischmacroo.com/" className="text-gray-300 hover:underline" aria-label="Fisch Macro Official Website">fischmacroo.com</a> for more information.</p>
-          <Link 
-            href="#how-to" 
-            className="inline-flex items-center justify-center px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-500 transition-colors"
-            aria-label="Learn how to use Fisch Macro"
-          >
-            How to Use Fisch Macro
-          </Link>
+          <div className="flex flex-col items-start gap-6">
+            <div className="flex-1 w-full">
+              <h3 className="text-2xl font-semibold mb-6 flex items-center">
+                <span className="relative flex h-6 w-6 mr-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-purple-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-6 w-6 bg-purple-500 items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                    </svg>
+                  </span>
+                </span>
+                Coming Soon: More Exciting Mods
+              </h3>
+              
+              <p className="text-gray-200 mb-6">
+                We're working hard on developing new mods to enhance your REPO experience. Here's a sneak peek at what's coming next:
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+                <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/30 hover:border-purple-400/50 transition-colors">
+                  <h4 className="text-lg font-medium mb-2 text-purple-300">ShrinkerCart</h4>
+                  <p className="text-gray-300 text-sm mb-2">
+                    Transform large objects into miniature versions for easier transport, then restore them to normal size at extraction!
+                  </p>
+                  <div className="text-xs text-purple-400 font-medium mt-auto">Coming May 2023</div>
+                </div>
+                
+                <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/30 hover:border-purple-400/50 transition-colors">
+                  <h4 className="text-lg font-medium mb-2 text-purple-300">Enemy Location</h4>
+                  <p className="text-gray-300 text-sm mb-2">
+                    An advanced radar system that helps your team track enemy movements within a limited range.
+                  </p>
+                  <div className="text-xs text-purple-400 font-medium mt-auto">Coming May 2023</div>
+                </div>
+                
+                <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/30 hover:border-purple-400/50 transition-colors">
+                  <h4 className="text-lg font-medium mb-2 text-purple-300">ImprovedStamina</h4>
+                  <p className="text-gray-300 text-sm mb-2">
+                    Advanced version of MoreStamina with customizable settings and team synergy mechanics.
+                  </p>
+                  <div className="text-xs text-purple-400 font-medium mt-auto">Coming June 2023</div>
+                </div>
+                
+                <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/30 hover:border-purple-400/50 transition-colors">
+                  <h4 className="text-lg font-medium mb-2 text-purple-300">LegoGnomes</h4>
+                  <p className="text-gray-300 text-sm mb-2">
+                    Spawn helpful gnome assistants that can carry small objects for your team.
+                  </p>
+                  <div className="text-xs text-purple-400 font-medium mt-auto">Coming June 2023</div>
+                </div>
+                
+                <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/30 hover:border-purple-400/50 transition-colors">
+                  <h4 className="text-lg font-medium mb-2 text-purple-300">InfiniteEnergyCrystals</h4>
+                  <p className="text-gray-300 text-sm mb-2">
+                    Place rechargeable energy crystal stations throughout the map for emergency power boosts.
+                  </p>
+                  <div className="text-xs text-purple-400 font-medium mt-auto">Coming July 2023</div>
+                </div>
+                
+                <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/30 hover:border-purple-400/50 transition-colors flex items-center justify-center">
+                  <div className="text-center">
+                    <h4 className="text-lg font-medium mb-2 text-purple-300">More Coming...</h4>
+                    <p className="text-gray-300 text-sm">
+                      Stay tuned for additional mods!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gray-900/50 p-4 rounded-md border border-purple-500/20 mt-4">
+                <p className="text-gray-200 flex items-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-purple-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  Want to suggest a mod idea or help with development? Join our Discord community to collaborate with other modders!
+                </p>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>

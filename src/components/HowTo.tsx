@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiDownload, FiSettings, FiPlay, FiSmartphone, FiAlertCircle } from 'react-icons/fi';
-import { FaApple, FaWindows } from 'react-icons/fa';
+import { FiDownload, FiUsers, FiZap, FiAlertCircle, FiMap } from 'react-icons/fi';
+import { FaHeadset, FaSteam } from 'react-icons/fa';
 
 export default function HowTo() {
   return (
@@ -17,7 +17,7 @@ export default function HowTo() {
             transition={{ duration: 0.5 }}
             className="heading"
           >
-            How to Use Fisch Macro
+            How to Play REPO
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export default function HowTo() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="subheading"
           >
-            Fisch Macro gives you an advantage in-game through automatic actions. Follow our Fisch Macro guide for a complete Fisch Macro setup.
+            Survive and thrive in the horror-filled ruins with our comprehensive guide to playing REPO with your friends.
           </motion.p>
         </div>
 
@@ -40,28 +40,28 @@ export default function HowTo() {
           <div className="flex items-start bg-amber-50 dark:bg-amber-900/30 p-4 rounded-lg mb-8">
             <FiAlertCircle className="text-amber-500 h-6 w-6 mr-3" />
             <p className="text-gray-700 dark:text-gray-200 italic">
-              While Fisch Macro provides automation advantages, we encourage Fisch Macro users to also develop their skills by playing the game manually for the best overall experience with Fisch Macro.
+              REPO is designed as a cooperative experience. While solo play is possible, teaming up with friends significantly increases your chances of survival and successful extraction.
             </p>
           </div>
           
-          <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">Step-by-Step Fisch Macro Installation Guide</h3>
+          <h3 className="text-xl font-semibold mb-6 text-gray-900 dark:text-white">Getting Started with REPO</h3>
           
           <div className="space-y-6">
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
               <h4 className="font-semibold text-lg mb-2 flex items-center">
                 <FiDownload className="mr-2 text-blue-600 dark:text-blue-400" /> 
-                Step 1: Install AutoHotkey for Fisch Macro
+                Step 1: Purchase and Install REPO
               </h4>
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
-                <li>Double-click on the AutoHotkey installer file to prepare for Fisch Macro</li>
-                <li>When prompted, allow file permissions by selecting &quot;yes&quot; for Fisch Macro installation</li>
-                <li>Choose &quot;Express Installation&quot; to complete the Fisch Macro setup</li>
-                <li>Wait for the installation to complete before using Fisch Macro</li>
+                <li>Purchase REPO on Steam by visiting the official store page</li>
+                <li>Download and install the game (approximately 20GB of storage required)</li>
+                <li>Launch REPO from your Steam library</li>
+                <li>Create your character during the first-time setup</li>
               </ol>
               <div className="mt-4">
                 <img 
                   src="/images/step1.png" 
-                  alt="Install AutoHotkey for Fisch Macro" 
+                  alt="Purchase and Install REPO" 
                   className="rounded-lg shadow-md w-full max-w-md mx-auto"
                 />
               </div>
@@ -69,19 +69,19 @@ export default function HowTo() {
             
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
               <h4 className="font-semibold text-lg mb-2 flex items-center">
-                <FiSettings className="mr-2 text-blue-600 dark:text-blue-400" /> 
-                Step 2: Configure Roblox Settings for Fisch Macro
+                <FiUsers className="mr-2 text-blue-600 dark:text-blue-400" /> 
+                Step 2: Form Your Team
               </h4>
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
-                <li>Open your Roblox account and launch the Fisch game for Fisch Macro</li>
-                <li>Navigate to game settings within Roblox to optimize for Fisch Macro</li>
-                <li>Make sure &quot;UI Navigation Tool&quot; is enabled for Fisch Macro to work properly</li>
-                <li><strong>Important:</strong> Fisch Macro will not function properly if this setting is disabled</li>
+                <li>Invite friends through Steam or join public lobbies</li>
+                <li>Coordinate roles based on equipment and abilities</li>
+                <li>Use voice chat for effective communication during missions</li>
+                <li>Plan your strategy before entering the ruins</li>
               </ol>
               <div className="mt-4">
                 <img 
                   src="/images/step2.png" 
-                  alt="Configure Roblox Settings for Fisch Macro" 
+                  alt="Form Your Team in REPO" 
                   className="rounded-lg shadow-md w-full max-w-md mx-auto"
                 />
               </div>
@@ -89,19 +89,19 @@ export default function HowTo() {
             
             <div className="bg-blue-50 dark:bg-blue-900/30 p-4 rounded-lg">
               <h4 className="font-semibold text-lg mb-2 flex items-center">
-                <FiPlay className="mr-2 text-blue-600 dark:text-blue-400" /> 
-                Step 3: Run the Fisch Macro
+                <FiZap className="mr-2 text-blue-600 dark:text-blue-400" /> 
+                Step 3: Complete Missions
               </h4>
               <ol className="list-decimal pl-6 space-y-2 text-gray-700 dark:text-gray-300">
-                <li>Right-click on the downloaded Fisch Macro file</li>
-                <li>Select &quot;Open with AutoHotkey&quot; from the context menu to launch Fisch Macro</li>
-                <li>The Fisch Macro interface will appear on your screen</li>
-                <li>You are now ready to start automating your fishing activities with Fisch Macro!</li>
+                <li>Review mission objectives and requirements</li>
+                <li>Navigate the procedurally generated ruins with caution</li>
+                <li>Collect valuable artifacts while avoiding threats</li>
+                <li>Extract safely to claim your rewards and progress your character</li>
               </ol>
               <div className="mt-4">
                 <img 
                   src="/images/step3.png" 
-                  alt="Run the Fisch Macro" 
+                  alt="Complete Missions in REPO" 
                   className="rounded-lg shadow-md w-full max-w-md mx-auto"
                 />
               </div>
@@ -109,9 +109,9 @@ export default function HowTo() {
           </div>
         </motion.div>
 
-        {/* Mobile and Mac Information */}
+        {/* Additional Gameplay Tips */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-          {/* Mobile Information */}
+          {/* Survival Tips */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -120,18 +120,19 @@ export default function HowTo() {
             className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md"
           >
             <div className="flex items-center mb-4">
-              <FiSmartphone className="h-6 w-6 text-blue-500 mr-3" />
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Fisch Macro Mobile Version Status</h3>
+              <FiMap className="h-6 w-6 text-blue-500 mr-3" />
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Survival Tips</h3>
             </div>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              I know many of you are waiting for Fisch Macro mobile version and especially for Fisch Macro Android & iOS versions but unfortunately, Fisch Macro for Android and iOS is not officially available right now.
-            </p>
-            <p className="text-gray-600 dark:text-gray-300">
-              Be cautious of unofficial Fisch Macro tutorials and articles available over the internet that are completely baseless. Following these Fisch Macro tutorials may disrupt your gaming experience.
-            </p>
+            <ul className="space-y-2 text-gray-600 dark:text-gray-300">
+              <li>• Always stay with your team - splitting up increases risk</li>
+              <li>• Use your flashlight sparingly to avoid attracting unwanted attention</li>
+              <li>• Listen carefully for audio cues that signal nearby threats</li>
+              <li>• Manage your inventory wisely - prioritize valuable artifacts</li>
+              <li>• Know when to extract - sometimes retreating is the best strategy</li>
+            </ul>
           </motion.div>
 
-          {/* Mac Information */}
+          {/* Communication Tips */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -140,14 +141,14 @@ export default function HowTo() {
             className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md"
           >
             <div className="flex items-center mb-4">
-              <FaApple className="h-6 w-6 text-blue-500 mr-3" />
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Fisch Macro Mac Version Coming Soon</h3>
+              <FaHeadset className="h-6 w-6 text-blue-500 mr-3" />
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">Communication is Key</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Good news for Fisch Macro players: Fisch Macro for Mac may be launched by the first week of March. Developers named it Aurium but this Fisch Macro version is not free.
+              Effective team communication dramatically increases survival rates. Use the in-game voice chat system or external platforms like Discord for seamless coordination.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              Fisch Macro Mac version may come with a new GUI. Stay tuned to our website for the official Fisch Macro release announcement and Fisch Macro download instructions.
+              Develop clear callouts for common situations and establish danger signals to quickly alert teammates to threats. Remember that sound travels in the game world - sometimes silence is your best strategy.
             </p>
           </motion.div>
         </div>
@@ -159,20 +160,20 @@ export default function HowTo() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-md mb-10"
         >
-          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Fisch Macro System Requirements</h3>
+          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Recommended Setup</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex items-start">
-              <FaWindows className="h-5 w-5 mr-3 mt-1 text-blue-500" />
+              <FaSteam className="h-5 w-5 mr-3 mt-1 text-blue-500" />
               <div>
-                <p className="font-semibold">Fisch Macro Windows Compatibility</p>
-                <p className="text-gray-600 dark:text-gray-300">Windows 10 or 11 recommended for Fisch Macro</p>
+                <p className="font-semibold">Steam Friends List</p>
+                <p className="text-gray-600 dark:text-gray-300">Add teammates to your friends list for easy invites</p>
               </div>
             </div>
             <div className="flex items-start">
-              <FiSettings className="h-5 w-5 mr-3 mt-1 text-blue-500" />
+              <FaHeadset className="h-5 w-5 mr-3 mt-1 text-blue-500" />
               <div>
-                <p className="font-semibold">Required Software for Fisch Macro</p>
-                <p className="text-gray-600 dark:text-gray-300">AutoHotkey must be installed for Fisch Macro</p>
+                <p className="font-semibold">Quality Headphones</p>
+                <p className="text-gray-600 dark:text-gray-300">Audio cues are critical for survival in REPO</p>
               </div>
             </div>
           </div>
@@ -189,7 +190,7 @@ export default function HowTo() {
             href="#download" 
             className="btn btn-primary inline-block"
           >
-            Download Fisch Macro Now
+            Get REPO on Steam
           </a>
         </motion.div>
       </div>

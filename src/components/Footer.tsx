@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { FiGithub, FiTwitter, FiMail, FiYoutube } from 'react-icons/fi';
-import { FaDiscord } from 'react-icons/fa';
+import { FaDiscord, FaSteam } from 'react-icons/fa';
 import ShareButtons from './ShareButtons';
 
 export default function Footer() {
@@ -15,38 +15,34 @@ export default function Footer() {
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-blue-400">Fisch Macro</span>
+              <span className="text-2xl font-bold text-blue-400">REPO</span>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">
-              Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience.
+              REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. Released in early access, it supports up to 6 players navigating dangerous environments to collect valuable items.
             </p>
             <div className="flex space-x-4 mb-4">
-              <a href="https://github.com/fischmacroo" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <a href="https://github.com/semiwork" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                 <FiGithub className="h-5 w-5" />
               </a>
-              <a href="https://x.com/FischOnROBLOX" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+              <a href="https://twitter.com/REPOgame" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <FiTwitter className="h-5 w-5" />
               </a>
-              <a href="mailto:contact@fischmacroo.com" className="text-gray-400 hover:text-white" aria-label="Email">
+              <a href="mailto:support@repogame.com" className="text-gray-400 hover:text-white" aria-label="Email">
                 <FiMail className="h-5 w-5" />
               </a>
-              <a href="https://www.youtube.com/@FischONRoblox" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                <FiYoutube className="h-5 w-5" />
-              </a>
-              <a href="https://discord.com/invite/cuKz5SK3md" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Discord">
+              <a href="https://discord.gg/repogame" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Discord">
                 <FaDiscord className="h-5 w-5" />
               </a>
+              <a href="https://store.steampowered.com" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Steam">
+                <FaSteam className="h-5 w-5" />
+              </a>
             </div>
-            <div className="mt-4">
-              <p className="text-sm text-gray-400 mb-2">Share our website:</p>
-              <ShareButtons 
-                url="https://fischmacroo.com"
-                title="Fisch Macro - Automation Tool for Roblox Fisch Game"
-                description="Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience."
-                iconSize={24} 
-                className="mt-2" 
-              />
-            </div>
+            <ShareButtons 
+              url="https://repomod.com"
+              title="REPO - Cooperative Horror Game by semiwork"
+              description="REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. Released in early access on February 26, 2025, REPO supports up to 6 players online."
+              className="justify-start"
+            />
           </div>
 
           {/* Quick Links */}
@@ -60,17 +56,17 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/#what-is" className="text-gray-400 hover:text-white">
-                  macro for fisch
+                  About REPO
                 </Link>
               </li>
               <li>
                 <Link href="/#how-to" className="text-gray-400 hover:text-white">
-                  how to macro fisch
+                  How to Play
                 </Link>
               </li>
               <li>
-                <Link href="/#why" className="text-gray-400 hover:text-white">
-                  Why Choose Us
+                <Link href="/How-to-Install-REPO-Mods" className="text-gray-400 hover:text-white">
+                  Game Guide
                 </Link>
               </li>
               <li>
@@ -78,17 +74,12 @@ export default function Footer() {
                   FAQ
                 </Link>
               </li>
-              <li>
-                <Link href="/#download" className="text-gray-400 hover:text-white">
-                  fisch macro download
-                </Link>
-              </li>
             </ul>
           </div>
 
           {/* Legal */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Legal Information</h3>
+            <h3 className="text-lg font-semibold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/privacy" className="text-gray-400 hover:text-white">
@@ -107,18 +98,28 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/contact" className="text-gray-400 hover:text-white">
-                  Contact Us
+                  Contact
                 </Link>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Fisch Macro. All Rights Reserved.</p>
-          <p className="mt-2 text-sm">
-            Fisch Macro is not affiliated with Roblox Corporation or the Fisch game developer.
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center md:flex md:justify-between md:text-left">
+          <p className="text-gray-400 mb-4 md:mb-0">
+            &copy; {currentYear} REPO. All rights reserved. Developed by semiwork.
           </p>
+          <div className="text-gray-500 text-sm flex flex-wrap justify-center md:justify-end gap-4">
+            <Link href="/privacy" className="hover:text-gray-300">
+              Privacy
+            </Link>
+            <Link href="/disclaimer" className="hover:text-gray-300">
+              Terms
+            </Link>
+            <Link href="/contact" className="hover:text-gray-300">
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -36,12 +36,12 @@ export default function HeaderShareButton() {
       {isOpen && (
         <div className="absolute right-0 mt-2 w-72 bg-white dark:bg-gray-800 rounded-md shadow-lg z-50 p-4">
           <div className="mb-2 pb-2 border-b border-gray-200 dark:border-gray-700">
-            <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Share Fisch Macro</h3>
+            <h3 className="text-sm font-medium text-gray-700 dark:text-gray-300">Share REPO</h3>
           </div>
           <ShareButtons 
-            url="https://fischmacroo.com"
-            title="Fisch Macro - Automation Tool for Roblox Fisch Game"
-            description="Fisch Macro is an automation tool designed specifically for the Fisch game on the Roblox platform, helping players improve game efficiency and experience."
+            url="https://repomod.com"
+            title="REPO - Cooperative Horror Game by semiwork"
+            description="REPO is a cooperative horror game where up to 6 players venture into abandoned ruins to collect valuable artifacts while evading hostile entities."
             iconSize={32}
             className="justify-center"
           />

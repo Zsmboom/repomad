@@ -6,36 +6,36 @@ import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
 
 const faqs = [
   {
-    question: 'Is Fisch Macro safe to use?',
-    answer: 'Yes, our Fisch Macro uses advanced simulation technology to mimic real player operations, posing no risk to your game account. We regularly update the macro program to ensure it is compatible with the latest version of the game and complies with game rules.'
+    question: 'What is REPO?',
+    answer: 'REPO is a cooperative horror game developed by semiwork, a Swedish independent studio. It supports up to 6 players working together online. The game is set in a future world where players are employed by artificial intelligence to venture into abandoned human ruins to collect valuable items while facing various dangers.'
   },
   {
-    question: 'How do I install Fisch Macro?',
-    answer: 'The installation process is very simple. First, download the latest version of the Fisch Macro installation package from our official website. Then, double-click the installation package and follow the installation wizard\'s instructions to complete the installation. After installation, you can find the Fisch Macro shortcut in the start menu or on the desktop.'
+    question: 'When was REPO released?',
+    answer: 'REPO was released in early access on February 26, 2025 on the Steam platform. The game is still under active development with regular updates and new content being added.'
   },
   {
-    question: 'Which operating systems does Fisch Macro support?',
-    answer: 'Currently, Fisch Macro supports Windows 10 and Windows 11 operating systems. We plan to support more operating systems in the future, such as macOS and Linux.'
+    question: 'How many players can play REPO together?',
+    answer: 'REPO supports up to 6 players in online cooperative mode. Players can work together to complete missions, gather resources, and survive the dangerous environments.'
   },
   {
-    question: 'Is Fisch Macro free to use?',
-    answer: 'Yes, Fisch Macro is completely free to use. We believe in providing value to the gaming community without any cost barriers.'
+    question: 'What are the minimum system requirements for REPO?',
+    answer: 'For the best experience, we recommend a PC with at least an Intel Core i5 processor, 8GB RAM, NVIDIA GTX 1060 or equivalent graphics card, Windows 10 operating system, and 20GB of available storage space. The game may run on lower specifications but performance might be affected.'
   },
   {
-    question: 'How can I get technical support if I encounter problems?',
-    answer: 'You can get technical support in several ways: 1. Check our online help documentation; 2. Join our user community to ask other users; 3. Contact our technical support team via email. We will respond to your questions as soon as possible.'
+    question: 'Is REPO available on platforms other than PC?',
+    answer: 'Currently, REPO is only available for PC through the Steam platform. There are plans to potentially expand to other platforms in the future, but no specific dates have been announced yet.'
   },
   {
-    question: 'Does Fisch Macro update automatically?',
-    answer: 'Yes, Fisch Macro automatically checks for updates. When a new version is available, the macro program will prompt you to update. You can also choose whether to enable the automatic update feature in the settings.'
+    question: 'Does REPO have single-player mode?',
+    answer: 'Yes, REPO can be played solo, though the game is designed with cooperative gameplay in mind. Playing alone may present additional challenges as the game missions are balanced for team play.'
   },
   {
-    question: 'Can I use the same Fisch Macro account on multiple computers?',
-    answer: 'Yes, you can use the same account on multiple computers, but not simultaneously on multiple computers. If you need to use it on multiple computers at the same time, please consider downloading separate copies for each machine.'
+    question: 'How often does REPO receive updates?',
+    answer: 'As an early access game, REPO receives regular updates from the developers. These typically include bug fixes, performance improvements, new content, and gameplay enhancements based on community feedback.'
   },
   {
-    question: 'Does Fisch Macro support multiple Roblox accounts?',
-    answer: 'Yes, Fisch Macro supports multiple Roblox accounts. You can add and manage multiple accounts in the macro program and set different macro configurations for each account.'
+    question: 'Is there a roadmap for future REPO development?',
+    answer: 'Yes, the developers at semiwork have published a roadmap outlining planned features and content for REPO. This includes additional environments, new enemy types, expanded storyline, and more gameplay mechanics to be added during the early access period.'
   }
 ];
 
@@ -66,7 +66,7 @@ export default function FAQ() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="subheading"
           >
-            Here are some of the most commonly asked questions and answers
+            Everything you need to know about REPO
           </motion.p>
         </div>
 
@@ -111,10 +111,10 @@ export default function FAQ() {
             Have more questions? Contact our support team
           </p>
           <a 
-            href="mailto:support@fischmacroo.com" 
+            href="mailto:support@repogame.com" 
             className="text-blue-600 dark:text-blue-400 hover:underline"
           >
-            support@fischmacroo.com
+            support@repogame.com
           </a>
         </motion.div>
       </div>

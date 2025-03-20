@@ -2,38 +2,38 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiTarget, FiClock, FiShield, FiSettings, FiZap, FiRefreshCw } from 'react-icons/fi';
+import { FiUsers, FiZap, FiSettings, FiCpu, FiBox, FiCode } from 'react-icons/fi';
 
 const features = [
   {
-    icon: <FiTarget className="h-8 w-8 text-blue-500" />,
-    title: 'Fisch Macro Automated Fishing',
-    description: 'Fisch Macro automates the fishing process without manual operation, improving fishing efficiency and success rate with Fisch Macro technology.'
+    icon: <FiBox className="h-8 w-8 text-blue-500" />,
+    title: 'REPO MODS Physics System',
+    description: 'Experience improved object interaction with our REPO MODS refined physics system that makes handling valuable items more realistic, intuitive, and responsive in the REPO game environment.'
   },
   {
-    icon: <FiClock className="h-8 w-8 text-blue-500" />,
-    title: 'Fisch Macro Scheduled Tasks',
-    description: 'Fisch Macro sets scheduled tasks to execute specific operations at specific times, making the most of your gaming time with Fisch Macro.'
-  },
-  {
-    icon: <FiShield className="h-8 w-8 text-blue-500" />,
-    title: 'Fisch Macro Safety',
-    description: 'Fisch Macro uses advanced simulation technology to mimic real player operations, reducing detection risk. Fisch Macro is safe & reliable.'
-  },
-  {
-    icon: <FiSettings className="h-8 w-8 text-blue-500" />,
-    title: 'Customizable Fisch Macro',
-    description: 'Fisch Macro provides rich customization options to adjust Fisch Macro behavior and parameters according to your needs.'
+    icon: <FiUsers className="h-8 w-8 text-blue-500" />,
+    title: 'REPO MODS Co-op Enhancement',
+    description: 'Enjoy enhanced team coordination with REPO MODS player indicators, improved voice chat, and streamlined communication tools for up to 6 players in your REPO gaming sessions.'
   },
   {
     icon: <FiZap className="h-8 w-8 text-blue-500" />,
-    title: 'Fisch Macro Resource Optimization',
-    description: 'Fisch Macro optimizes resource acquisition paths, improving game resource collection efficiency and accelerating game progress with Fisch Macro.'
+    title: 'REPO MODS Performance Boost',
+    description: 'Benefit from significant REPO MODS performance improvements that reduce stuttering, lower loading times, and optimize resource usage for a smoother REPO gameplay experience.'
   },
   {
-    icon: <FiRefreshCw className="h-8 w-8 text-blue-500" />,
-    title: 'Regular Fisch Macro Updates',
-    description: 'Fisch Macro receives regular updates to adapt to game changes, ensuring Fisch Macro is always compatible with the latest version of the game.'
+    icon: <FiSettings className="h-8 w-8 text-blue-500" />,
+    title: 'REPO MODS Quality-of-Life Features',
+    description: 'Access REPO MODS customizable controls, UI scaling options, advanced graphics settings, and numerous other improvements requested by the REPO community.'
+  },
+  {
+    icon: <FiCpu className="h-8 w-8 text-blue-500" />,
+    title: 'REPO MODS AI Enhancement',
+    description: 'Face more intelligent and dynamic threats with our REPO MODS improved AI system that creates more challenging and unpredictable encounters throughout your REPO missions.'
+  },
+  {
+    icon: <FiCode className="h-8 w-8 text-blue-500" />,
+    title: 'REPO MODS Compatibility',
+    description: 'Our REPO MODS are designed to work seamlessly with the base REPO game and remain compatible with future updates, ensuring you can always enjoy the latest REPO content.'
   }
 ];
 
@@ -49,7 +49,7 @@ export default function Features() {
             transition={{ duration: 0.5 }}
             className="heading"
           >
-            Powerful Fisch Macro Features
+            REPOMOD[NEW] - The most complete R.E.P.O mods
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export default function Features() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="subheading"
           >
-            Fisch Macro provides multiple features to help you get a better experience in Roblox Fisch game. Fisch Macro is designed to enhance your gameplay.
+            Our REPO MODS take the thrilling cooperative horror experience of REPO and transform it with these essential improvements that elevate your REPO gameplay to new heights.
           </motion.p>
         </div>
 
