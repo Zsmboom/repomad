@@ -31,9 +31,19 @@ async function generateFavicons() {
   // 添加版本号，使用当前时间戳
   const version = Date.now();
   
-  // 读取 SVG 文件
-  const faviconSvg = fs.readFileSync(path.join(publicDir, 'favicon.svg'));
-  const appleTouchIconSvg = fs.readFileSync(path.join(publicDir, 'apple-touch-icon.svg'));
+  // 读取PNG文件而不是SVG
+  const faviconPng = fs.readFileSync(path.join(publicDir, 'images/favicon.png'));
+  
+  // 如果apple-touch-icon.svg不存在，就使用favicon.png
+  let appleTouchIconBuffer;
+  try {
+    appleTouchIconBuffer = fs.existsSync(path.join(publicDir, 'apple-touch-icon.svg')) 
+      ? fs.readFileSync(path.join(publicDir, 'apple-touch-icon.svg'))
+      : faviconPng;
+  } catch (error) {
+    console.log('Using favicon.png for apple-touch-icon');
+    appleTouchIconBuffer = faviconPng;
+  }
   
   // 生成不同尺寸的 favicon
   const sizes = [16, 32, 48, 64, 128, 256];
@@ -41,7 +51,7 @@ async function generateFavicons() {
   // 生成 favicon.ico (包含多个尺寸)
   const faviconBuffers = await Promise.all(
     sizes.map(size => 
-      sharp(faviconSvg)
+      sharp(faviconPng)
         .resize(size, size)
         .png()
         .toBuffer()
@@ -59,24 +69,24 @@ async function generateFavicons() {
   // 同时生成各种尺寸的PNG图标，以便在不同场景下使用
   for (let i = 0; i < sizes.length; i++) {
     const size = sizes[i];
-    await sharp(faviconSvg)
+    await sharp(faviconPng)
       .resize(size, size)
       .png()
       .toFile(path.join(publicDir, `favicon-${size}x${size}-v${version}.png`));
     // 保留原始文件名的版本，以保持兼容性
-    await sharp(faviconSvg)
+    await sharp(faviconPng)
       .resize(size, size)
       .png()
       .toFile(path.join(publicDir, `favicon-${size}x${size}.png`));
   }
   
   // 生成 apple-touch-icon.png (180x180)
-  await sharp(appleTouchIconSvg)
+  await sharp(appleTouchIconBuffer)
     .resize(180, 180)
     .png()
     .toFile(path.join(publicDir, `apple-touch-icon-v${version}.png`));
   // 保留原始文件名的版本，以保持兼容性
-  await sharp(appleTouchIconSvg)
+  await sharp(appleTouchIconBuffer)
     .resize(180, 180)
     .png()
     .toFile(path.join(publicDir, 'apple-touch-icon.png'));

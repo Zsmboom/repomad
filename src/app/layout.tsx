@@ -32,16 +32,16 @@ export const metadata: Metadata = {
   publisher: "REPOMOD Team",
   icons: {
     icon: [
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' },
-      { url: '/images/favicon.jpg', type: 'image/jpeg' }
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' }
     ],
-    apple: '/images/favicon.jpg',
+    apple: '/images/favicon.png',
   },
   openGraph: {
     title: "REPOMOD[NEW]-The most complete R.E.P.O mods",
@@ -84,22 +84,38 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DX9T2CB3DD"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-DX9T2CB3DD');
+            `,
+          }}
+        />
+        
         {/* 防止浏览器缓存图标 */}
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
         <meta httpEquiv="Expires" content="0" />
         
-        <link rel="icon" href="/images/favicon.jpg" type="image/jpeg" />
-        <link rel="alternate icon" href="/images/favicon.jpg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/images/favicon.jpg" />
+        {/* favicon基本设置 */}
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/images/favicon.png" type="image/png" />
+        <link rel="alternate icon" href="/images/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/favicon.png" />
         
         {/* 添加多尺寸图标引用 */}
-        <link rel="icon" type="image/jpeg" sizes="16x16" href="/images/favicon.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="32x32" href="/images/favicon.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="48x48" href="/images/favicon.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="64x64" href="/images/favicon.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="128x128" href="/images/favicon.jpg" />
-        <link rel="icon" type="image/jpeg" sizes="256x256" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" sizes="128x128" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" sizes="256x256" href="/images/favicon.png" />
         
         {/* 结构化数据 - 产品统计信息 */}
         <script
