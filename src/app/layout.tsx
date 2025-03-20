@@ -103,19 +103,19 @@ export default function RootLayout({
         <meta httpEquiv="Expires" content="0" />
         
         {/* favicon基本设置 */}
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/images/favicon.png" type="image/png" />
-        <link rel="alternate icon" href="/images/favicon.png" type="image/png" />
-        <link rel="apple-touch-icon" href="/images/favicon.png" />
+        <link rel="icon" href={`/favicon.ico?v=${Date.now()}`} type="image/x-icon" />
+        <link rel="shortcut icon" href={`/favicon.ico?v=${Date.now()}`} type="image/x-icon" />
+        <link rel="icon" href={`/images/favicon.png?v=${Date.now()}`} type="image/png" />
+        <link rel="alternate icon" href={`/images/favicon.png?v=${Date.now()}`} type="image/png" />
+        <link rel="apple-touch-icon" href={`/images/favicon.png?v=${Date.now()}`} />
         
         {/* 添加多尺寸图标引用 */}
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png" />
-        <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon.png" />
-        <link rel="icon" type="image/png" sizes="64x64" href="/images/favicon.png" />
-        <link rel="icon" type="image/png" sizes="128x128" href="/images/favicon.png" />
-        <link rel="icon" type="image/png" sizes="256x256" href="/images/favicon.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" type="image/png" sizes="32x32" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" type="image/png" sizes="48x48" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" type="image/png" sizes="64x64" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" type="image/png" sizes="128x128" href={`/images/favicon.png?v=${Date.now()}`} />
+        <link rel="icon" type="image/png" sizes="256x256" href={`/images/favicon.png?v=${Date.now()}`} />
         
         {/* 结构化数据 - 产品统计信息 */}
         <script
