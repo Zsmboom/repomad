@@ -49,7 +49,7 @@ export default function Features() {
             transition={{ duration: 0.5 }}
             className="heading"
           >
-            REPOMOD[NEW] - The most complete R.E.P.O mods
+            REPO MOD FEATURE
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

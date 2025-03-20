@@ -14,7 +14,7 @@ export default function WhatIs() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto text-center"
         >
-          <h2 className="heading mb-8">REPOMOD[NEW] - The most complete R.E.P.O mods</h2>
+          <h2 className="heading mb-8">REPO MODS for R.E.P.O</h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
             REPO MODS are professionally crafted modifications for <a href="https://store.steampowered.com/app/3241660/REPO/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium">REPO</a>, the cooperative horror game developed by semiwork. Our REPO MODS enhance the core gameplay experience while preserving the intense atmosphere that REPO fans love. Each REPO MOD is regularly updated to maintain compatibility with the latest version of REPO.
           </p>

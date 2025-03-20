@@ -53,7 +53,7 @@ export default function Download() {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold mb-6"
           >
-            REPOMOD[NEW] - The most complete R.E.P.O mods
+            REPO MODS DownLaod
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -62,7 +62,7 @@ export default function Download() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-xl text-gray-300 mb-6 max-w-3xl mx-auto"
           >
-            Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates.
+            Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-blue-400 hover:underline">installation guide</Link>.
           </motion.p>
         </div>
 
@@ -78,7 +78,7 @@ export default function Download() {
             <div className="flex-1">
               <h3 className="text-2xl font-semibold mb-4 flex items-center">
                 <FaUserAlt className="mr-3 text-blue-400" /> 
-                Featured Mod: R.E.P.O. Roles <span className="ml-2 text-sm bg-blue-500 px-2 py-1 rounded-full">NEW</span>
+                R.E.P.O. Roles: Unique Character Abilities <span className="ml-2 text-sm bg-blue-500 px-2 py-1 rounded-full">NEW</span>
               </h3>
               <p className="text-gray-200 mb-4">
                 R.E.P.O. Roles is an exciting mod which adds player roles. When starting a game one of the roles will be randomly assigned to the player.
@@ -143,7 +143,7 @@ export default function Download() {
             <div className="flex-1">
               <h3 className="text-2xl font-semibold mb-4 flex items-center">
                 <FaUsers className="mr-3 text-indigo-400" /> 
-                Featured Mod: R.E.P.O. MorePlayers <span className="ml-2 text-sm bg-indigo-500 px-2 py-1 rounded-full">NEW</span>
+                R.E.P.O. MorePlayers: Customize Your Group Size <span className="ml-2 text-sm bg-indigo-500 px-2 py-1 rounded-full">NEW</span>
               </h3>
               <p className="text-gray-200 mb-4">
                 Are you tired of not being able to change the max player count in R.E.P.O.? Well BOY do I have something for you!
@@ -184,7 +184,7 @@ export default function Download() {
             <div className="flex-1">
               <h3 className="text-2xl font-semibold mb-4 flex items-center">
                 <FaRunning className="mr-3 text-green-400" /> 
-                Featured Mod: R.E.P.O. MoreStamina <span className="ml-2 text-sm bg-green-500 px-2 py-1 rounded-full">NEW</span>
+                R.E.P.O. MoreStamina: Enhanced Endurance System <span className="ml-2 text-sm bg-green-500 px-2 py-1 rounded-full">NEW</span>
               </h3>
               <p className="text-gray-200 mb-4">
                 This mod makes stamina usage more realistic.
@@ -258,7 +258,7 @@ export default function Download() {
                     </svg>
                   </span>
                 </span>
-                Coming Soon: More Exciting Mods
+                Future Releases: Upcoming REPO Mod Collection
               </h3>
               
               <p className="text-gray-200 mb-6">
