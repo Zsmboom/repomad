@@ -143,7 +143,7 @@ export default function REPOLibPage() {
                       </li>
                     </ul>
                     <p className="text-gray-200 mt-4">
-                      Commands can be enabled/disabled in the config settings. If you are a mod developer and want to add your own custom chat commands to your mod, check the Usage > Chat commands section in the documentation.
+                      Commands can be enabled/disabled in the config settings. If you are a mod developer and want to add your own custom chat commands to your mod, check the Usage {'>'} Chat commands section in the documentation.
                     </p>
                   </div>
                   

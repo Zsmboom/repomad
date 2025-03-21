@@ -32,7 +32,7 @@ async function generateFavicons() {
   const version = Date.now();
   
   // 读取PNG文件而不是SVG
-  const faviconPng = fs.readFileSync(path.join(publicDir, 'images/favicon.png'));
+  const faviconPng = fs.readFileSync(path.join(publicDir, 'favicon.png'));
   
   // 如果apple-touch-icon.svg不存在，就使用favicon.png
   let appleTouchIconBuffer;
