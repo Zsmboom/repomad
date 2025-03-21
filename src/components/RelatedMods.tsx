@@ -67,25 +67,12 @@ interface RelatedModsProps {
 export default function RelatedMods({ currentModId, themeColor }: RelatedModsProps) {
   const otherMods = mods.filter(mod => mod.id !== currentModId);
   
-  const getColorClass = (color: string) => {
-    switch(color) {
-      case 'blue': return 'text-blue-400 border-blue-500/20 bg-blue-800/20 hover:bg-blue-800/30';
-      case 'red': return 'text-red-400 border-red-500/20 bg-red-800/20 hover:bg-red-800/30';
-      case 'green': return 'text-green-400 border-green-500/20 bg-green-800/20 hover:bg-green-800/30';
-      case 'purple': return 'text-purple-400 border-purple-500/20 bg-purple-800/20 hover:bg-purple-800/30';
-      case 'yellow': return 'text-yellow-400 border-yellow-500/20 bg-yellow-800/20 hover:bg-yellow-800/30';
-      case 'indigo': return 'text-indigo-400 border-indigo-500/20 bg-indigo-800/20 hover:bg-indigo-800/30';
-      default: return 'text-blue-400 border-blue-500/20 bg-blue-800/20 hover:bg-blue-800/30';
-    }
-  };
+  // 不管传入什么颜色，都始终使用amber
+  const colorClass = 'text-amber-400 border-amber-500/20 bg-amber-800/20 hover:bg-amber-800/30';
   
   return (
     <div className="mt-16">
-      <h2 className={`text-2xl font-bold mb-6 ${themeColor === 'yellow' ? 'text-yellow-400' : 
-        themeColor === 'red' ? 'text-red-400' : 
-        themeColor === 'green' ? 'text-green-400' : 
-        themeColor === 'purple' ? 'text-purple-400' : 
-        themeColor === 'indigo' ? 'text-indigo-400' : 'text-blue-400'}`}>
+      <h2 className="text-2xl font-bold mb-6 text-amber-400">
         Other REPO Mods You Might Like
       </h2>
       
@@ -94,7 +81,7 @@ export default function RelatedMods({ currentModId, themeColor }: RelatedModsPro
           <Link 
             key={mod.id}
             href={mod.path}
-            className={`block p-4 rounded-lg border transition-colors ${getColorClass(themeColor)}`}
+            className={`block p-4 rounded-lg border transition-colors ${colorClass}`}
           >
             <div className="flex items-start">
               <FiPackage className="mr-3 mt-1 flex-shrink-0" />

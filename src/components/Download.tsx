@@ -163,6 +163,21 @@ export default function Download() {
           >
             Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-blue-400 hover:underline">installation guide</Link>.
           </motion.p>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="bg-amber-900/40 backdrop-blur-sm border border-amber-700/50 rounded-lg p-4 mb-8 max-w-3xl mx-auto"
+          >
+            <div className="flex items-start">
+              <FiAlertCircle className="text-amber-400 text-xl flex-shrink-0 mt-1 mr-3" />
+              <p className="text-gray-200">
+                <span className="font-semibold text-amber-300">Coming Soon:</span> We're actively developing many more exciting mods for REPO! Stay tuned for new gameplay features, visual enhancements, quality of life improvements, and much more. Check back regularly for updates!
+              </p>
+            </div>
+          </motion.div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -172,32 +187,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-blue-800/30 backdrop-blur-sm rounded-lg p-6 border border-blue-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FaUserAlt className="mr-3 text-blue-400" /> 
+                  <FaUserAlt className="mr-3 text-amber-400" /> 
                   R.E.P.O. Roles
                 </h3>
-                <span className="text-sm bg-blue-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 An exciting mod which adds player roles with unique abilities to the game.
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-blue-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-blue-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Random role assignment each game</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>7 unique roles with special abilities</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Enhanced gameplay variety</span>
                   </li>
                 </ul>
@@ -206,7 +221,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-REPORoles" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -220,32 +235,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.25 }}
-            className="bg-indigo-800/30 backdrop-blur-sm rounded-lg p-6 border border-indigo-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FaUsers className="mr-3 text-indigo-400" /> 
+                  <FaUsers className="mr-3 text-amber-400" /> 
                   R.E.P.O. MorePlayers
                 </h3>
-                <span className="text-sm bg-indigo-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 A mod that allows you to customize the maximum player count in your games.
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-indigo-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-indigo-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Increase or decrease max player capacity</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Simple configuration via config file</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-indigo-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Compatible with other mods</span>
                   </li>
                 </ul>
@@ -254,7 +269,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-MorePlayers" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -268,32 +283,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-green-800/30 backdrop-blur-sm rounded-lg p-6 border border-green-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FaRunning className="mr-3 text-green-400" /> 
+                  <FaRunning className="mr-3 text-amber-400" /> 
                   R.E.P.O. MoreStamina
                 </h3>
-                <span className="text-sm bg-green-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 Enhanced endurance system with realistic stamina mechanics.
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-green-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-green-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Realistic stamina depletion system</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Weight-based stamina drain</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>More strategic gameplay</span>
                   </li>
                 </ul>
@@ -302,7 +317,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-MoreStamina" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -316,32 +331,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.35 }}
-            className="bg-purple-800/30 backdrop-blur-sm rounded-lg p-6 border border-purple-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FiMinimize2 className="mr-3 text-purple-400" /> 
+                  <FiMinimize2 className="mr-3 text-amber-400" /> 
                   ShrinkerCart
                 </h3>
-                <span className="text-sm bg-purple-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 Bigger the item better the shrink! Transform large objects into miniature versions.
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-purple-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-purple-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Transform large objects into miniature versions</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Easier transport of valuable but bulky items</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Restore items to normal size at extraction</span>
                   </li>
                 </ul>
@@ -350,7 +365,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-ShrinkerCart" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -364,32 +379,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="bg-red-800/30 backdrop-blur-sm rounded-lg p-6 border border-red-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FiTarget className="mr-3 text-red-400" /> 
+                  <FiTarget className="mr-3 text-amber-400" /> 
                   Enemy Location
                 </h3>
-                <span className="text-sm bg-red-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 Advanced tactical mod that helps track enemy movements within a limited range.
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-red-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-red-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Real-time enemy position tracking</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-red-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Visual indicators for enemy proximity</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-red-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Works seamlessly in multiplayer</span>
                   </li>
                 </ul>
@@ -398,7 +413,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-EnemyLocation" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -412,32 +427,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.45 }}
-            className="bg-yellow-800/30 backdrop-blur-sm rounded-lg p-6 border border-yellow-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FiMusic className="mr-3 text-yellow-400" /> 
+                  <FiMusic className="mr-3 text-amber-400" /> 
                   LegoGnomes
                 </h3>
-                <span className="text-sm bg-yellow-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 Changes the gnome's death sound to the lego brick breaking sound effect, which works perfectly with their death animation!
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-yellow-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-yellow-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Satisfying lego brick sounds</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-yellow-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Perfect match for breaking animation</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-yellow-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Simple but fun enhancement</span>
                   </li>
                 </ul>
@@ -446,7 +461,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-LegoGnomes" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-yellow-600 text-white rounded-md hover:bg-yellow-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -460,32 +475,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="bg-green-800/30 backdrop-blur-sm rounded-lg p-6 border border-green-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <GiPartyHat className="mr-3 text-green-400" /> 
+                  <GiPartyHat className="mr-3 text-amber-400" /> 
                   EvenMoreHead
                 </h3>
-                <span className="text-sm bg-green-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 Adds several new models to the MoreHead mod with a wide variety of cosmetic options.
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-green-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-green-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Over 70 different cosmetic models</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Special FX animations for some items</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-green-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Fun character customization options</span>
                   </li>
                 </ul>
@@ -494,7 +509,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-EvenMoreHead" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
@@ -508,32 +523,32 @@ export default function Download() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.55 }}
-            className="bg-purple-800/30 backdrop-blur-sm rounded-lg p-6 border border-purple-500/30 flex flex-col h-full"
+            className="bg-amber-900/40 backdrop-blur-sm rounded-lg p-6 border border-amber-700/50 flex flex-col h-full"
           >
             <div className="flex-1">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-semibold flex items-center">
-                  <FiDollarSign className="mr-3 text-purple-400" /> 
+                  <FiDollarSign className="mr-3 text-amber-400" /> 
                   InfiniteEnergyCrystals
                 </h3>
-                <span className="text-sm bg-purple-500 px-2 py-1 rounded-full">NEW</span>
+                <span className="text-sm bg-amber-700 px-2 py-1 rounded-full">NEW</span>
               </div>
               <p className="text-gray-200 mb-4">
                 No more cash wasted on energy crystals!
               </p>
               <div className="mb-6">
-                <h4 className="text-md font-medium mb-2 text-purple-300">Key features:</h4>
+                <h4 className="text-md font-medium mb-2 text-amber-300">Key features:</h4>
                 <ul className="text-sm text-gray-300 space-y-1">
                   <li className="flex items-start">
-                    <span className="text-purple-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>No energy crystal purchase required</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Works on current and new saves</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-purple-400 mr-2">•</span>
+                    <span className="text-amber-400 mr-2">•</span>
                     <span>Fully compatible with other mods</span>
                   </li>
                 </ul>
@@ -542,7 +557,7 @@ export default function Download() {
             <div className="mt-auto">
               <Link 
                 href="/repomod-InfiniteEnergyCrystals" 
-                className="inline-flex w-full justify-center items-center px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors"
+                className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
               >
                 <FiInfo className="mr-2" />
                 View Details
