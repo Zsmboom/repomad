@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { FiDownload, FiSettings, FiInfo, FiList, FiArrowLeft, FiZap } from 'react-icons/fi';
+import { FiDownload, FiSettings, FiInfo, FiDollarSign, FiArrowLeft, FiZap } from 'react-icons/fi';
 import { GiCrystalGrowth } from 'react-icons/gi';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -18,10 +18,10 @@ export default function InfiniteEnergyCrystalsMod() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="bg-gray-800/70 backdrop-blur-sm rounded-lg p-8 border border-amber-500/30 mb-8"
+          className="bg-gray-800/70 backdrop-blur-sm rounded-lg p-8 border border-purple-500/30 mb-8"
         >
           <div className="mb-4">
-            <Link href="/#download" className="inline-flex items-center text-amber-400 hover:underline mb-6">
+            <Link href="/#download" className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
               <FiArrowLeft className="mr-2" />
               Back to all mods
             </Link>
@@ -29,19 +29,18 @@ export default function InfiniteEnergyCrystalsMod() {
           
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
-                <GiCrystalGrowth className="mr-4 text-amber-400" /> 
-                R.E.P.O. InfiniteEnergyCrystals
-                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.0.3</span>
+              <h1 className="text-3xl md:text-4xl font-bold mb-2 flex items-center">
+                <FiZap className="mr-3 text-purple-500" /> 
+                InfiniteEnergyCrystals
               </h1>
               <p className="text-gray-400 mb-2">Version 1.0.1</p>
               <p className="text-sm text-gray-500">Last updated: March 25, 2023</p>
             </div>
           </div>
           
-          <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">
+          <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-purple-500/20">
             <p className="text-xl text-gray-300 mb-6">
-              Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-amber-400 hover:underline">installation guide</Link>.
+              Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-purple-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-purple-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-purple-400 hover:underline">installation guide</Link>.
             </p>
           </div>
           
@@ -62,8 +61,8 @@ export default function InfiniteEnergyCrystalsMod() {
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-amber-400 mb-4 mt-8 flex items-center">
-              <FiList className="mr-2" /> Key Features
+            <h2 className="text-2xl font-bold text-purple-400 mb-4 mt-8 flex items-center">
+              <FiDollarSign className="mr-2" /> Key Features
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="bg-gray-800/50 rounded-lg p-6 border border-purple-500/20">
@@ -111,8 +110,8 @@ export default function InfiniteEnergyCrystalsMod() {
               </div>
             </div>
 
-            <h2 className="text-2xl font-bold text-amber-400 mb-4 mt-8">How It Works</h2>
-            <div className="bg-gray-800/50 rounded-lg p-6 mb-8 border border-amber-500/20">
+            <h2 className="text-2xl font-bold text-purple-400 mb-4 mt-8">How It Works</h2>
+            <div className="bg-gray-800/50 rounded-lg p-6 mb-8 border border-purple-500/20">
               <p className="text-gray-300">
                 The mod works by intercepting the game's energy crystal consumption functions and altering them to always return a positive result, effectively making the game believe you always have sufficient energy crystals without actually modifying your inventory or game progression.
               </p>
@@ -121,8 +120,8 @@ export default function InfiniteEnergyCrystalsMod() {
               </p>
             </div>
 
-            <h2 className="text-2xl font-bold text-amber-400 mb-4 mt-8">Compatibility</h2>
-            <div className="bg-gray-800/50 rounded-lg p-6 mb-8 border border-amber-500/20">
+            <h2 className="text-2xl font-bold text-purple-400 mb-4 mt-8">Compatibility</h2>
+            <div className="bg-gray-800/50 rounded-lg p-6 mb-8 border border-purple-500/20">
               <p className="text-gray-300 mb-4">
                 InfiniteEnergyCrystals is compatible with:
               </p>
@@ -169,7 +168,7 @@ export default function InfiniteEnergyCrystalsMod() {
             <div className="mt-12 flex justify-center">
               <Link 
                 href="/downloads/repo-InfiniteEnergyCrystals-1.0.1.zip" 
-                className="inline-flex items-center px-8 py-4 bg-amber-600 text-white rounded-md hover:bg-amber-700 transition-colors text-lg"
+                className="inline-flex items-center px-8 py-4 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors text-lg"
                 download
               >
                 <FiDownload className="mr-2" />
@@ -177,9 +176,7 @@ export default function InfiniteEnergyCrystalsMod() {
               </Link>
             </div>
             
-            <div className="mt-16">
-              <RelatedMods currentModId="infiniteEnergyCrystals" themeColor="amber" />
-            </div>
+            <RelatedMods currentModId="infiniteEnergyCrystals" themeColor="purple" />
           </div>
         </motion.div>
       </main>

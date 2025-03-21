@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { FiDownload, FiSettings, FiInfo, FiList, FiArrowLeft } from 'react-icons/fi';
-import { GiPartyHat, GiAfterburn, GiGoldStack } from 'react-icons/gi';
+import { GiPartyHat, GiAfterburn } from 'react-icons/gi';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Link from 'next/link';
@@ -21,7 +21,7 @@ export default function EvenMoreHeadMod() {
           className="bg-gray-800/70 backdrop-blur-sm rounded-lg p-8 border border-green-500/30 mb-8"
         >
           <div className="mb-4">
-            <Link href="/#download" className="inline-flex items-center text-amber-400 hover:underline">
+            <Link href="/#download" className="inline-flex items-center text-green-400 hover:text-green-300 transition-colors">
               <FiArrowLeft className="mr-2" />
               Back to all mods
             </Link>
@@ -29,19 +29,18 @@ export default function EvenMoreHeadMod() {
           
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
-                <GiGoldStack className="mr-4 text-amber-400" /> 
-                R.E.P.O. EvenMoreHead
-                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.0.2</span>
+              <h1 className="text-3xl md:text-4xl font-bold mb-2 flex items-center">
+                <GiPartyHat className="mr-3 text-green-500" /> 
+                EvenMoreHead
               </h1>
               <p className="text-gray-400 mb-2">Version 0.1.6</p>
               <p className="text-sm text-gray-500">Last updated: March 22, 2023</p>
             </div>
           </div>
           
-          <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">
+          <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-green-500/20">
             <p className="text-xl text-gray-300 mb-6">
-              Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-amber-400 hover:underline">installation guide</Link>.
+              Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-green-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-green-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-green-400 hover:underline">installation guide</Link>.
             </p>
           </div>
           
@@ -324,18 +323,16 @@ export default function EvenMoreHeadMod() {
             
             <div className="mt-12 flex justify-center">
               <Link 
-                href="/downloads/repo-EvenMoreHead-1.0.2.zip" 
-                className="inline-flex items-center px-8 py-4 bg-amber-600 text-white rounded-md hover:bg-amber-700 transition-colors text-lg"
+                href="/downloads/repo-EvenMoreHead-0.1.6.zip" 
+                className="inline-flex items-center px-8 py-4 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-lg"
                 download
               >
                 <FiDownload className="mr-2" />
-                Download EvenMoreHead v1.0.2
+                Download EvenMoreHead v0.1.6
               </Link>
             </div>
             
-            <div className="mt-16">
-              <RelatedMods currentModId="evenMoreHead" themeColor="amber" />
-            </div>
+            <RelatedMods currentModId="evenMoreHead" themeColor="green" />
           </div>
         </motion.div>
       </main>
