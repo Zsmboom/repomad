@@ -95,6 +95,13 @@ export default function RootLayout({
           }}
         />
         
+        {/* Google AdSense */}
+        <script 
+          async 
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3825534897375588"
+          crossOrigin="anonymous"
+        />
+        
         {/* 防止浏览器缓存图标 */}
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
         <meta httpEquiv="Pragma" content="no-cache" />
