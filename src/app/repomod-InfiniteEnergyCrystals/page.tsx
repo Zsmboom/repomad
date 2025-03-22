@@ -167,7 +167,7 @@ export default function InfiniteEnergyCrystalsMod() {
             
             <div className="mt-12 flex justify-center">
               <Link 
-                href="/downloads/repo-InfiniteEnergyCrystals-1.0.1.zip" 
+                href="/downloads/repomod-InfiniteEnergyCrystals-1.0.1.zip" 
                 className="inline-flex items-center px-8 py-4 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors text-lg"
                 download
               >

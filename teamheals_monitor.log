@@ -1,0 +1,954 @@
+2025-03-22 20:07:49,929 - WARNING - 请在配置文件 config.json 中设置正确的模组安装路径
+2025-03-22 20:07:49,929 - INFO - 正在检查 TeamHeals 模组更新...
+2025-03-22 20:07:50,797 - ERROR - 无法找到更新日期元素
+2025-03-22 20:07:50,797 - ERROR - 无法获取更新信息，稍后重试
+2025-03-22 20:07:50,797 - INFO - 监测完成
+[2025-03-22T14:31:51.558Z] 开始检查模组更新...
+[2025-03-22T14:31:51.561Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:31:57.400Z] 获取模组信息失败: 无法从页面提取所需信息: 版本 日期 
+[2025-03-22T14:31:57.401Z] 模组更新检查完成
+[2025-03-22T14:32:59.402Z] 开始检查模组更新...
+[2025-03-22T14:32:59.409Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:33:01.511Z] 提取信息: 版本=null, 日期=.right-main-column {
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 0;
+    }
+    .np-display-narrow {
+        min-width: 160px;
+        width: 160px;
+        min-height: 600px;
+        height: 600px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-right: 16px;
+        display: none;
+    }
+    .np-display-square {
+        min-width: 300px;
+        width: 300px;
+        min-height: 250px;
+        height: 250px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        margin-right: 16px;
+        display: none;
+    }
+    @media (min-width: 1333px) and (max-width: 1474px) and (min-height: 860px) {
+        .np-display-narrow {
+            display: block;
+        }
+    }
+    @media (min-width: 1475px) and (min-height: 590px) {
+        .np-display-square:nth-of-type(-n+1) {
+            display: block;
+        }
+    }
+    @media (min-width: 1475px) and (min-height: 860px) {
+        .np-display-square:nth-of-type(-n+2) {
+            display: block;
+        }
+    }
+    @media (min-width: 1475px) and (min-height: 1240px) {
+        .np-display-square:nth-of-type(-n+3) {
+            display: block;
+        }
+    }
+
+
+
+    
+    
+    
+    
+
+
+
+if (!window.location.pathname.startsWith("/tools/") &&
+    !window.location.pathname.startsWith("/package/create/") &&
+    !window.location.pathname.startsWith("/settings/")) {
+    window['nitroAds'].createAd('right-column-1', {
+        "demo": false,
+        "format": "display",
+        "refreshLimit": 0,
+        "refreshTime": 30,
+        "renderVisibleOnly": true,
+        "refreshVisibleOnly": true,
+        "sizes": [
+            [
+                "300",
+                "250"
+            ],
+        ],
+        "report": {
+            "enabled": true,
+            "wording": "Report Ad",
+            "position": "bottom-right"
+        },
+        "mediaQuery": "(min-width: 1475px) and (min-height: 590px)"
+    });
+}
+
+
+
+if (!window.location.pathname.startsWith("/tools/") &&
+    !window.location.pathname.startsWith("/package/create/") &&
+    !window.location.pathname.startsWith("/settings/")) {
+    window['nitroAds'].createAd('right-column-2', {
+        "demo": false,
+        "format": "display",
+        "refreshLimit": 0,
+        "refreshTime": 30,
+        "renderVisibleOnly": true,
+        "refreshVisibleOnly": true,
+        "sizes": [
+            [
+                "300",
+                "250"
+            ]
+        ],
+        "report": {
+            "enabled": true,
+            "wording": "Report Ad",
+            "position": "bottom-right"
+        },
+        "mediaQuery": "(min-width: 1475px) and (min-height: 860px)"
+    });
+}
+
+
+
+if (!window.location.pathname.startsWith("/tools/") &&
+    !window.location.pathname.startsWith("/package/create/") &&
+    !window.location.pathname.startsWith("/settings/")) {
+    window['nitroAds'].createAd('right-column-3', {
+        "demo": false,
+        "format": "display",
+        "refreshLimit": 0,
+        "refreshTime": 30,
+        "renderVisibleOnly": true,
+        "refreshVisibleOnly": true,
+        "sizes": [
+            [
+                "300",
+                "250"
+            ]
+        ],
+        "report": {
+            "enabled": true,
+            "wording": "Report Ad",
+            "position": "bottom-right"
+        },
+        "mediaQuery": "(min-width: 1475px) and (min-height: 1240px)"
+    });
+}
+
+
+
+if (!window.location.pathname.startsWith("/tools/") &&
+    !window.location.pathname.startsWith("/package/create/") &&
+    !window.location.pathname.startsWith("/settings/")) {
+    window['nitroAds'].createAd('right-column-narrow', {
+        "demo": false,
+        "format": "display",
+        "refreshLimit": 0,
+        "refreshTime": 30,
+        "renderVisibleOnly": true,
+        "refreshVisibleOnly": true,
+        "sizes": [
+            [
+                "160",
+                "600"
+            ],
+        ],
+        "report": {
+            "enabled": true,
+            "wording": "Report Ad",
+            "position": "bottom-right"
+        },
+        "mediaQuery": "(min-width: 1333px) and (max-width: 1474px) and (min-height: 860px)"
+    });
+}
+
+            
+                
+
+                
+                    
+  
+    
+  
+   
+      Get the Thunderstore App
+        Easily install and manage your mods with the Thunderstore App!
+  
+  
+    Get App
+  
+
+                
+
+                
+                
+
+
+
+
+
+  
+    Packages
+    EvilCheetah
+    TeamHeals
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+            Details
+        
+    
+    
+    
+        
+            Versions
+        
+    
+    
+    
+        
+            Changelog
+        
+    
+    
+    
+        
+            Wiki
+        
+    
+    
+    
+        
+            Source
+        
+    
+    
+
+
+    
+    
+
+
+    
+        
+        
+            TeamHeals
+            Health packs now work for the whole team!
+            
+                By EvilCheetah
+                
+                    
+                        
+                        https://github.com/EvilCheetah/repo.mods
+                
+            
+        
+    
+
+
+    
+        
+            
+                
+                2 weeks ago
+            
+            
+                Total downloads
+                53321
+            
+            
+                Total rating
+                3 
+            
+            
+                Categories
+                
+                    
+                        Mods
+                    
+                
+            
+            
+                Dependency string
+                EvilCheetah-TeamHeals-1.0.1
+            
+            
+                Dependants
+                31 other packages depend on this package
+            
+        
+    
+
+
+
+    
+        
+            Install with Mod Manager
+        
+    
+    
+        
+            Manual Download
+        
+    
+    
+
+
+
+
+
+
+    
+
+
+
+    
+        This mod requires the following mods to function
+    
+    
+        
+            
+                
+                    
+                        
+                        
+                            
+                                
+                                    BepInEx-BepInExPack
+                                
+                            
+                            BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+                            Preferred version: 5.4.2100
+                        
+                    
+                
+            
+        
+    
+
+
+
+
+
+
+    README
+    
+        Description
+Health Packs now work for the whole team!
+Note
+Ensure that everyone has the same HealAmountMultiplier value in their config. For now, I'm not sure how to override the value on the server.
+Feedback and Suggestions
+If you have any feedback or suggestions, feel free to open an issue on the GitHub repository.
+Say Thanks
+If you'd like to show your appreciation, you can give me a profile award on my Steam Page.
+
+    
+
+
+
+
+                
+
+                
+                    
+    .bottom-ads {
+        margin-top: 30px;
+        display: flex;
+    }
+    .bottom-video {
+        width: 480px;
+    }
+    .bottom-ad-wrapper {
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+    }
+    .bottom-banner {
+        max-width: 320px;
+    }
+    @media (max-width: 991px) {
+        .bottom-ads {
+            flex-direction: column-reverse;
+            gap: 35px;
+            margin-bottom: 10px;
+        }
+        .bottom-ad-wrapper{
+            display: flex;
+            justify-content: center;
+        }
+        .bottom-video-wrapper{
+            display: flex;
+            flex: 1;
+            justify-content: center;
+        }
+    }
+
+
+
+    
+        
+    
+    
+        
+    
+
+
+
+if (!window.location.pathname.startsWith("/tools/") &&
+    !window.location.pathname.startsWith("/package/create/") &&
+    !window.location.pathname.startsWith("/settings/")) {
+    window['nitroAds'].createAd('bottom-video-2', {
+        "format": "floating",
+        "refreshLimit": 0,
+        "refreshTime": 30,
+        "floating": {
+            reduceMobileSize: true,
+        },
+        "report": {
+            "enabled": true,
+            "icon": true,
+            "wording": "Report Ad",
+            "position": "top-left",
+        }
+    });
+}
+
+
+
+if (!window.location.pathname.startsWith("/tools/") &&
+    !window.location.pathname.startsWith("/package/create/") &&
+    !window.location.pathname.startsWith("/settings/")) {
+    window['nitroAds'].createAd('bottom-ad', {
+        "demo": false,
+        "refreshLimit": 0,
+        "refreshTime": 30,
+        "renderVisibleOnly": true,
+        "refreshVisibleOnly": true,
+        "sizes": [
+            [
+                "300",
+                "250"
+            ],
+            [
+                "320",
+                "50"
+            ],
+        ],
+        "report": {
+            "enabled": true,
+            "wording": "Report Ad",
+            "position": "bottom"
+        },
+    });
+}
+
+@media (min-width: 1025px) {
+    .bottom-padding {
+        height: 20px;
+    }
+}, 下载链接=已找到
+[2025-03-22T14:33:01.513Z] 警告: 部分信息未找到: 版本  
+[2025-03-22T14:33:01.513Z] 获取模组信息失败: 无法从页面提取所需信息: 版本 
+[2025-03-22T14:33:01.513Z] 模组更新检查完成
+[2025-03-22T14:35:35.977Z] 开始检查模组更新...
+[2025-03-22T14:35:35.985Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:35:37.674Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T14:35:37.676Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T14:35:37.677Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:35:37.677Z] 发现模组 TeamHeals 有更新: 1.0.1 -> 1.0.1
+[2025-03-22T14:35:37.677Z] 正在下载模组: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:35:37.677Z] 开始下载文件: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:35:38.138Z] 处理模组 TeamHeals 时出错: 获取文件失败，状态码: 302
+[2025-03-22T14:35:38.138Z] 模组更新检查完成
+[2025-03-22T14:44:58.482Z] 开始检查模组更新...
+[2025-03-22T14:44:58.487Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:44:59.632Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T14:44:59.634Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T14:44:59.635Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:44:59.635Z] 模组 TeamHeals 没有更新
+[2025-03-22T14:44:59.635Z] 模组更新检查完成
+[2025-03-22T14:45:15.623Z] 开始检查模组更新...
+[2025-03-22T14:45:15.627Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:45:17.757Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T14:45:17.759Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T14:45:17.760Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:45:17.760Z] 版本号变更: 无 -> 1.0.1
+[2025-03-22T14:45:17.760Z] 发现模组 TeamHeals 有更新
+[2025-03-22T14:45:17.760Z] 正在下载模组: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:45:17.760Z] 开始下载文件: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:45:19.106Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-TeamHeals-1.0.1.zip
+[2025-03-22T14:45:19.107Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-TeamHeals-1.0.1.zip
+[2025-03-22T14:45:19.109Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-TeamHeals/page.tsx
+[2025-03-22T14:45:19.109Z] 模组 TeamHeals 更新完成
+[2025-03-22T14:45:19.109Z] 模组更新检查完成
+[2025-03-22T14:48:33.115Z] 开始检查模组更新...
+[2025-03-22T14:48:33.122Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:48:36.298Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T14:48:36.299Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T14:48:36.299Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:48:36.299Z] 模组 TeamHeals 没有更新
+[2025-03-22T14:48:36.300Z] 模组更新检查完成
+[2025-03-22T14:49:13.216Z] 开始检查模组更新...
+[2025-03-22T14:49:13.225Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:49:15.509Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T14:49:15.510Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T14:49:15.511Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:49:15.511Z] 版本号变更: 无 -> 1.0.1
+[2025-03-22T14:49:15.511Z] 发现模组 TeamHeals 有更新
+[2025-03-22T14:49:15.512Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-teamheals-1.0.1.zip
+[2025-03-22T14:49:15.513Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-TeamHeals/page.tsx
+[2025-03-22T14:49:15.513Z] 模组 TeamHeals 更新完成
+[2025-03-22T14:49:15.513Z] 模组更新检查完成
+[2025-03-22T14:50:09.075Z] 开始检查模组更新...
+[2025-03-22T14:50:09.082Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T14:50:11.232Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T14:50:11.234Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T14:50:11.235Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T14:50:11.235Z] 版本号变更: 无 -> 1.0.1
+[2025-03-22T14:50:11.235Z] 发现模组 TeamHeals 有更新
+[2025-03-22T14:50:11.236Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-TeamHeals-1.0.1.zip
+[2025-03-22T14:50:11.237Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-TeamHeals/page.tsx
+[2025-03-22T14:50:11.237Z] 模组 TeamHeals 更新完成
+[2025-03-22T14:50:11.237Z] 模组更新检查完成
+[2025-03-22T15:02:12.549Z] 开始检查模组更新...
+[2025-03-22T15:02:12.556Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T15:02:14.268Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:02:14.269Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:02:14.270Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T15:02:14.270Z] 模组 TeamHeals 没有更新
+[2025-03-22T15:02:14.270Z] 正在检查模组 REPORoles 的更新...
+[2025-03-22T15:02:14.946Z] 从元数据提取到版本号: 1.3.4
+[2025-03-22T15:02:14.947Z] 从表格提取到更新日期: a day ago
+[2025-03-22T15:02:14.948Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.4/
+[2025-03-22T15:02:14.948Z] 版本号变更: 无 -> 1.3.4
+[2025-03-22T15:02:14.948Z] 发现模组 REPORoles 有更新
+[2025-03-22T15:02:14.948Z] 正在下载模组: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.4/
+[2025-03-22T15:02:14.948Z] 开始下载文件: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.4/
+[2025-03-22T15:02:16.639Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-REPORoles-1.3.4.zip
+[2025-03-22T15:02:16.639Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-REPORoles-1.3.4.zip
+[2025-03-22T15:02:16.640Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-REPORoles/page.tsx
+[2025-03-22T15:02:16.640Z] 模组 REPORoles 更新完成
+[2025-03-22T15:02:16.640Z] 正在检查模组 MorePlayers 的更新...
+[2025-03-22T15:02:17.625Z] 从元数据提取到版本号: 1.0.4
+[2025-03-22T15:02:17.626Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-22T15:02:17.626Z] 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-22T15:02:17.626Z] 版本号变更: 无 -> 1.0.4
+[2025-03-22T15:02:17.626Z] 发现模组 MorePlayers 有更新
+[2025-03-22T15:02:17.626Z] 正在下载模组: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-22T15:02:17.626Z] 开始下载文件: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-22T15:02:18.347Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MorePlayers-1.0.4.zip
+[2025-03-22T15:02:18.348Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MorePlayers-1.0.4.zip
+[2025-03-22T15:02:18.349Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MorePlayers/page.tsx
+[2025-03-22T15:02:18.349Z] 模组 MorePlayers 更新完成
+[2025-03-22T15:02:18.349Z] 正在检查模组 ShrinkerCart 的更新...
+[2025-03-22T15:02:19.280Z] 从元数据提取到版本号: 0.1.0
+[2025-03-22T15:02:19.282Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:02:19.282Z] 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-22T15:02:19.282Z] 版本号变更: 无 -> 0.1.0
+[2025-03-22T15:02:19.282Z] 发现模组 ShrinkerCart 有更新
+[2025-03-22T15:02:19.282Z] 正在下载模组: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-22T15:02:19.283Z] 开始下载文件: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-22T15:02:19.927Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ShrinkerCart-0.1.0.zip
+[2025-03-22T15:02:19.928Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ShrinkerCart-0.1.0.zip
+[2025-03-22T15:02:19.930Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-ShrinkerCart/page.tsx
+[2025-03-22T15:02:19.931Z] 模组 ShrinkerCart 更新完成
+[2025-03-22T15:02:19.931Z] 正在检查模组 Enemy_Location 的更新...
+[2025-03-22T15:02:21.173Z] 从元数据提取到版本号: 1.0.3
+[2025-03-22T15:02:21.174Z] 从表格提取到更新日期: 3 days ago
+[2025-03-22T15:02:21.174Z] 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-22T15:02:21.174Z] 版本号变更: 无 -> 1.0.3
+[2025-03-22T15:02:21.174Z] 发现模组 Enemy_Location 有更新
+[2025-03-22T15:02:21.175Z] 正在下载模组: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-22T15:02:21.175Z] 开始下载文件: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-22T15:02:21.929Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-Enemy_Location-1.0.3.zip
+[2025-03-22T15:02:21.929Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-Enemy_Location-1.0.3.zip
+[2025-03-22T15:02:21.931Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-EnemyLocation/page.tsx
+[2025-03-22T15:02:21.931Z] 模组 Enemy_Location 更新完成
+[2025-03-22T15:02:21.931Z] 正在检查模组 LegoGnomes 的更新...
+[2025-03-22T15:02:35.040Z] 从元数据提取到版本号: 1.0.2
+[2025-03-22T15:02:35.041Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:02:35.041Z] 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-22T15:02:35.042Z] 版本号变更: 无 -> 1.0.2
+[2025-03-22T15:02:35.042Z] 发现模组 LegoGnomes 有更新
+[2025-03-22T15:02:35.042Z] 正在下载模组: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-22T15:02:35.042Z] 开始下载文件: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-22T15:02:36.246Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-LegoGnomes-1.0.2.zip
+[2025-03-22T15:02:36.246Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-LegoGnomes-1.0.2.zip
+[2025-03-22T15:02:36.247Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-LegoGnomes/page.tsx
+[2025-03-22T15:02:36.247Z] 模组 LegoGnomes 更新完成
+[2025-03-22T15:02:36.247Z] 正在检查模组 EvenMoreHead 的更新...
+[2025-03-22T15:02:37.736Z] 从元数据提取到版本号: 0.1.6
+[2025-03-22T15:02:37.737Z] 从表格提取到更新日期: 5 days ago
+[2025-03-22T15:02:37.737Z] 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-22T15:02:37.737Z] 版本号变更: 无 -> 0.1.6
+[2025-03-22T15:02:37.738Z] 发现模组 EvenMoreHead 有更新
+[2025-03-22T15:02:37.738Z] 正在下载模组: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-22T15:02:37.738Z] 开始下载文件: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-22T15:02:46.498Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-EvenMoreHead-0.1.6.zip
+[2025-03-22T15:02:46.499Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-EvenMoreHead-0.1.6.zip
+[2025-03-22T15:02:46.501Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-EvenMoreHead/page.tsx
+[2025-03-22T15:02:46.502Z] 模组 EvenMoreHead 更新完成
+[2025-03-22T15:02:46.502Z] 正在检查模组 ImprovedStamina 的更新...
+[2025-03-22T15:02:47.523Z] 从元数据提取到版本号: 1.2.0
+[2025-03-22T15:02:47.524Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:02:47.525Z] 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-22T15:02:47.525Z] 版本号变更: 无 -> 1.2.0
+[2025-03-22T15:02:47.525Z] 发现模组 ImprovedStamina 有更新
+[2025-03-22T15:02:47.525Z] 正在下载模组: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-22T15:02:47.525Z] 开始下载文件: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-22T15:02:48.160Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ImprovedStamina-1.2.0.zip
+[2025-03-22T15:02:48.160Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ImprovedStamina-1.2.0.zip
+[2025-03-22T15:02:48.160Z] 更新网站页面失败: ENOENT: no such file or directory, open '/Users/shiminzhang/Desktop/game/repomad/src/app/repomod-ImprovedStamina/page.tsx'
+[2025-03-22T15:02:48.160Z] 正在检查模组 InfiniteStamina 的更新...
+[2025-03-22T15:02:49.859Z] 从元数据提取到版本号: 1.0.0
+[2025-03-22T15:02:49.860Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-22T15:02:49.860Z] 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-22T15:02:49.860Z] 版本号变更: 无 -> 1.0.0
+[2025-03-22T15:02:49.860Z] 发现模组 InfiniteStamina 有更新
+[2025-03-22T15:02:49.861Z] 正在下载模组: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-22T15:02:49.861Z] 开始下载文件: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-22T15:02:50.544Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-InfiniteStamina-1.0.0.zip
+[2025-03-22T15:02:50.545Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-InfiniteStamina-1.0.0.zip
+[2025-03-22T15:02:50.545Z] 更新网站页面失败: ENOENT: no such file or directory, open '/Users/shiminzhang/Desktop/game/repomad/src/app/repomod-InfiniteStamina/page.tsx'
+[2025-03-22T15:02:50.546Z] 正在检查模组 BensCosmetics 的更新...
+[2025-03-22T15:02:52.242Z] 从元数据提取到版本号: 1.3.4
+[2025-03-22T15:02:52.243Z] 从表格提取到更新日期: 17 hours ago
+[2025-03-22T15:02:52.244Z] 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.3.4/
+[2025-03-22T15:02:52.244Z] 版本号变更: 无 -> 1.3.4
+[2025-03-22T15:02:52.244Z] 发现模组 BensCosmetics 有更新
+[2025-03-22T15:02:52.244Z] 正在下载模组: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.3.4/
+[2025-03-22T15:02:52.245Z] 开始下载文件: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.3.4/
+[2025-03-22T15:03:03.114Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-BensCosmetics-1.3.4.zip
+[2025-03-22T15:03:03.114Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-BensCosmetics-1.3.4.zip
+[2025-03-22T15:03:03.116Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-BensCosmetics/page.tsx
+[2025-03-22T15:03:03.117Z] 模组 BensCosmetics 更新完成
+[2025-03-22T15:03:03.117Z] 正在检查模组 REPOLib 的更新...
+[2025-03-22T15:03:04.163Z] 从元数据提取到版本号: 1.4.2
+[2025-03-22T15:03:04.164Z] 从表格提取到更新日期: a week ago
+[2025-03-22T15:03:04.164Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.4.2/
+[2025-03-22T15:03:04.164Z] 版本号变更: 无 -> 1.4.2
+[2025-03-22T15:03:04.164Z] 发现模组 REPOLib 有更新
+[2025-03-22T15:03:04.164Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-REPOLib-1.4.2.zip
+[2025-03-22T15:03:04.165Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-REPOLib/page.tsx
+[2025-03-22T15:03:04.165Z] 模组 REPOLib 更新完成
+[2025-03-22T15:03:04.165Z] 正在检查模组 MoreHead 的更新...
+[2025-03-22T15:03:04.833Z] 从元数据提取到版本号: 1.2.7
+[2025-03-22T15:03:04.834Z] 从表格提取到更新日期: 7 hours ago
+[2025-03-22T15:03:04.834Z] 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.2.7/
+[2025-03-22T15:03:04.834Z] 版本号变更: 无 -> 1.2.7
+[2025-03-22T15:03:04.834Z] 发现模组 MoreHead 有更新
+[2025-03-22T15:03:04.834Z] 正在下载模组: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.2.7/
+[2025-03-22T15:03:04.834Z] 开始下载文件: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.2.7/
+[2025-03-22T15:03:05.575Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHead-1.2.7.zip
+[2025-03-22T15:03:05.575Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHead-1.2.7.zip
+[2025-03-22T15:03:05.576Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MoreHead/page.tsx
+[2025-03-22T15:03:05.576Z] 模组 MoreHead 更新完成
+[2025-03-22T15:03:05.576Z] 正在检查模组 MoreReviveHP 的更新...
+[2025-03-22T15:03:08.063Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:03:08.064Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:03:08.064Z] 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-22T15:03:08.064Z] 版本号变更: 无 -> 1.0.1
+[2025-03-22T15:03:08.064Z] 发现模组 MoreReviveHP 有更新
+[2025-03-22T15:03:08.064Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreReviveHP-1.0.1.zip
+[2025-03-22T15:03:08.065Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MoreReviveHP/page.tsx
+[2025-03-22T15:03:08.065Z] 模组 MoreReviveHP 更新完成
+[2025-03-22T15:03:08.065Z] 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-22T15:03:08.954Z] 从元数据提取到版本号: 0.2.0
+[2025-03-22T15:03:08.955Z] 从表格提取到更新日期: 2 days ago
+[2025-03-22T15:03:08.955Z] 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.2.0/
+[2025-03-22T15:03:08.956Z] 版本号变更: 无 -> 0.2.0
+[2025-03-22T15:03:08.956Z] 发现模组 MoreHeadPlus 有更新
+[2025-03-22T15:03:08.956Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHeadPlus-0.2.0.zip
+[2025-03-22T15:03:08.957Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MoreHeadPlus/page.tsx
+[2025-03-22T15:03:08.957Z] 模组 MoreHeadPlus 更新完成
+[2025-03-22T15:03:08.957Z] 正在检查模组 LateJoin 的更新...
+[2025-03-22T15:03:09.726Z] 从元数据提取到版本号: 0.1.2
+[2025-03-22T15:03:09.727Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:03:09.727Z] 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-22T15:03:09.727Z] 版本号变更: 无 -> 0.1.2
+[2025-03-22T15:03:09.727Z] 发现模组 LateJoin 有更新
+[2025-03-22T15:03:09.727Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-LateJoin-0.1.2.zip
+[2025-03-22T15:03:09.728Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-LateJoin/page.tsx
+[2025-03-22T15:03:09.728Z] 模组 LateJoin 更新完成
+[2025-03-22T15:03:09.728Z] 正在检查模组 MoreShopItems 的更新...
+[2025-03-22T15:03:10.405Z] 从元数据提取到版本号: 1.2.6
+[2025-03-22T15:03:10.406Z] 从表格提取到更新日期: 10 hours ago
+[2025-03-22T15:03:10.406Z] 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.6/
+[2025-03-22T15:03:10.406Z] 版本号变更: 无 -> 1.2.6
+[2025-03-22T15:03:10.406Z] 发现模组 MoreShopItems 有更新
+[2025-03-22T15:03:10.407Z] 正在下载模组: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.6/
+[2025-03-22T15:03:10.407Z] 开始下载文件: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.6/
+[2025-03-22T15:03:12.352Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreShopItems-1.2.6.zip
+[2025-03-22T15:03:12.352Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreShopItems-1.2.6.zip
+[2025-03-22T15:03:12.353Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MoreShopItems/page.tsx
+[2025-03-22T15:03:12.353Z] 模组 MoreShopItems 更新完成
+[2025-03-22T15:03:12.354Z] 正在检查模组 TeamUpgrades 的更新...
+[2025-03-22T15:03:13.356Z] 从元数据提取到版本号: 1.1.4
+[2025-03-22T15:03:13.356Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:03:13.356Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+[2025-03-22T15:03:13.357Z] 版本号变更: 无 -> 1.1.4
+[2025-03-22T15:03:13.357Z] 发现模组 TeamUpgrades 有更新
+[2025-03-22T15:03:13.357Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-TeamUpgrades-1.1.4.zip
+[2025-03-22T15:03:13.357Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-TeamUpgrades/page.tsx
+[2025-03-22T15:03:13.358Z] 模组 TeamUpgrades 更新完成
+[2025-03-22T15:03:13.358Z] 模组更新检查完成
+[2025-03-22T15:07:52.925Z] 开始检查模组更新...
+[2025-03-22T15:07:52.927Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T15:07:54.053Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:07:54.054Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:07:54.055Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T15:07:54.055Z] 模组 TeamHeals 没有更新
+[2025-03-22T15:07:54.055Z] 正在检查模组 REPORoles 的更新...
+[2025-03-22T15:07:54.646Z] 从元数据提取到版本号: 1.3.4
+[2025-03-22T15:07:54.647Z] 从表格提取到更新日期: a day ago
+[2025-03-22T15:07:54.647Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.4/
+[2025-03-22T15:07:54.648Z] 模组 REPORoles 没有更新
+[2025-03-22T15:07:54.648Z] 正在检查模组 MorePlayers 的更新...
+[2025-03-22T15:07:55.234Z] 从元数据提取到版本号: 1.0.4
+[2025-03-22T15:07:55.235Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-22T15:07:55.236Z] 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-22T15:07:55.236Z] 模组 MorePlayers 没有更新
+[2025-03-22T15:07:55.237Z] 正在检查模组 ShrinkerCart 的更新...
+[2025-03-22T15:07:55.950Z] 从元数据提取到版本号: 0.1.0
+[2025-03-22T15:07:55.951Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:07:55.951Z] 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-22T15:07:55.951Z] 模组 ShrinkerCart 没有更新
+[2025-03-22T15:07:55.951Z] 正在检查模组 Enemy_Location 的更新...
+[2025-03-22T15:07:57.793Z] 从元数据提取到版本号: 1.0.3
+[2025-03-22T15:07:57.794Z] 从表格提取到更新日期: 3 days ago
+[2025-03-22T15:07:57.794Z] 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-22T15:07:57.794Z] 模组 Enemy_Location 没有更新
+[2025-03-22T15:07:57.795Z] 正在检查模组 LegoGnomes 的更新...
+[2025-03-22T15:07:58.923Z] 从元数据提取到版本号: 1.0.2
+[2025-03-22T15:07:58.923Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:07:58.923Z] 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-22T15:07:58.923Z] 模组 LegoGnomes 没有更新
+[2025-03-22T15:07:58.924Z] 正在检查模组 EvenMoreHead 的更新...
+[2025-03-22T15:07:59.441Z] 从元数据提取到版本号: 0.1.6
+[2025-03-22T15:07:59.442Z] 从表格提取到更新日期: 5 days ago
+[2025-03-22T15:07:59.442Z] 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-22T15:07:59.442Z] 模组 EvenMoreHead 没有更新
+[2025-03-22T15:07:59.442Z] 正在检查模组 ImprovedStamina 的更新...
+[2025-03-22T15:08:00.045Z] 从元数据提取到版本号: 1.2.0
+[2025-03-22T15:08:00.046Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:08:00.047Z] 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-22T15:08:00.047Z] 版本号变更: 无 -> 1.2.0
+[2025-03-22T15:08:00.048Z] 发现模组 ImprovedStamina 有更新
+[2025-03-22T15:08:00.048Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ImprovedStamina-1.2.0.zip
+[2025-03-22T15:08:00.048Z] 页面文件不存在，跳过更新页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-ImprovedStamina/page.tsx
+[2025-03-22T15:08:00.048Z] 模组 ImprovedStamina 更新完成
+[2025-03-22T15:08:00.048Z] 正在检查模组 InfiniteStamina 的更新...
+[2025-03-22T15:08:00.662Z] 从元数据提取到版本号: 1.0.0
+[2025-03-22T15:08:00.662Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-22T15:08:00.663Z] 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-22T15:08:00.663Z] 版本号变更: 无 -> 1.0.0
+[2025-03-22T15:08:00.663Z] 发现模组 InfiniteStamina 有更新
+[2025-03-22T15:08:00.663Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-InfiniteStamina-1.0.0.zip
+[2025-03-22T15:08:00.663Z] 页面文件不存在，跳过更新页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-InfiniteStamina/page.tsx
+[2025-03-22T15:08:00.663Z] 模组 InfiniteStamina 更新完成
+[2025-03-22T15:08:00.663Z] 正在检查模组 BensCosmetics 的更新...
+[2025-03-22T15:08:01.276Z] 从元数据提取到版本号: 1.3.4
+[2025-03-22T15:08:01.276Z] 从表格提取到更新日期: 17 hours ago
+[2025-03-22T15:08:01.277Z] 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.3.4/
+[2025-03-22T15:08:01.277Z] 模组 BensCosmetics 没有更新
+[2025-03-22T15:08:01.277Z] 正在检查模组 REPOLib 的更新...
+[2025-03-22T15:08:01.995Z] 从元数据提取到版本号: 1.4.2
+[2025-03-22T15:08:01.995Z] 从表格提取到更新日期: a week ago
+[2025-03-22T15:08:01.996Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.4.2/
+[2025-03-22T15:08:01.996Z] 模组 REPOLib 没有更新
+[2025-03-22T15:08:01.996Z] 正在检查模组 MoreHead 的更新...
+[2025-03-22T15:08:02.606Z] 从元数据提取到版本号: 1.2.7
+[2025-03-22T15:08:02.606Z] 从表格提取到更新日期: 7 hours ago
+[2025-03-22T15:08:02.607Z] 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.2.7/
+[2025-03-22T15:08:02.607Z] 模组 MoreHead 没有更新
+[2025-03-22T15:08:02.607Z] 正在检查模组 MoreReviveHP 的更新...
+[2025-03-22T15:08:03.178Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:08:03.179Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:08:03.179Z] 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-22T15:08:03.179Z] 模组 MoreReviveHP 没有更新
+[2025-03-22T15:08:03.180Z] 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-22T15:08:03.720Z] 从元数据提取到版本号: 0.2.0
+[2025-03-22T15:08:03.721Z] 从表格提取到更新日期: 2 days ago
+[2025-03-22T15:08:03.721Z] 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.2.0/
+[2025-03-22T15:08:03.721Z] 模组 MoreHeadPlus 没有更新
+[2025-03-22T15:08:03.721Z] 正在检查模组 LateJoin 的更新...
+[2025-03-22T15:08:04.767Z] 从元数据提取到版本号: 0.1.2
+[2025-03-22T15:08:04.768Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:08:04.769Z] 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-22T15:08:04.769Z] 模组 LateJoin 没有更新
+[2025-03-22T15:08:04.769Z] 正在检查模组 MoreShopItems 的更新...
+[2025-03-22T15:08:05.478Z] 从元数据提取到版本号: 1.2.6
+[2025-03-22T15:08:05.478Z] 从表格提取到更新日期: 10 hours ago
+[2025-03-22T15:08:05.479Z] 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.6/
+[2025-03-22T15:08:05.479Z] 模组 MoreShopItems 没有更新
+[2025-03-22T15:08:05.480Z] 正在检查模组 TeamUpgrades 的更新...
+[2025-03-22T15:08:06.089Z] 从元数据提取到版本号: 1.1.4
+[2025-03-22T15:08:06.089Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:08:06.089Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+[2025-03-22T15:08:06.089Z] 模组 TeamUpgrades 没有更新
+[2025-03-22T15:08:06.090Z] 模组更新检查完成
+[2025-03-22T15:15:01.787Z] 开始检查模组更新...
+[2025-03-22T15:15:01.794Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-22T15:15:03.467Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:15:03.468Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:03.469Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22T15:15:03.469Z] 模组 TeamHeals 没有更新
+[2025-03-22T15:15:03.470Z] 正在检查模组 REPORoles 的更新...
+[2025-03-22T15:15:04.093Z] 从元数据提取到版本号: 1.3.4
+[2025-03-22T15:15:04.094Z] 从表格提取到更新日期: a day ago
+[2025-03-22T15:15:04.094Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.4/
+[2025-03-22T15:15:04.095Z] 模组 REPORoles 没有更新
+[2025-03-22T15:15:04.095Z] 正在检查模组 MorePlayers 的更新...
+[2025-03-22T15:15:04.772Z] 从元数据提取到版本号: 1.0.4
+[2025-03-22T15:15:04.773Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-22T15:15:04.774Z] 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-22T15:15:04.774Z] 模组 MorePlayers 没有更新
+[2025-03-22T15:15:04.775Z] 正在检查模组 ShrinkerCart 的更新...
+[2025-03-22T15:15:05.492Z] 从元数据提取到版本号: 0.1.0
+[2025-03-22T15:15:05.493Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:05.493Z] 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-22T15:15:05.494Z] 模组 ShrinkerCart 没有更新
+[2025-03-22T15:15:05.494Z] 正在检查模组 Enemy_Location 的更新...
+[2025-03-22T15:15:06.190Z] 从元数据提取到版本号: 1.0.3
+[2025-03-22T15:15:06.190Z] 从表格提取到更新日期: 3 days ago
+[2025-03-22T15:15:06.190Z] 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-22T15:15:06.190Z] 模组 Enemy_Location 没有更新
+[2025-03-22T15:15:06.191Z] 正在检查模组 LegoGnomes 的更新...
+[2025-03-22T15:15:07.447Z] 从元数据提取到版本号: 1.0.2
+[2025-03-22T15:15:07.448Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:07.448Z] 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-22T15:15:07.448Z] 模组 LegoGnomes 没有更新
+[2025-03-22T15:15:07.448Z] 正在检查模组 EvenMoreHead 的更新...
+[2025-03-22T15:15:08.557Z] 从元数据提取到版本号: 0.1.6
+[2025-03-22T15:15:08.557Z] 从表格提取到更新日期: 5 days ago
+[2025-03-22T15:15:08.558Z] 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-22T15:15:08.558Z] 模组 EvenMoreHead 没有更新
+[2025-03-22T15:15:08.559Z] 正在检查模组 ImprovedStamina 的更新...
+[2025-03-22T15:15:09.174Z] 从元数据提取到版本号: 1.2.0
+[2025-03-22T15:15:09.175Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:09.184Z] 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-22T15:15:09.185Z] 模组 ImprovedStamina 没有更新
+[2025-03-22T15:15:09.185Z] 正在检查模组 InfiniteStamina 的更新...
+[2025-03-22T15:15:10.404Z] 从元数据提取到版本号: 1.0.0
+[2025-03-22T15:15:10.405Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-22T15:15:10.406Z] 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-22T15:15:10.406Z] 模组 InfiniteStamina 没有更新
+[2025-03-22T15:15:10.407Z] 正在检查模组 BensCosmetics 的更新...
+[2025-03-22T15:15:11.171Z] 从元数据提取到版本号: 1.3.4
+[2025-03-22T15:15:11.172Z] 从表格提取到更新日期: 18 hours ago
+[2025-03-22T15:15:11.173Z] 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.3.4/
+[2025-03-22T15:15:11.173Z] 模组 BensCosmetics 没有更新
+[2025-03-22T15:15:11.173Z] 正在检查模组 REPOLib 的更新...
+[2025-03-22T15:15:11.839Z] 从元数据提取到版本号: 1.4.2
+[2025-03-22T15:15:11.839Z] 从表格提取到更新日期: a week ago
+[2025-03-22T15:15:11.840Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.4.2/
+[2025-03-22T15:15:11.840Z] 模组 REPOLib 没有更新
+[2025-03-22T15:15:11.840Z] 正在检查模组 MoreHead 的更新...
+[2025-03-22T15:15:12.566Z] 从元数据提取到版本号: 1.2.7
+[2025-03-22T15:15:12.567Z] 从表格提取到更新日期: 7 hours ago
+[2025-03-22T15:15:12.568Z] 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.2.7/
+[2025-03-22T15:15:12.568Z] 模组 MoreHead 没有更新
+[2025-03-22T15:15:12.569Z] 正在检查模组 MoreReviveHP 的更新...
+[2025-03-22T15:15:13.283Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:15:13.284Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:13.284Z] 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-22T15:15:13.284Z] 模组 MoreReviveHP 没有更新
+[2025-03-22T15:15:13.285Z] 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-22T15:15:14.003Z] 从元数据提取到版本号: 0.2.0
+[2025-03-22T15:15:14.004Z] 从表格提取到更新日期: 2 days ago
+[2025-03-22T15:15:14.005Z] 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.2.0/
+[2025-03-22T15:15:14.005Z] 模组 MoreHeadPlus 没有更新
+[2025-03-22T15:15:14.006Z] 正在检查模组 LateJoin 的更新...
+[2025-03-22T15:15:14.709Z] 从元数据提取到版本号: 0.1.2
+[2025-03-22T15:15:14.710Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:14.710Z] 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-22T15:15:14.711Z] 模组 LateJoin 没有更新
+[2025-03-22T15:15:14.711Z] 正在检查模组 MoreShopItems 的更新...
+[2025-03-22T15:15:15.416Z] 从元数据提取到版本号: 1.2.6
+[2025-03-22T15:15:15.417Z] 从表格提取到更新日期: 10 hours ago
+[2025-03-22T15:15:15.418Z] 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.6/
+[2025-03-22T15:15:15.418Z] 模组 MoreShopItems 没有更新
+[2025-03-22T15:15:15.418Z] 正在检查模组 TeamUpgrades 的更新...
+[2025-03-22T15:15:16.235Z] 从元数据提取到版本号: 1.1.4
+[2025-03-22T15:15:16.236Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:16.236Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+[2025-03-22T15:15:16.236Z] 模组 TeamUpgrades 没有更新
+[2025-03-22T15:15:16.237Z] 正在检查模组 MenuLib 的更新...
+[2025-03-22T15:15:17.224Z] 从元数据提取到版本号: 2.0.0
+[2025-03-22T15:15:17.226Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-22T15:15:17.226Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/MenuLib/2.0.0/
+[2025-03-22T15:15:17.227Z] 版本号变更: 无 -> 2.0.0
+[2025-03-22T15:15:17.227Z] 发现模组 MenuLib 有更新
+[2025-03-22T15:15:17.228Z] 正在下载模组: https://thunderstore.io/package/download/nickklmao/MenuLib/2.0.0/
+[2025-03-22T15:15:17.228Z] 开始下载文件: https://thunderstore.io/package/download/nickklmao/MenuLib/2.0.0/
+[2025-03-22T15:15:18.524Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MenuLib-2.0.0.zip
+[2025-03-22T15:15:18.525Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MenuLib-2.0.0.zip
+[2025-03-22T15:15:18.527Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MenuLib/page.tsx
+[2025-03-22T15:15:18.528Z] 模组 MenuLib 更新完成
+[2025-03-22T15:15:18.528Z] 正在检查模组 MoreUpgrades 的更新...
+[2025-03-22T15:15:25.658Z] 从元数据提取到版本号: 1.3.1
+[2025-03-22T15:15:25.659Z] 从表格提取到更新日期: 21 hours ago
+[2025-03-22T15:15:25.659Z] 提取到下载链接: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.3.1/
+[2025-03-22T15:15:25.659Z] 版本号变更: 无 -> 1.3.1
+[2025-03-22T15:15:25.660Z] 发现模组 MoreUpgrades 有更新
+[2025-03-22T15:15:25.660Z] 正在下载模组: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.3.1/
+[2025-03-22T15:15:25.660Z] 开始下载文件: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.3.1/
+[2025-03-22T15:15:27.425Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreUpgrades-1.3.1.zip
+[2025-03-22T15:15:27.425Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreUpgrades-1.3.1.zip
+[2025-03-22T15:15:27.427Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-MoreUpgrades/page.tsx
+[2025-03-22T15:15:27.428Z] 模组 MoreUpgrades 更新完成
+[2025-03-22T15:15:27.428Z] 正在检查模组 ExtractionPointConfirmButton 的更新...
+[2025-03-22T15:15:29.351Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:15:29.352Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:29.352Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/ExtractionPointConfirmButton/1.0.1/
+[2025-03-22T15:15:29.352Z] 版本号变更: 无 -> 1.0.1
+[2025-03-22T15:15:29.353Z] 发现模组 ExtractionPointConfirmButton 有更新
+[2025-03-22T15:15:29.353Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ExtractionPointConfirmButton-1.0.1.zip
+[2025-03-22T15:15:29.355Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-ExtractionPointConfirmButton/page.tsx
+[2025-03-22T15:15:29.355Z] 模组 ExtractionPointConfirmButton 更新完成
+[2025-03-22T15:15:29.356Z] 正在检查模组 LethalCompanyValuables 的更新...
+[2025-03-22T15:15:30.167Z] 从元数据提取到版本号: 1.1.1
+[2025-03-22T15:15:30.168Z] 从表格提取到更新日期: 5 days ago
+[2025-03-22T15:15:30.168Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/LethalCompanyValuables/1.1.1/
+[2025-03-22T15:15:30.169Z] 版本号变更: 无 -> 1.1.1
+[2025-03-22T15:15:30.169Z] 发现模组 LethalCompanyValuables 有更新
+[2025-03-22T15:15:30.169Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-LethalCompanyValuables-1.1.1.zip
+[2025-03-22T15:15:30.170Z] 警告: 未找到更新日期标签，无法更新日期信息
+[2025-03-22T15:15:30.171Z] 警告: 页面内容未发生变化，可能需要手动检查页面格式: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-LethalCompanyValuables/page.tsx
+[2025-03-22T15:15:30.171Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-LethalCompanyValuables/page.tsx
+[2025-03-22T15:15:30.171Z] 模组 LethalCompanyValuables 更新完成
+[2025-03-22T15:15:30.172Z] 正在检查模组 InfiniteEnergyCrystals 的更新...
+[2025-03-22T15:15:31.797Z] 从元数据提取到版本号: 1.0.1
+[2025-03-22T15:15:31.798Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-22T15:15:31.798Z] 提取到下载链接: https://thunderstore.io/package/download/Lazarus/InfiniteEnergyCrystals/1.0.1/
+[2025-03-22T15:15:31.798Z] 版本号变更: 无 -> 1.0.1
+[2025-03-22T15:15:31.798Z] 发现模组 InfiniteEnergyCrystals 有更新
+[2025-03-22T15:15:31.799Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-InfiniteEnergyCrystals-1.0.1.zip
+[2025-03-22T15:15:31.799Z] 警告: 未找到版本号标签，无法更新版本号
+[2025-03-22T15:15:31.800Z] 警告: 未找到更新日期标签，无法更新日期信息
+[2025-03-22T15:15:31.801Z] 已更新网站页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-InfiniteEnergyCrystals/page.tsx
+[2025-03-22T15:15:31.801Z] 模组 InfiniteEnergyCrystals 更新完成
+[2025-03-22T15:15:31.801Z] 模组更新检查完成

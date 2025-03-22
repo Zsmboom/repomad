@@ -10,196 +10,138 @@ import { GiHumanTarget } from 'react-icons/gi';
 import { RiCodeSSlashLine } from 'react-icons/ri';
 import { GiRobotGolem } from 'react-icons/gi';
 import { VscLibrary, VscChecklist } from 'react-icons/vsc';
-import { useState, ReactNode } from 'react';
+import { useState, ReactNode, useEffect } from 'react';
 
-const modVersions = [
+// 默认模组信息，只包含静态部分
+const modDefaults = [
   {
     name: 'TeamUpgrades',
     description: 'Makes all upgrades work for the entire team, enhancing team cooperation',
-    version: 'v1.1.4',
-    date: 'April 25, 2023',
     detailUrl: '/repomod-TeamUpgrades',
-    downloadUrl: '/downloads/repomod-TeamUpgrades-1.1.4.zip',
     isNew: true
   },
   {
     name: 'TeamHeals',
     description: 'Health Packs now work for the whole team, greatly improving team survival',
-    version: 'v1.0.1',
-    date: 'April 22, 2023',
     detailUrl: '/repomod-TeamHeals',
-    downloadUrl: '/downloads/repomod-TeamHeals-1.0.1.zip',
     isNew: true
   },
   {
     name: 'LethalCompanyValuables',
     description: 'Adds 30 scrap items from Lethal Company as valuables in R.E.P.O.',
-    version: 'v1.1.1',
-    date: 'April 30, 2023',
     detailUrl: '/repomod-LethalCompanyValuables',
-    downloadUrl: '/downloads/repomod-LethalCompanyValuables-1.1.1.zip',
     isNew: true
   },
   {
     name: 'MoreUpgrades',
     description: 'Adds more upgrade items to the game like Sprint Usage and Enemy Trackers',
-    version: 'v1.2.7',
-    date: 'April 15, 2023',
     detailUrl: '/repomod-MoreUpgrades',
-    downloadUrl: '/downloads/repomod-MoreUpgrades-1.2.7.zip',
     isNew: true
   },
   {
     name: 'MoreShopItems',
     description: 'Additional shopping shelves with increased shop loot and item variety',
-    version: 'v1.2.5',
-    date: 'April 12, 2023',
     detailUrl: '/repomod-MoreShopItems',
-    downloadUrl: '/downloads/repomod-MoreShopItems-1.2.5.zip',
     isNew: true
   },
   {
     name: 'LateJoin',
     description: 'Join in-progress missions without waiting for friends to return to the ship',
-    version: 'v0.1.2',
-    date: 'April 10, 2023',
     detailUrl: '/repomod-LateJoin',
-    downloadUrl: '/downloads/repomod-LateJoin-0.1.2.zip',
     isNew: true
   },
   {
     name: 'MoreReviveHP',
     description: 'Increases health given when reviving teammates with configurable values',
-    version: 'v1.0.1',
-    date: 'April 8, 2023',
     detailUrl: '/repomod-MoreReviveHP',
-    downloadUrl: '/downloads/repomod-MoreReviveHP-1.0.1.zip',
     isNew: true
   },
   {
     name: 'REPOLib',
     description: 'Essential library for adding content to R.E.P.O. with extensive developer tools',
-    version: 'v1.4.2',
-    date: 'March 26, 2023',
     detailUrl: '/repomod-REPOLib',
-    downloadUrl: '/downloads/repomod-REPOLib-1.4.2.zip',
     isNew: true
   },
   {
     name: 'ExtractionPointConfirmButton',
     description: 'Adds a confirm button to extraction points to prevent accidental exits',
-    version: 'v1.0.1',
-    date: 'March 25, 2023',
     detailUrl: '/repomod-ExtractionPointConfirmButton',
-    downloadUrl: '/downloads/repomod-ExtractionPointConfirmButton-1.0.1.zip',
     isNew: true
   },
   {
     name: 'MoreHeadPlus',
     description: 'Expansion pack for MoreHead with additional model selections',
-    version: 'v0.2.0',
-    date: 'March 24, 2023',
     detailUrl: '/repomod-MoreHeadPlus',
-    downloadUrl: '/downloads/repomod-MoreHeadPlus-0.2.0.zip',
     isNew: true
   },
   {
     name: 'MenuLib',
     description: 'A library for creating UI - essential for many REPO mods',
-    version: 'v1.0.5',
-    date: 'March 23, 2023',
     detailUrl: '/repomod-MenuLib',
-    downloadUrl: '/downloads/repomod-MenuLib-1.0.5.zip',
     isNew: true
   },
   {
     name: 'MoreHead',
     description: 'A simple decoration mod providing custom head models and unitypackage for players',
-    version: 'v1.2.5',
-    date: 'March 22, 2023',
     detailUrl: '/repomod-MoreHead',
-    downloadUrl: '/downloads/repo-MoreHead-1.2.5.zip',
     isNew: true
   },
   {
     name: 'BensCosmetics',
     description: '150+ models made into cosmetics with a variety of customization options',
-    version: 'v1.3.2',
-    date: 'March 21, 2023',
     detailUrl: '/repomod-BensCosmetics',
-    downloadUrl: '/downloads/repo-BensCosmetics-1.3.2.zip',
     isNew: true
   },
   {
     name: 'R.E.P.O. Roles',
     description: 'An exciting mod which adds player roles with unique abilities to the game',
-    version: 'v1.3.3',
-    date: 'March 20, 2023',
     detailUrl: '/repomod-REPORoles',
-    downloadUrl: '/downloads/REPORoles-1.3.3.zip',
-    isNew: true
+    isNew: true,
+    nameOverride: 'REPORoles' // 用于匹配config.json中的键名
   },
   {
     name: 'R.E.P.O. MorePlayers',
     description: 'A mod that allows you to customize the maximum player count in your games',
-    version: 'v1.0.4',
-    date: 'March 18, 2023',
     detailUrl: '/repomod-MorePlayers',
-    downloadUrl: '/downloads/repo-MorePlayers-1.0.4.zip',
-    isNew: true
+    isNew: true,
+    nameOverride: 'MorePlayers' // 用于匹配config.json中的键名
   },
   {
     name: 'ShrinkerCart',
     description: 'Bigger the item better the shrink!',
-    version: 'v0.1.0',
-    date: 'March 21, 2023',
     detailUrl: '/repomod-ShrinkerCart',
-    downloadUrl: '/downloads/repo-ShrinkerCart-0.1.0.zip',
     isNew: true
   },
   {
     name: 'R.E.P.O. MoreStamina',
     description: 'Enhanced endurance system with realistic stamina mechanics',
-    version: 'v1.0.1',
-    date: 'March 18, 2023',
     detailUrl: '/repomod-MoreStamina',
-    downloadUrl: '/downloads/repo-MoreStamina-1.0.1.zip',
-    isNew: true
+    isNew: true,
+    nameOverride: 'MoreStamina' // 用于匹配config.json中的键名
   },
   {
     name: 'Enemy Location',
     description: 'Advanced tactical mod that helps track enemy movements',
-    version: 'v1.0.3',
-    date: 'March 18, 2023',
     detailUrl: '/repomod-EnemyLocation',
-    downloadUrl: '/downloads/repo-Enemy_Location-1.0.3.zip',
-    isNew: true
+    isNew: true,
+    nameOverride: 'Enemy_Location' // 用于匹配config.json中的键名
   },
   {
     name: 'LegoGnomes',
     description: 'Changes the gnome\'s death sound to the lego brick breaking sound effect',
-    version: 'v1.0.2',
-    date: 'March 18, 2023',
     detailUrl: '/repomod-LegoGnomes',
-    downloadUrl: '/downloads/repo-LegoGnomes-1.0.2.zip',
     isNew: true
   },
   {
     name: 'EvenMoreHead',
     description: 'Adds several new models to the MoreHead mod with a wide variety of cosmetic options',
-    version: 'v0.1.6',
-    date: 'March 22, 2023',
     detailUrl: '/repomod-EvenMoreHead',
-    downloadUrl: '/downloads/repo-EvenMoreHead-0.1.6.zip',
     isNew: true
   },
   {
     name: 'InfiniteEnergyCrystals',
     description: 'No more cash wasted on energy crystals!',
-    version: 'v1.0.1',
-    date: 'March 25, 2023',
     detailUrl: '/repomod-InfiniteEnergyCrystals',
-    downloadUrl: '/downloads/repo-InfiniteEnergyCrystals-1.0.1.zip',
     isNew: true
   }
 ];
@@ -211,9 +153,10 @@ interface ModCardProps {
   detailUrl: string;
   delay?: number;
   version?: string;
+  date?: string;
 }
 
-function ModCard({ title, description, icon, detailUrl, delay = 0.15, version }: ModCardProps) {
+function ModCard({ title, description, icon, detailUrl, delay = 0.15, version, date }: ModCardProps) {
   const [isHovered, setIsHovered] = useState(false);
   
   return (
@@ -239,268 +182,282 @@ function ModCard({ title, description, icon, detailUrl, delay = 0.15, version }:
             {icon}
             <span className="truncate" title={title}>{title}</span>
           </h3>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap justify-end">
             {version && (
               <span className="text-sm bg-blue-700 px-2 py-1 rounded-full flex-shrink-0">{version}</span>
             )}
-            <span className="text-sm bg-amber-700 px-2 py-1 rounded-full flex-shrink-0 ml-2">NEW</span>
           </div>
         </div>
         <p className="text-gray-200 mb-4">
           {description}
         </p>
       </div>
-      <div className="mt-auto">
-        <Link 
-          href={detailUrl} 
-          className="inline-flex w-full justify-center items-center px-4 py-2 bg-amber-700 text-white rounded-md hover:bg-amber-600 transition-colors"
-        >
-          <FiInfo className="mr-2" />
-          View Details
+      <div className="flex justify-between items-center">
+        <Link href={detailUrl} className="bg-amber-700 hover:bg-amber-600 text-white px-3 py-1.5 rounded-md transition-colors inline-flex items-center group">
+          V{'\u0456'}{'\u0435'}w D{'\u0435'}t{'\u0430'}{'\u0456'}ls
+          <motion.span
+            initial={{ x: 0 }}
+            whileHover={{ x: 5 }}
+            className="ml-2"
+          >
+            →
+          </motion.span>
         </Link>
+        {date && <span className="text-xs bg-gray-700 text-gray-300 px-2 py-1 rounded">{date}</span>}
       </div>
     </motion.div>
   );
 }
 
 export default function Download() {
+  const [modVersions, setModVersions] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    async function fetchModInfo() {
+      try {
+        // 获取最新的配置信息
+        const response = await fetch('/api/mods');
+        const configData = await response.json();
+        
+        if (configData && configData.mods) {
+          // 将配置信息与默认模组信息合并
+          const updatedMods = modDefaults.map(mod => {
+            const configKey = mod.nameOverride || mod.name;
+            const modConfig = configData.mods[configKey];
+            
+            if (modConfig) {
+              // 格式化日期显示
+              let formattedDate = 'Unknown';
+              if (modConfig.lastUpdated) {
+                // 尝试将lastUpdated转换为友好格式
+                try {
+                  const date = new Date(modConfig.lastUpdated);
+                  // 判断是否是一个有效的日期
+                  if (!isNaN(date.getTime())) {
+                    const now = new Date();
+                    const diffDays = Math.floor((now.getTime() - date.getTime()) / (1000 * 3600 * 24));
+                    
+                    if (diffDays === 0) {
+                      formattedDate = 'Today';
+                    } else if (diffDays === 1) {
+                      formattedDate = 'Yesterday';
+                    } else if (diffDays < 7) {
+                      formattedDate = `${diffDays} days ago`;
+                    } else if (diffDays < 30) {
+                      const weeks = Math.floor(diffDays / 7);
+                      formattedDate = `${weeks} ${weeks === 1 ? 'week' : 'weeks'} ago`;
+                    } else if (diffDays < 365) {
+                      const months = Math.floor(diffDays / 30);
+                      formattedDate = `${months} ${months === 1 ? 'month' : 'months'} ago`;
+                    } else {
+                      const years = Math.floor(diffDays / 365);
+                      formattedDate = `${years} ${years === 1 ? 'year' : 'years'} ago`;
+                    }
+                  } else {
+                    formattedDate = modConfig.lastUpdated;
+                  }
+                } catch (e) {
+                  formattedDate = modConfig.lastUpdated;
+                }
+              }
+              
+              return {
+                ...mod,
+                version: modConfig.version ? `v${modConfig.version}` : undefined,
+                date: formattedDate,
+                downloadUrl: modConfig.fileName ? `/downloads/${modConfig.fileName}` : undefined
+              };
+            }
+            
+            return mod;
+          });
+          
+          setModVersions(updatedMods);
+        } else {
+          // 如果API调用失败，使用默认信息
+          setModVersions(modDefaults);
+        }
+      } catch (error) {
+        console.error('Error fetching mod info:', error);
+        // 如果发生错误，使用默认信息
+        setModVersions(modDefaults);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    
+    fetchModInfo();
+  }, []);
+
   return (
     <section id="download" className="section bg-gray-800 text-white">
       <div className="container">
-        <div className="text-center mb-12">
-          <motion.h2 
+        <motion.h2 
+          className="section-title text-center mb-6 text-4xl font-bold text-amber-400"
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        >
+          REPO MODS Download
+        </motion.h2>
+        
+        <motion.div
+          className="text-center mb-10 max-w-3xl mx-auto"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <p className="mb-4 text-lg leading-relaxed">
+            Enhance your REPO experience with our premium <span className="font-semibold text-amber-400">REPO MODS</span> collection. These <span className="font-semibold text-amber-400">REPO MODS</span> add exciting new features and customization options to improve your REPO gameplay. All <span className="font-semibold text-amber-400">REPO MODS</span> are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/package/download/BepInEx/BepInExPack/5.4.2100/" className="text-blue-400 hover:text-blue-300 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-blue-400 hover:text-blue-300 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-blue-400 hover:text-blue-300 hover:underline">installation guide</Link>.
+          </p>
+          <div className="bg-amber-900/50 border border-amber-700 p-4 rounded-lg">
+            <h3 className="font-semibold mb-2 text-xl text-amber-400">Coming Soon</h3>
+            <p className="text-lg">
+              We're actively developing many more exciting mods for REPO! Stay tuned for new gameplay features, visual enhancements, quality of life improvements, and much more. Check back regularly for updates!
+            </p>
+          </div>
+        </motion.div>
+        
+        <div className="mb-8">
+          <motion.div 
+            className="p-4 rounded-lg bg-amber-900/40 flex items-center border border-amber-700/50 mb-4 backdrop-blur-sm"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-3xl md:text-4xl font-bold mb-6"
           >
-            REPO MODS Download
-          </motion.h2>
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-xl text-gray-300 mb-6 max-w-3xl mx-auto"
-          >
-            Enhance your REPO experience with our premium REPO MODS collection. These REPO MODS add exciting new features and customization options to improve your REPO gameplay. All REPO MODS are fully compatible with the latest version of REPO and receive regular updates. Before using mods, you need to install <a href="https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">BepInExPack</a> and <a href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager" className="text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Thunderstore Mod Manager</a>. For detailed installation instructions, please check our <Link href="/How-to-Install-REPO-Mods" className="text-blue-400 hover:underline">installation guide</Link>.
-          </motion.p>
-          
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="bg-amber-900/40 backdrop-blur-sm border border-amber-700/50 rounded-lg p-4 mb-8 max-w-3xl mx-auto"
-          >
-            <div className="flex items-start">
-              <FiAlertCircle className="text-amber-400 text-xl flex-shrink-0 mt-1 mr-3" />
-              <p className="text-gray-200">
-                <span className="font-semibold text-amber-300">Coming Soon:</span> We're actively developing many more exciting mods for REPO! Stay tuned for new gameplay features, visual enhancements, quality of life improvements, and much more. Check back regularly for updates!
-              </p>
+            <div className="flex-shrink-0 bg-amber-700 p-3 rounded-full mr-4">
+              <FiAlertCircle className="text-white text-xl" />
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold mb-1">Important Note for Installation</h3>
+              <p>All mods require BepInEx. Make sure to install it first before using any mods.</p>
             </div>
           </motion.div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* TeamUpgrades Card */}
-          <ModCard 
-            title="TeamUpgrades"
-            description="Share the power! All upgrades now work for the whole team, enhancing cooperation and strategy."
-            icon={<FaUsers className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-TeamUpgrades"
-            version={modVersions.find(mod => mod.name === 'TeamUpgrades')?.version}
-          />
-
-          {/* TeamHeals Card */}
-          <ModCard 
-            title="TeamHeals"
-            description="Health Packs now benefit the entire team, making survival and recovery a shared experience."
-            icon={<FaMedkit className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-TeamHeals"
-            version={modVersions.find(mod => mod.name === 'TeamHeals')?.version}
-          />
-
-          {/* LethalCompanyValuables Card */}
-          <ModCard 
-            title="LethalCompanyValuables"
-            description="Experience Lethal Company within R.E.P.O. with 30 iconic scrap items added as valuable collectibles."
-            icon={<FiPackage className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-LethalCompanyValuables"
-            version={modVersions.find(mod => mod.name === 'LethalCompanyValuables')?.version}
-          />
-
-          {/* MoreUpgrades Card */}
-          <ModCard 
-            title="MoreUpgrades"
-            description="Adds more upgrade items like Sprint Usage, Valuable Counter, and Enemy Tracking to enhance gameplay."
-            icon={<FiPackage className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MoreUpgrades"
-            version={modVersions.find(mod => mod.name === 'MoreUpgrades')?.version}
-          />
-
-          {/* MoreShopItems Card */}
-          <ModCard 
-            title="MoreShopItems"
-            description="Increased item spawn rate in shop with additional shelving for more of each item type."
-            icon={<FiShoppingCart className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MoreShopItems"
-            version={modVersions.find(mod => mod.name === 'MoreShopItems')?.version}
-          />
-
-          {/* LateJoin Card */}
-          <ModCard 
-            title="LateJoin"
-            description="Join games in progress without waiting for your friends to return to the ship between missions."
-            icon={<FaUserPlus className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-LateJoin"
-            version={modVersions.find(mod => mod.name === 'LateJoin')?.version}
-          />
-
-          {/* MoreReviveHP Card */}
-          <ModCard 
-            title="MoreReviveHP"
-            description="Get more health when revived with a progressive health system that gives you a fighting chance."
-            icon={<FaHeartbeat className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MoreReviveHP"
-            version={modVersions.find(mod => mod.name === 'MoreReviveHP')?.version}
-          />
-
-          {/* REPOLib Card */}
-          <ModCard 
-            title="REPOLib"
-            description="Essential developer library for adding custom content to R.E.P.O. with powerful network tools."
-            icon={<VscLibrary className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-REPOLib"
-            version={modVersions.find(mod => mod.name === 'REPOLib')?.version}
-          />
-
-          {/* ExtractionPointConfirmButton Card */}
-          <ModCard 
-            title="ExtractionPointConfirmButton"
-            description="Adds a confirm button to extraction points to prevent accidental exits during intense gameplay."
-            icon={<VscChecklist className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-ExtractionPointConfirmButton"
-            version={modVersions.find(mod => mod.name === 'ExtractionPointConfirmButton')?.version}
-          />
-
-          {/* MoreHeadPlus Card */}
-          <ModCard 
-            title="MoreHeadPlus"
-            description="Expansion pack for MoreHead that adds several new models and customization options."
-            icon={<GiRobotGolem className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MoreHeadPlus"
-            version={modVersions.find(mod => mod.name === 'MoreHeadPlus')?.version}
-          />
-
-          {/* MenuLib Card */}
-          <ModCard 
-            title="MenuLib"
-            description="A library for creating UI - essential prerequisite for many REPO mods including MoreHead."
-            icon={<RiCodeSSlashLine className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MenuLib"
-            version={modVersions.find(mod => mod.name === 'MenuLib')?.version}
-          />
-
-          {/* MoreHead Card */}
-          <ModCard 
-            title="MoreHead"
-            description="A simple decoration mod providing custom head models and unitypackage for players to import their own."
-            icon={<GiHumanTarget className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MoreHead"
-            version={modVersions.find(mod => mod.name === 'MoreHead')?.version}
-          />
-
-          {/* BensCosmetics Card */}
-          <ModCard 
-            title="BensCosmetics"
-            description="150+ models made into cosmetics with a variety of head, chest, and other customization options."
-            icon={<GiClothes className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-BensCosmetics"
-            version={modVersions.find(mod => mod.name === 'BensCosmetics')?.version}
-          />
-
-          {/* R.E.P.O. Roles Card */}
-          <ModCard 
-            title="R.E.P.O. Roles"
-            description="An exciting mod which adds player roles with unique abilities to the game."
-            icon={<FaUserAlt className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-REPORoles"
-            version={modVersions.find(mod => mod.name === 'R.E.P.O. Roles')?.version}
-            delay={0.2}
-          />
-
-          {/* R.E.P.O. MorePlayers Card */}
-          <ModCard 
-            title="R.E.P.O. MorePlayers"
-            description="A mod that allows you to customize the maximum player count in your games."
-            icon={<FaUsers className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MorePlayers"
-            version={modVersions.find(mod => mod.name === 'R.E.P.O. MorePlayers')?.version}
-            delay={0.25}
-          />
-
-          {/* R.E.P.O. MoreStamina Card */}
-          <ModCard 
-            title="R.E.P.O. MoreStamina"
-            description="Enhanced endurance system with realistic stamina mechanics."
-            icon={<FaRunning className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-MoreStamina"
-            version={modVersions.find(mod => mod.name === 'R.E.P.O. MoreStamina')?.version}
-            delay={0.3}
-          />
-
-          {/* ShrinkerCart Card */}
-          <ModCard 
-            title="ShrinkerCart"
-            description="Bigger the item better the shrink! Transform large objects into miniature versions."
-            icon={<FiMinimize2 className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-ShrinkerCart"
-            version={modVersions.find(mod => mod.name === 'ShrinkerCart')?.version}
-            delay={0.35}
-          />
-
-          {/* Enemy Location Card */}
-          <ModCard 
-            title="Enemy Location"
-            description="Advanced tactical mod that helps track enemy movements within a limited range."
-            icon={<FiTarget className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-EnemyLocation"
-            version={modVersions.find(mod => mod.name === 'Enemy Location')?.version}
-            delay={0.4}
-          />
-
-          {/* LegoGnomes Card */}
-          <ModCard 
-            title="LegoGnomes"
-            description="Changes the gnome's death sound to the lego brick breaking sound effect, which works perfectly with their death animation!"
-            icon={<FiMusic className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-LegoGnomes"
-            version={modVersions.find(mod => mod.name === 'LegoGnomes')?.version}
-            delay={0.45}
-          />
           
-          {/* EvenMoreHead Card */}
-          <ModCard 
-            title="EvenMoreHead"
-            description="Adds several new models to the MoreHead mod with a wide variety of cosmetic options."
-            icon={<GiPartyHat className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-EvenMoreHead"
-            version={modVersions.find(mod => mod.name === 'EvenMoreHead')?.version}
-            delay={0.5}
-          />
-          
-          {/* InfiniteEnergyCrystals Card */}
-          <ModCard 
-            title="InfiniteEnergyCrystals"
-            description="No more cash wasted on energy crystals!"
-            icon={<FiDollarSign className="mr-3 text-amber-400 flex-shrink-0" />}
-            detailUrl="/repomod-InfiniteEnergyCrystals"
-            version={modVersions.find(mod => mod.name === 'InfiniteEnergyCrystals')?.version}
-            delay={0.55}
-          />
+          <div className="flex flex-wrap lg:flex-nowrap gap-4">
+            <motion.a 
+              href="https://thunderstore.io/package/download/BepInEx/BepInExPack/5.4.2100/"
+              className="flex-1 p-4 rounded-lg bg-blue-900/40 text-center hover:bg-blue-800/40 transition border border-blue-700/50 backdrop-blur-sm"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex justify-center mb-2">
+                <FiShield className="text-5xl text-blue-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">BepInEx</h3>
+              <p className="text-sm text-gray-300 mb-4">Essential mod framework for all mods</p>
+              <div className="flex justify-center items-center text-blue-300 hover:text-blue-200">
+                <FiDownload className="mr-2" /> Download BepInEx
+              </div>
+            </motion.a>
+            
+            <motion.a 
+              href="https://www.overwolf.com/app/thunderstore-thunderstore_mod_manager"
+              className="flex-1 p-4 rounded-lg bg-purple-900/40 text-center hover:bg-purple-800/40 transition border border-purple-700/50 backdrop-blur-sm"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex justify-center mb-2">
+                <FiPackage className="text-5xl text-purple-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Browse All Mods</h3>
+              <p className="text-sm text-gray-300 mb-4">Discover more mods on Thunderstore</p>
+              <div className="flex justify-center items-center text-purple-300 hover:text-purple-200">
+                <FiShoppingCart className="mr-2" /> Visit Thunderstore
+              </div>
+            </motion.a>
+            
+            <motion.a 
+              href="https://discord.com/channels/1330873443515760640/1334066836051853322"
+              className="flex-1 p-4 rounded-lg bg-indigo-900/40 text-center hover:bg-indigo-800/40 transition border border-indigo-700/50 backdrop-blur-sm"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="flex justify-center mb-2">
+                <FaDiscord className="text-5xl text-indigo-400" />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Join Discord</h3>
+              <p className="text-sm text-gray-300 mb-4">Get help and connect with modders</p>
+              <div className="flex justify-center items-center text-indigo-300 hover:text-indigo-200">
+                <FiDownload className="mr-2" /> Join Community
+              </div>
+            </motion.a>
+          </div>
         </div>
+        
+        <h3 className="text-2xl font-semibold mb-6 mt-12">Popular Mods</h3>
+        
+        {isLoading ? (
+          <div className="text-center py-12">
+            <p>Loading mods information...</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {modVersions.map((mod, index) => {
+              let icon;
+              
+              // 为不同模组分配不同图标
+              if (mod.name.includes('Team')) {
+                icon = <FaUsers className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Head')) {
+                icon = <GiClothes className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Stamina')) {
+                icon = <FaRunning className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Health') || mod.name.includes('Heal') || mod.name.includes('Revive')) {
+                icon = <FaHeartbeat className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Players')) {
+                icon = <FaUserPlus className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Lib')) {
+                icon = <VscLibrary className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Role')) {
+                icon = <GiHumanTarget className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Lego')) {
+                icon = <GiPartyHat className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Extract')) {
+                icon = <FiTarget className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Enemy')) {
+                icon = <GiRobotGolem className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Menu')) {
+                icon = <RiCodeSSlashLine className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Shop')) {
+                icon = <FiDollarSign className="text-2xl text-amber-500 mr-2" />;
+              } else if (mod.name.includes('Valuable')) {
+                icon = <FiDollarSign className="text-2xl text-amber-500 mr-2" />;
+              } else {
+                icon = <FiPackage className="text-2xl text-amber-500 mr-2" />;
+              }
+  
+              return (
+                <ModCard
+                  key={index}
+                  title={mod.name}
+                  description={mod.description}
+                  icon={icon}
+                  detailUrl={mod.detailUrl}
+                  delay={0.1 + index * 0.05}
+                  version={mod.version}
+                  date={mod.date}
+                />
+              );
+            })}
+          </div>
+        )}
       </div>
     </section>
   );

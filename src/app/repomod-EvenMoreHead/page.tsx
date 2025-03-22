@@ -323,7 +323,7 @@ export default function EvenMoreHeadMod() {
             
             <div className="mt-12 flex justify-center">
               <Link 
-                href="/downloads/repo-EvenMoreHead-0.1.6.zip" 
+                href="/downloads/repomod-EvenMoreHead-0.1.6.zip" 
                 className="inline-flex items-center px-8 py-4 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors text-lg"
                 download
               >

@@ -1,0 +1,136 @@
+[2025-03-22 15:07:52] 开始每日模组更新检查
+[2025-03-22 15:07:52] 1. 检查模组更新
+[2025-03-22 15:07:52] 执行命令: node /Users/shiminzhang/Desktop/game/repomad/scripts/mod_updater.js
+[2025-03-22 15:07:52] 输出: 开始检查模组更新...
+[2025-03-22 15:07:52] 输出: 正在检查模组 TeamHeals 的更新...
+[2025-03-22 15:07:54] 输出: 从元数据提取到版本号: 1.0.1
+[2025-03-22 15:07:54] 输出: 从表格提取到更新日期: 2 weeks ago
+[2025-03-22 15:07:54] 输出: 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-22 15:07:54] 输出: 模组 TeamHeals 没有更新
+[2025-03-22 15:07:54] 输出: 正在检查模组 REPORoles 的更新...
+[2025-03-22 15:07:54] 输出: 从元数据提取到版本号: 1.3.4
+[2025-03-22 15:07:54] 输出: 从表格提取到更新日期: a day ago
+[2025-03-22 15:07:54] 输出: 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.4/
+[2025-03-22 15:07:54] 输出: 模组 REPORoles 没有更新
+[2025-03-22 15:07:54] 输出: 正在检查模组 MorePlayers 的更新...
+[2025-03-22 15:07:55] 输出: 从元数据提取到版本号: 1.0.4
+[2025-03-22 15:07:55] 输出: 从表格提取到更新日期: 3 weeks ago
+[2025-03-22 15:07:55] 输出: 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-22 15:07:55] 输出: 模组 MorePlayers 没有更新
+[2025-03-22 15:07:55] 输出: 正在检查模组 ShrinkerCart 的更新...
+[2025-03-22 15:07:55] 输出: 从元数据提取到版本号: 0.1.0
+[2025-03-22 15:07:55] 输出: 从表格提取到更新日期: 2 weeks ago
+[2025-03-22 15:07:55] 输出: 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-22 15:07:55] 输出: 模组 ShrinkerCart 没有更新
+[2025-03-22 15:07:55] 输出: 正在检查模组 Enemy_Location 的更新...
+[2025-03-22 15:07:57] 输出: 从元数据提取到版本号: 1.0.3
+[2025-03-22 15:07:57] 输出: 从表格提取到更新日期: 3 days ago
+[2025-03-22 15:07:57] 输出: 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-22 15:07:57] 输出: 模组 Enemy_Location 没有更新
+[2025-03-22 15:07:57] 输出: 正在检查模组 LegoGnomes 的更新...
+[2025-03-22 15:07:58] 输出: 从元数据提取到版本号: 1.0.2
+[2025-03-22 15:07:58] 输出: 从表格提取到更新日期: 2 weeks ago
+[2025-03-22 15:07:58] 输出: 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-22 15:07:58] 输出: 模组 LegoGnomes 没有更新
+[2025-03-22 15:07:58] 输出: 正在检查模组 EvenMoreHead 的更新...
+[2025-03-22 15:07:59] 输出: 从元数据提取到版本号: 0.1.6
+[2025-03-22 15:07:59] 输出: 从表格提取到更新日期: 5 days ago
+[2025-03-22 15:07:59] 输出: 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-22 15:07:59] 输出: 模组 EvenMoreHead 没有更新
+[2025-03-22 15:07:59] 输出: 正在检查模组 ImprovedStamina 的更新...
+[2025-03-22 15:08:00] 输出: 从元数据提取到版本号: 1.2.0
+[2025-03-22 15:08:00] 输出: 从表格提取到更新日期: 2 weeks ago
+[2025-03-22 15:08:00] 输出: 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-22 15:08:00] 输出: 版本号变更: 无 -> 1.2.0
+[2025-03-22 15:08:00] 输出: 发现模组 ImprovedStamina 有更新
+[2025-03-22 15:08:00] 输出: 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-ImprovedStamina-1.2.0.zip
+页面文件不存在，跳过更新页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-ImprovedStamina/page.tsx
+[2025-03-22 15:08:00] 输出: 模组 ImprovedStamina 更新完成
+[2025-03-22 15:08:00] 输出: 正在检查模组 InfiniteStamina 的更新...
+[2025-03-22 15:08:00] 输出: 从元数据提取到版本号: 1.0.0
+[2025-03-22 15:08:00] 输出: 从表格提取到更新日期: 3 weeks ago
+[2025-03-22 15:08:00] 输出: 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-22 15:08:00] 输出: 版本号变更: 无 -> 1.0.0
+发现模组 InfiniteStamina 有更新
+文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-InfiniteStamina-1.0.0.zip
+页面文件不存在，跳过更新页面: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-InfiniteStamina/page.tsx
+[2025-03-22 15:08:00] 输出: 模组 InfiniteStamina 更新完成
+正在检查模组 BensCosmetics 的更新...
+[2025-03-22 15:08:01] 输出: 从元数据提取到版本号: 1.3.4
+[2025-03-22 15:08:01] 输出: 从表格提取到更新日期: 17 hours ago
+[2025-03-22 15:08:01] 输出: 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.3.4/
+[2025-03-22 15:08:01] 输出: 模组 BensCosmetics 没有更新
+[2025-03-22 15:08:01] 输出: 正在检查模组 REPOLib 的更新...
+[2025-03-22 15:08:01] 输出: 从元数据提取到版本号: 1.4.2
+[2025-03-22 15:08:01] 输出: 从表格提取到更新日期: a week ago
+[2025-03-22 15:08:01] 输出: 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.4.2/
+[2025-03-22 15:08:01] 输出: 模组 REPOLib 没有更新
+[2025-03-22 15:08:01] 输出: 正在检查模组 MoreHead 的更新...
+[2025-03-22 15:08:02] 输出: 从元数据提取到版本号: 1.2.7
+[2025-03-22 15:08:02] 输出: 从表格提取到更新日期: 7 hours ago
+[2025-03-22 15:08:02] 输出: 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.2.7/
+[2025-03-22 15:08:02] 输出: 模组 MoreHead 没有更新
+[2025-03-22 15:08:02] 输出: 正在检查模组 MoreReviveHP 的更新...
+[2025-03-22 15:08:03] 输出: 从元数据提取到版本号: 1.0.1
+[2025-03-22 15:08:03] 输出: 从表格提取到更新日期: 2 weeks ago
+[2025-03-22 15:08:03] 输出: 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-22 15:08:03] 输出: 模组 MoreReviveHP 没有更新
+[2025-03-22 15:08:03] 输出: 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-22 15:08:03] 输出: 从元数据提取到版本号: 0.2.0
+[2025-03-22 15:08:03] 输出: 从表格提取到更新日期: 2 days ago
+[2025-03-22 15:08:03] 输出: 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.2.0/
+[2025-03-22 15:08:03] 输出: 模组 MoreHeadPlus 没有更新
+[2025-03-22 15:08:03] 输出: 正在检查模组 LateJoin 的更新...
+[2025-03-22 15:08:04] 输出: 从元数据提取到版本号: 0.1.2
+[2025-03-22 15:08:04] 输出: 从表格提取到更新日期: 2 weeks ago
+[2025-03-22 15:08:04] 输出: 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-22 15:08:04] 输出: 模组 LateJoin 没有更新
+[2025-03-22 15:08:04] 输出: 正在检查模组 MoreShopItems 的更新...
+[2025-03-22 15:08:05] 输出: 从元数据提取到版本号: 1.2.6
+[2025-03-22 15:08:05] 输出: 从表格提取到更新日期: 10 hours ago
+[2025-03-22 15:08:05] 输出: 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.6/
+[2025-03-22 15:08:05] 输出: 模组 MoreShopItems 没有更新
+[2025-03-22 15:08:05] 输出: 正在检查模组 TeamUpgrades 的更新...
+[2025-03-22 15:08:06] 输出: 从元数据提取到版本号: 1.1.4
+[2025-03-22 15:08:06] 输出: 从表格提取到更新日期: 2 weeks ago
+提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+模组 TeamUpgrades 没有更新
+[2025-03-22 15:08:06] 输出: 模组更新检查完成
+[2025-03-22 15:08:06] 命令完成，退出代码: 0
+[2025-03-22 15:08:06] 2. 规范化文件名
+[2025-03-22 15:08:06] 执行命令: node /Users/shiminzhang/Desktop/game/repomad/scripts/normalize_filenames.js
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-BensCosmetics-1.3.2.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-BensCosmetics-1.3.4.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-Enemy_Location-1.0.3.zip
+文件名已规范化: repomod-EvenMoreHead-0.1.6.zip
+文件名已规范化: repomod-ExtractionPointConfirmButton-1.0.1.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-ImprovedStamina-1.2.0.zip
+文件名已规范化: repomod-InfiniteEnergyCrystals-1.0.1.zip
+文件名已规范化: repomod-InfiniteStamina-1.0.0.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-LateJoin-0.1.2.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-LegoGnomes-1.0.2.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-LethalCompanyValuables-1.0.0.zip
+文件名已规范化: repomod-LethalCompanyValuables-1.1.1.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MenuLib-1.0.5.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MoreHead-1.2.5.zip
+文件名已规范化: repomod-MoreHead-1.2.7.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MoreHeadPlus-0.2.0.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MorePlayers-1.0.4.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MoreReviveHP-1.0.1.zip
+文件名已规范化: repomod-MoreShopItems-1.2.5.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MoreShopItems-1.2.6.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MoreStamina-1.0.1.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-MoreUpgrades-1.2.7.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-REPOLib-1.4.2.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-REPORoles-1.3.3.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-REPORoles-1.3.4.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-ShrinkerCart-0.1.0.zip
+[2025-03-22 15:08:06] 输出: 文件名已规范化: repomod-TeamHeals-1.0.1.zip
+文件名已规范化: repomod-TeamUpgrades-1.1.4.zip
+[2025-03-22 15:08:06] 输出: 配置文件已更新
+[2025-03-22 15:08:06] 输出: 规范化完成: 重命名了 0 个文件, 28 个文件无需修改
+[2025-03-22 15:08:06] 命令完成，退出代码: 0
+[2025-03-22 15:08:06] 3. 清理旧版本文件 (已跳过)
+[2025-03-22 15:08:06] 4. 清理过期日志文件
+[2025-03-22 15:08:06] 没有需要删除的过期日志文件
+[2025-03-22 15:08:06] 每日更新完成

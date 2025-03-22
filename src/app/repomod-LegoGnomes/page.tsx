@@ -104,7 +104,7 @@ export default function LegoGnomesMod() {
             
             <div className="mt-12 flex justify-center">
               <Link 
-                href="/downloads/repo-LegoGnomes-1.0.2.zip" 
+                href="/downloads/repomod-LegoGnomes-1.0.2.zip" 
                 className="inline-flex items-center px-8 py-4 bg-yellow-600 text-white rounded-md hover:bg-yellow-700 transition-colors text-lg"
                 download
               >

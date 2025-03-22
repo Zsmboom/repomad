@@ -36,7 +36,7 @@ export default function REPOLibPage() {
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: March 26, 2023</span>
+                <span>Last updated: a week ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">

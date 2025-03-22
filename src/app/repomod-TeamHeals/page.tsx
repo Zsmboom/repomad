@@ -36,7 +36,7 @@ export default function TeamHealsPage() {
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: April 22, 2023</span>
+                <span>Last updated: 2 weeks ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">

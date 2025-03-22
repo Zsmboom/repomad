@@ -36,7 +36,7 @@ export default function MorePlayersPage() {
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: March 18, 2023</span>
+                <span>Last updated: 3 weeks ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-indigo-500/20">
@@ -157,7 +157,7 @@ export default function MorePlayersPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repo-MorePlayers-1.0.4.zip" 
+                    href="/downloads/repomod-MorePlayers-1.0.4.zip" 
                     className="inline-flex items-center px-8 py-4 bg-indigo-600 text-white text-lg rounded-md hover:bg-indigo-700 transition-colors"
                   >
                     <FiDownload className="mr-2" />

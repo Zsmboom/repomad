@@ -31,12 +31,12 @@ export default function ExtractionPointConfirmButtonPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
                 <VscChecklist className="mr-4 text-amber-400" /> 
                 ExtractionPointConfirmButton
-                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.1.0</span>
+                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.0.1</span>
               </h1>
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: April 5, 2023</span>
+                <span>Last updated: 2 weeks ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">
@@ -155,11 +155,11 @@ export default function ExtractionPointConfirmButtonPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repomod-ExtractionPointConfirmButton-1.1.0.zip" 
+                    href="/downloads/repomod-ExtractionPointConfirmButton-1.0.1.zip" 
                     className="inline-flex items-center px-8 py-4 bg-amber-700 text-white text-lg rounded-md hover:bg-amber-600 transition-colors"
                   >
                     <FiDownload className="mr-2" />
-                    Download ExtractionPointConfirmButton v1.1.0
+                    Download ExtractionPointConfirmButton v1.0.1
                   </a>
                   
                   <div className="mt-16">

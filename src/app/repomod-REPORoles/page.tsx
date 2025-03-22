@@ -36,7 +36,7 @@ export default function REPORolesPage() {
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: March 18, 2023</span>
+                <span>Last updated: a day ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-blue-500/20">

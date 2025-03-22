@@ -161,7 +161,7 @@ export default function EnemyLocationMod() {
             
             <div className="mt-12 flex justify-center">
               <Link 
-                href="/downloads/repo-Enemy_Location-1.0.3.zip" 
+                href="/downloads/repomod-Enemy_Location-1.0.3.zip" 
                 className="inline-flex items-center px-8 py-4 bg-red-600 text-white rounded-md hover:bg-red-700 transition-colors text-lg"
                 download
               >
