@@ -55,6 +55,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/blog" className="text-gray-400 hover:text-white">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link href="/#what-is" className="text-gray-400 hover:text-white">
                   About REPO MOD
                 </Link>

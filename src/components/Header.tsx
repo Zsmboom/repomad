@@ -34,6 +34,9 @@ export default function Header() {
             <Link href="/#what-is" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               About Mods
             </Link>
+            <Link href="/blog" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
+              Blog
+            </Link>
             <Link href="/How-to-Install-REPO-Mods" className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">
               Guide
             </Link>
@@ -85,6 +88,13 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               About Mods
+            </Link>
+            <Link 
+              href="/blog" 
+              className="block px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blog
             </Link>
             <Link 
               href="/How-to-Install-REPO-Mods" 
