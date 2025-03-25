@@ -230,3 +230,103 @@ Teeth
 Toy Cube
 Toy Robot
 V-Type Engine
+
+
+以上完成
+
+# EvenMoreHats
+名称：EvenMoreHats
+跟踪地址：https://thunderstore.io/c/repo/p/fedorabunnies/EvenMoreHats/
+文件地址：public/downloads/repomod-EvenMoreHats-1.2.1.zip
+介绍内容：Fun cosmetics for me and my friends Currently got multiple hats including Bunny Ears, Beanie, LilSemiBot, Unicorn Pink Hair hat, Egg shell hat, Cowboy hat, Bag Hat, Daft Punk Helmets, Vanoss Owl Head, WildCats pig ear helmet, noglas headphones, H20 Mask, terroriser eye, Bear ears, pufferfish head and puffer neck, Milk Bag,pezzy can, Droids glasses, Rectrixx, Yumi, Dog Ears, Fez, Choker, Cat Ears, Dino Hat, Canine Teeth(both bottom and top teeth)
+
+
+# FunnyItems
+名称:FunnyItems
+跟踪地址：https://thunderstore.io/c/repo/p/Ako/FunnyItems/
+文件地址：public/downloads/repomod-FunnyItems-1.3.0.zip
+介绍内容：FunnyItems is a Valuable mod that adds more new Valuables into the game. They are pretty fun and funny to just mess around with and to have in such a weird world.Features
+Spawns many extra valuables to play around with and also sell.
+Future Plans
+Adding more funny stupid stuff
+Updates soon!
+
+
+# Mimic
+名称：Mimic
+跟踪地址：https://thunderstore.io/c/repo/p/eth9n/Mimic/
+文件地址：public/downloads/repomod-Mimic-1.1.0.zip
+介绍内容：Mimic is a Skinwalker (Lethal Company Mod) inspired mod for R.E.P.O that allows the creatures of the game to sound like you or your friends!
+
+How it works:
+This mod will record you and your friend's voices between an interval (30 - 120 seconds by default) and save the audio into a pool of clips. After a clip has been saved, a random clip from the pool will be played by each enemy on the current level.
+
+Planned Additions:
+Caching audio in memory (no more writing files)
+Optimizations!
+Changelog
+1.0.1 : Fixed bugs and alleviated lag when sending audio to clients.
+1.0.2 : File structure fixes.
+1.0.3 : Added basic speech detection + configuration file (changing the settings drastically could have unknown effects).
+1.0.4 : Config file fixes.
+1.0.5 : Performance improvements + bug fixes.
+1.1.0! : Overhaul of recording/playing clips + removal of third party dependencies + bug fixes.
+
+
+
+# Cart Lights MelanieMelicious
+名称：Cart Lights MelanieMelicious
+跟踪地址：https://thunderstore.io/c/repo/p/MelanieMelicious/Cart_Lights_MelanieMelicious/
+文件地址：public/downloads/repomod-Cart_Lights_MelanieMelicious-1.0.1.zip
+介绍内容：Just adds a light to the front of the medium and pocket carts. 
+
+
+# XUnity AutoTranslator
+名称：XUnity AutoTranslator
+跟踪地址：https://thunderstore.io/c/repo/p/Hayrizan/XUnity_AutoTranslator/
+文件地址：public/downloads/repomod-XUnity_AutoTranslator-5.4.4.zip
+介绍内容：This is an advanced translator plugin that can be used to translate Unity-based games automatically and also provides the tools required to translate games manually. The plugin has been moved here to address the Xunity issue. Due to numerous DLL using it during loading, they encountered problems with "Package rejected - Invalid submission." First and foremost, all of this was done to assist RTLC Russian Translation.If you are also encountering errors when updating localization, you can use this mod as a dependency and remove Xunity from your archive directly.
+
+# CustomColors
+名称：CustomColors
+跟踪地址：https://thunderstore.io/c/repo/p/x753_REPO/CustomColors/
+文件地址：public/downloads/repomod-CustomColors-1.1.0.zip
+介绍内容：This mod adds RGB color sliders to the Select Color page.
+Custom colors will sync to other players with the CustomColors mod installed. Vanilla players will see your last selected vanilla color.
+
+
+# Lethal Plushies
+名称：Lethal Plushies
+跟踪地址：https://thunderstore.io/c/repo/p/Spoopylocal/Lethal_Plushies/
+文件地址：public/downloads/repomod-Lethal_Plushies-1.0.5.zip
+介绍内容：Lethal Plushies!
+Wanna see lethal company enemies in this game?
+With this awesome mod you can do so
+All Plushies!
+Hoarding Bug
+Ghost Girl
+Baboon Hawk
+ADDING MORE!!!!!
+
+
+# FovUpdate
+名称：FovUpdate
+跟踪地址：https://thunderstore.io/c/repo/p/darmuh/FovUpdate/
+文件地址：public/downloads/repomod-FovUpdate-0.2.7.zip
+介绍内容：This is a simple mod that allows you to update the game's FOV to your desired setting. Also provides support for upscaling/downscaling the game as well as support for UltraWide or UltraLong screens (if enabled)
+This is a client sided mod and only the person who is adjusting their fov will need it.
+
+For basic instructions on how to use this mod, please follow the wiki article here
+Set both your base-game field of view and your "crouched" / "tumble" field of view via the config.
+While in-game, you can also use the following chat commands:
+\fov <number> input any number after \fov to immediately update your fov (and the config item)
+\cfov <number> input any number after \cfov to immediately update your crouch fov (and the config item)
+\sfov <number> input any number after \sfov to immediately update your sprinting fov modifier (and the config item)
+FYI, everyone in the lobby will hear your chat commands
+Tested briefly in multiplayer, please report any issues to the github for this mod.
+As of 0.2.2, now provides AspectRatioFix config item for those with Ultrawide or Ultralong monitors.
+This fix is originally from Oksamies' UltrawideOrLongFix and has been slightly modified.
+As of 0.2.4, will ensure your camera updates to the correct aspect ratio (unstretched horizontally)
+As of 0.2.3, config change event support has been added for any mod that allows for config changes in-game (REPOConfig)
+As of 0.2.5, upscale or downscale your game with the Resolution Multiplier config item.
+NOTE: This config item overrides the Pixelation graphics setting when set to a value other than 1.

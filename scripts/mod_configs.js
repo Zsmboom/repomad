@@ -111,6 +111,56 @@ const MOD_CONFIGS = [
     name: 'InfiniteEnergyCrystals',
     url: 'https://thunderstore.io/c/repo/p/Lazarus/InfiniteEnergyCrystals/',
     pageFile: path.join(__dirname, '../src/app/repomod-InfiniteEnergyCrystals/page.tsx'),
+  },
+  {
+    name: 'EvenMoreHats',
+    url: 'https://thunderstore.io/c/repo/p/fedorabunnies/EvenMoreHats/',
+    pageFile: path.join(__dirname, '../src/app/repomod-EvenMoreHats/page.tsx'),
+  },
+  {
+    name: 'FunnyItems',
+    url: 'https://thunderstore.io/c/repo/p/Ako/FunnyItems/',
+    pageFile: path.join(__dirname, '../src/app/repomod-FunnyItems/page.tsx'),
+  },
+  {
+    name: 'Mimic',
+    url: 'https://thunderstore.io/c/repo/p/eth9n/Mimic/',
+    pageFile: path.join(__dirname, '../src/app/repomod-Mimic/page.tsx'),
+  },
+  {
+    name: 'Cart_Lights_MelanieMelicious',
+    url: 'https://thunderstore.io/c/repo/p/MelanieMelicious/Cart_Lights_MelanieMelicious/',
+    pageFile: path.join(__dirname, '../src/app/repomod-Cart_Lights_MelanieMelicious/page.tsx'),
+  },
+  {
+    name: 'XUnity_AutoTranslator',
+    url: 'https://thunderstore.io/c/repo/p/Hayrizan/XUnity_AutoTranslator/',
+    pageFile: path.join(__dirname, '../src/app/repomod-XUnity_AutoTranslator/page.tsx'),
+  },
+  {
+    name: 'CustomColors',
+    url: 'https://thunderstore.io/c/repo/p/x753_REPO/CustomColors/',
+    pageFile: path.join(__dirname, '../src/app/repomod-CustomColors/page.tsx'),
+  },
+  {
+    name: 'Lethal_Plushies',
+    url: 'https://thunderstore.io/c/repo/p/Spoopylocal/Lethal_Plushies/',
+    pageFile: path.join(__dirname, '../src/app/repomod-Lethal_Plushies/page.tsx'),
+  },
+  {
+    name: 'FovUpdate',
+    url: 'https://thunderstore.io/c/repo/p/darmuh/FovUpdate/',
+    pageFile: path.join(__dirname, '../src/app/repomod-FovUpdate/page.tsx'),
+  },
+  {
+    name: 'FreecamSpectate',
+    url: 'https://thunderstore.io/c/repo/p/nickklmao/FreecamSpectate/',
+    pageFile: path.join(__dirname, '../src/app/repomod-FreecamSpectate/page.tsx'),
+  },
+  {
+    name: 'DeadTTS',
+    url: 'https://thunderstore.io/c/repo/p/flipf17/DeadTTS/',
+    pageFile: path.join(__dirname, '../src/app/repomod-DeadTTS/page.tsx'),
   }
 ];
 

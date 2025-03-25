@@ -143,6 +143,73 @@ const modDefaults = [
     description: 'No more cash wasted on energy crystals!',
     detailUrl: '/repomod-InfiniteEnergyCrystals',
     isNew: true
+  },
+  {
+    name: 'EvenMoreHats',
+    description: 'Fun cosmetics with multiple hats including Bunny Ears, Beanie, Cowboy hat and more',
+    detailUrl: '/repomod-EvenMoreHats',
+    isNew: true
+  },
+  {
+    name: 'FunnyItems',
+    description: 'Adds many fun and funny new valuables to play around with and sell in R.E.P.O.',
+    detailUrl: '/repomod-FunnyItems',
+    isNew: true
+  },
+  {
+    name: 'Mimic',
+    description: 'Creatures can mimic player voices, recording and playing back voice chat clips',
+    detailUrl: '/repomod-Mimic',
+    isNew: true
+  },
+  {
+    name: 'Cart Lights MelanieMelicious',
+    description: 'Adds lights to the front of medium and pocket carts for better visibility',
+    detailUrl: '/repomod-Cart_Lights_MelanieMelicious',
+    isNew: true,
+    nameOverride: 'Cart_Lights_MelanieMelicious' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'XUnity AutoTranslator',
+    description: 'Advanced translator plugin that can automatically translate Unity-based games',
+    detailUrl: '/repomod-XUnity_AutoTranslator',
+    isNew: true,
+    nameOverride: 'XUnity_AutoTranslator' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Custom Colors',
+    description: 'Adds RGB color sliders to the Select Color page for precise character customization',
+    detailUrl: '/repomod-CustomColors',
+    isNew: true,
+    nameOverride: 'CustomColors' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Lethal Plushies',
+    description: 'Adds adorable plushies of Lethal Company enemies to collect and display',
+    detailUrl: '/repomod-Lethal_Plushies',
+    isNew: true,
+    nameOverride: 'Lethal_Plushies' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'FOV Update',
+    description: 'Customize your field of view settings with precise control and ultrawide monitor support',
+    detailUrl: '/repomod-FovUpdate',
+    isNew: true,
+    nameOverride: 'FovUpdate' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Freecam Spectate',
+    description: 'Adds flying camera controls while spectating teammates for a better viewing experience',
+    detailUrl: '/repomod-FreecamSpectate',
+    isNew: true,
+    nameOverride: 'FreecamSpectate' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Dead TTS',
+    description: 'Hear and see text-to-speech from dead players with directional audio and visual cues',
+    detailUrl: '/repomod-DeadTTS',
+    isNew: true,
+    nameOverride: 'DeadTTS' // 用于匹配config.json中的键名
   }
 ];
 

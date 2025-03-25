@@ -31,12 +31,12 @@ export default function REPOLibPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
                 <VscLibrary className="mr-4 text-amber-400" /> 
                 REPOLib
-                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.4.2</span>
+                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.5.0</span>
               </h1>
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: a week ago</span>
+                <span>Last updated: 7 hours ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">
@@ -169,11 +169,11 @@ export default function REPOLibPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repomod-REPOLib-1.4.2.zip" 
+                    href="/downloads/repomod-REPOLib-1.5.0.zip" 
                     className="inline-flex items-center px-8 py-4 bg-amber-700 text-white text-lg rounded-md hover:bg-amber-600 transition-colors"
                   >
                     <FiDownload className="mr-2" />
-                    Download REPOLib v1.4.2
+                    Download REPOLib v1.5.0
                   </a>
                   
                   <div className="mt-16">

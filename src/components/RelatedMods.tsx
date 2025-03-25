@@ -122,6 +122,66 @@ const mods: Mod[] = [
     name: 'InfiniteEnergyCrystals',
     description: 'Provides unlimited energy crystals for powering devices and equipment.',
     path: '/repomod-InfiniteEnergyCrystals'
+  },
+  {
+    id: 'evenMoreHats',
+    name: 'EvenMoreHats',
+    description: 'Fun cosmetic pack with 25+ hats including Bunny Ears, Cowboy hats, and more.',
+    path: '/repomod-EvenMoreHats'
+  },
+  {
+    id: 'funnyItems',
+    name: 'FunnyItems',
+    description: 'A valuable mod that adds many fun and weird items to collect and sell.',
+    path: '/repomod-FunnyItems'
+  },
+  {
+    id: 'mimic',
+    name: 'Mimic',
+    description: 'Adds Skinwalker-inspired features where enemies can mimic player voices.',
+    path: '/repomod-Mimic'
+  },
+  {
+    id: 'cartLightsMelanieMelicious',
+    name: 'Cart Lights MelanieMelicious',
+    description: 'Simple utility mod that adds lights to medium and pocket carts.',
+    path: '/repomod-Cart_Lights_MelanieMelicious'
+  },
+  {
+    id: 'xunityAutoTranslator',
+    name: 'XUnity AutoTranslator',
+    description: 'Powerful translation tool that works with Unity games for localization support.',
+    path: '/repomod-XUnity_AutoTranslator'
+  },
+  {
+    id: 'customColors',
+    name: 'Custom Colors',
+    description: 'RGB color slider mod that allows precise color customization for your character.',
+    path: '/repomod-CustomColors'
+  },
+  {
+    id: 'lethalPlushies',
+    name: 'Lethal Plushies',
+    description: 'Collectible plushies of Lethal Company enemies like Hoarding Bug, Ghost Girl, and more.',
+    path: '/repomod-Lethal_Plushies'
+  },
+  {
+    id: 'fovUpdate',
+    name: 'FOV Update',
+    description: 'Simple but powerful field of view adjustment tool with ultrawide screen support.',
+    path: '/repomod-FovUpdate'
+  },
+  {
+    id: 'freecamSpectate',
+    name: 'Freecam Spectate',
+    description: 'Allows you to freely fly around while spectating dead teammates.',
+    path: '/repomod-FreecamSpectate'
+  },
+  {
+    id: 'deadTTS',
+    name: 'Dead TTS',
+    description: 'Enables text-to-speech communication from dead players with directional audio.',
+    path: '/repomod-DeadTTS'
   }
 ];
 

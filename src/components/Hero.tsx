@@ -29,6 +29,12 @@ export default function Hero() {
               </p>
             </div>
             
+            <div className="bg-amber-50 dark:bg-amber-900 border-l-4 border-amber-500 p-4 mb-6 rounded-r-md">
+              <p className="text-gray-800 dark:text-amber-100">
+                <span className="font-bold text-amber-600 dark:text-amber-300">🔥 JUST UPDATED!</span> We've added exciting new mods including <Link href="/repomod-DeadTTS" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">DeadTTS</Link> (hear dead players' voices), <Link href="/repomod-FreecamSpectate" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">FreecamSpectate</Link> (free camera while spectating), <Link href="/repomod-Lethal_Plushies" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Lethal Plushies</Link>, <Link href="/repomod-CustomColors" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">CustomColors</Link> (RGB color sliders), and <Link href="/repomod-Mimic" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Mimic</Link> (enemy voice mimicking)!
+              </p>
+            </div>
+            
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Link href="/#download" className="btn btn-primary text-center" aria-label="Download REPO MODS">
                 Get REPO MODS
