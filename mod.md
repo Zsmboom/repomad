@@ -281,11 +281,13 @@ Changelog
 介绍内容：Just adds a light to the front of the medium and pocket carts. 
 
 
-# XUnity AutoTranslator
+# XUnity AutoTranslatorv
 名称：XUnity AutoTranslator
 跟踪地址：https://thunderstore.io/c/repo/p/Hayrizan/XUnity_AutoTranslator/
 文件地址：public/downloads/repomod-XUnity_AutoTranslator-5.4.4.zip
 介绍内容：This is an advanced translator plugin that can be used to translate Unity-based games automatically and also provides the tools required to translate games manually. The plugin has been moved here to address the Xunity issue. Due to numerous DLL using it during loading, they encountered problems with "Package rejected - Invalid submission." First and foremost, all of this was done to assist RTLC Russian Translation.If you are also encountering errors when updating localization, you can use this mod as a dependency and remove Xunity from your archive directly.
+
+-------------------------
 
 # CustomColors
 名称：CustomColors
@@ -294,6 +296,7 @@ Changelog
 介绍内容：This mod adds RGB color sliders to the Select Color page.
 Custom colors will sync to other players with the CustomColors mod installed. Vanilla players will see your last selected vanilla color.
 
+----------------------------
 
 # Lethal Plushies
 名称：Lethal Plushies
@@ -307,7 +310,7 @@ Hoarding Bug
 Ghost Girl
 Baboon Hawk
 ADDING MORE!!!!!
-
+-------------------------------------
 
 # FovUpdate
 名称：FovUpdate
@@ -330,3 +333,51 @@ As of 0.2.4, will ensure your camera updates to the correct aspect ratio (unstre
 As of 0.2.3, config change event support has been added for any mod that allows for config changes in-game (REPOConfig)
 As of 0.2.5, upscale or downscale your game with the Resolution Multiplier config item.
 NOTE: This config item overrides the Pixelation graphics setting when set to a value other than 1.
+
+
+------------------以上完成-----------------
+
+# FreecamSpectate
+名称：FreecamSpectate
+跟踪地址：https://thunderstore.io/c/repo/p/nickklmao/FreecamSpectate/
+文件地址：public/downloads/repomod-FreecamSpectate-1.1.0.zip
+介绍内容：Allows you to fly around while spectating.Do you get bored spectating your friends?
+This mod lets you fly around while spectating!
+
+Keybinds
+These can be changed in your config!
+
+Note
+When freecam is enabled, this mod disables the jump button's ability to cycle to the next player. Instead, you’ll need to use the designated keybinds, typically left click and right click.
+
+
+# DeadTTS
+名称：CustomColors
+跟踪地址；https://thunderstore.io/c/repo/p/flipf17/DeadTTS/
+文件地址：public/downloads/repomod-DeadTTS-1.0.3.zip
+介绍内容：Allows you to hear TTS from dead players.
+TTS audio from dead players are directional, but can be configured to play in your head.
+TTS text will appear near dead players' heads.
+Each player will have a random TTS pitch while dead. This way, dead players can have a unique pitch each round! The random pitches will change between levels.
+
+This mod shouldn't allow dead players to alert monsters.
+
+
+
+# BetterTruckHeals
+名称：BetterTruckHeals
+跟踪地址：https://thunderstore.io/c/repo/p/Lazarus/BetterTruckHeals/
+文件地址：public/downloads/repomod-BetterTruckHeals-1.2.0.zip
+介绍内容：Fully configurable heal amount with REPOConfig!
+
+Increases Heal amount to 50 instead of default 25!
+
+
+# XH DamageShow EnemyHealthBar
+名称：XH DamageShow EnemyHealthBar
+跟踪地址：https://thunderstore.io/c/repo/p/XiaohaiMod/XH_DamageShow_EnemyHealthBar/
+文件地址：
+介绍内容：怪物血条显示和伤害数值显示
+
+
+-----------以上完成3.25-------------

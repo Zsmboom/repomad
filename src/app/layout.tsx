@@ -24,7 +24,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://repomod.com'),
-  title: "REPOMOD[NEW]-The most complete R.E.P.O mods",
+  title: "R.E.P.O mod[NEW]-The most complete R.E.P.O mods",
   description: "REPOMOD is the ultimate modification for REPO, enhancing the gameplay with improved physics, better co-op features, and performance optimizations for up to 6 players.",
   keywords: "REPOMOD, REPO mod, REPO game, game modification, cooperative horror, physics-based, repomod.com",
   authors: [{ name: "REPOMOD Team" }],
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     apple: `/apple-touch-icon${iconVersion}.png`,
   },
   openGraph: {
-    title: "REPOMOD[NEW]-The most complete R.E.P.O mods",
+    title: "R.E.P.O mod[NEW]-The most complete R.E.P.O mods",
     description: "The ultimate modification for REPO, enhancing the co-op horror experience with improved physics, better features, and performance optimizations.",
     url: "https://repomod.com",
     siteName: "REPOMOD",
