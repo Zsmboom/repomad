@@ -31,12 +31,12 @@ export default function EvenMoreHatsPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
                 <GiPartyHat className="mr-4 text-purple-400" /> 
                 EvenMoreHats
-                <span className="ml-3 text-sm bg-purple-700 px-2 py-1 rounded-full">v1.2.1</span>
+                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.2.2</span>
               </h1>
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: 1 week ago</span>
+                <span>Last updated: 5 hours ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-purple-500/20">
@@ -166,11 +166,11 @@ export default function EvenMoreHatsPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repomod-EvenMoreHats-1.2.1.zip" 
+                    href="/downloads/repomod-EvenMoreHats-1.2.2.zip" 
                     className="inline-flex items-center px-8 py-4 bg-purple-700 text-white text-lg rounded-md hover:bg-purple-600 transition-colors"
                   >
                     <FiDownload className="mr-2" />
-                    Download EvenMoreHats v1.2.1
+                    Download EvenMoreHats v1.2.2
                   </a>
                   
                   <div className="mt-16">

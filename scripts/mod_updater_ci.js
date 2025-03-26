@@ -341,7 +341,7 @@ async function checkAndUpdateMod(modConfig) {
     // 获取模组信息
     const modInfo = await fetchModInfo(modConfig);
     if (!modInfo) {
-      return;
+      throw new Error('无法获取模组信息');
     }
     
     // 更新最后检查时间
@@ -385,6 +385,16 @@ async function checkAndUpdateMod(modConfig) {
         log(`已下载模组到: ${filePath}`);
       }
       
+      // 删除旧版本文件
+      const oldFiles = fs.readdirSync(DOWNLOADS_DIR)
+        .filter(file => file.startsWith(`repomod-${modConfig.name}-`) && file !== fileName);
+      
+      for (const oldFile of oldFiles) {
+        const oldFilePath = path.join(DOWNLOADS_DIR, oldFile);
+        fs.unlinkSync(oldFilePath);
+        log(`已删除旧版本: ${oldFile}`);
+      }
+      
       // 更新网站页面（在CI环境中可能会跳过）
       const pageUpdateResult = updateModPage(modConfig, modInfo);
       
@@ -395,38 +405,81 @@ async function checkAndUpdateMod(modConfig) {
       saveConfig(config);
       
       log(`模组 ${modConfig.name} 更新完成`);
-      return true; // 表示有更新
+      return {
+        name: modConfig.name,
+        oldVersion: currentModInfo.version,
+        newVersion: modInfo.version
+      };
     } else {
       log(`模组 ${modConfig.name} 没有更新`);
       saveConfig(config);
-      return false; // 表示没有更新
+      return null;
     }
   } catch (error) {
     log(`处理模组 ${modConfig.name} 时出错: ${error.message}`);
-    return false; // 出错视为没有更新
+    throw error;
   }
 }
 
-// 主函数
-async function main() {
-  log('开始检查模组更新...');
-  
-  let updatedCount = 0;
+async function checkModUpdates() {
+  const results = {
+    success: [],
+    failed: [],
+    noUpdate: []
+  };
+
   for (const modConfig of MOD_CONFIGS) {
     try {
       const updated = await checkAndUpdateMod(modConfig);
       if (updated) {
-        updatedCount++;
+        results.success.push(updated);
+      } else {
+        results.noUpdate.push(modConfig);
       }
       // 添加延迟，避免被网站视为爬虫而限制
       await new Promise(resolve => setTimeout(resolve, 2000));
     } catch (error) {
-      log(`处理模组 ${modConfig.name} 时发生未处理的错误: ${error.message}`);
+      results.failed.push({
+        name: modConfig.name,
+        error: error.message
+      });
     }
   }
-  
-  log(`模组更新检查完成，共更新了 ${updatedCount} 个模组`);
-  return updatedCount > 0; // 如果有更新，返回true
+
+  return results;
+}
+
+// 主函数
+async function main() {
+  try {
+    console.log('开始检查模组更新...');
+    const results = await checkModUpdates();
+    
+    // 输出结果
+    console.log('\n更新检查完成:');
+    console.log(`- 成功: ${results.success.length}`);
+    console.log(`- 失败: ${results.failed.length}`);
+    console.log(`- 无更新: ${results.noUpdate.length}`);
+    
+    if (results.success.length > 0) {
+      console.log('\n已更新的模组:');
+      results.success.forEach(mod => {
+        console.log(`- ${mod.name}: ${mod.oldVersion} -> ${mod.newVersion}`);
+      });
+    }
+    
+    if (results.failed.length > 0) {
+      console.log('\n更新失败的模组:');
+      results.failed.forEach(mod => {
+        console.log(`- ${mod.name}: ${mod.error}`);
+      });
+    }
+    
+    return results;
+  } catch (error) {
+    console.error('更新检查失败:', error);
+    throw error;
+  }
 }
 
 // 如果直接运行此脚本，则执行主函数

@@ -8,13 +8,19 @@
   </url>
   <url>
     <loc>https://repomod.com/blog</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://repomod.com/blog/new-mods-march-2025</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://repomod.com/blog/comprehensive-guide-repo-mods</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2025-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -68,193 +74,205 @@
   </url>
   <url>
     <loc>https://repomod.com/repomod-TeamHeals</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://repomod.com/repomod-MoreStamina</loc>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-REPORoles</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MorePlayers</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-ShrinkerCart</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-EnemyLocation</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-LegoGnomes</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-EvenMoreHead</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-ImprovedStamina</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-InfiniteStamina</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-BensCosmetics</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-REPOLib</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MoreHead</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MoreReviveHP</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MoreHeadPlus</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-LateJoin</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MoreShopItems</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-TeamUpgrades</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MenuLib</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-MoreUpgrades</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-ExtractionPointConfirmButton</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-LethalCompanyValuables</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-InfiniteEnergyCrystals</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-EvenMoreHats</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-FunnyItems</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-Mimic</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-Cart_Lights_MelanieMelicious</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-XUnity_AutoTranslator</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-CustomColors</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-Lethal_Plushies</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-FovUpdate</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-FreecamSpectate</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://repomod.com/repomod-DeadTTS</loc>
-    <lastmod>2025-03-25</lastmod>
+    <lastmod>2025-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://repomod.com/repomod-TestMod</loc>
+    <lastmod>2025-03-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>

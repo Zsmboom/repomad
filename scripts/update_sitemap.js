@@ -13,13 +13,19 @@ let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   </url>
   <url>
     <loc>https://repomod.com/blog</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://repomod.com/blog/new-mods-march-2025</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://repomod.com/blog/comprehensive-guide-repo-mods</loc>
-    <lastmod>2024-03-22</lastmod>
+    <lastmod>2025-01-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -31,12 +31,12 @@ export default function MimicPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
                 <GiSpeaker className="mr-4 text-blue-400" /> 
                 Mimic
-                <span className="ml-3 text-sm bg-blue-700 px-2 py-1 rounded-full">v1.1.0</span>
+                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.1.1</span>
               </h1>
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: 1 week ago</span>
+                <span>Last updated: 3 hours ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-blue-500/20">
@@ -178,11 +178,11 @@ export default function MimicPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repomod-Mimic-1.1.0.zip" 
+                    href="/downloads/repomod-Mimic-1.1.1.zip" 
                     className="inline-flex items-center px-8 py-4 bg-blue-700 text-white text-lg rounded-md hover:bg-blue-600 transition-colors"
                   >
                     <FiDownload className="mr-2" />
-                    Download Mimic v1.1.0
+                    Download Mimic v1.1.1
                   </a>
                   
                   <div className="mt-16">

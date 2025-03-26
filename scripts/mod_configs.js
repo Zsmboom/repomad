@@ -8,6 +8,11 @@ const MOD_CONFIGS = [
     pageFile: path.join(__dirname, '../src/app/repomod-TeamHeals/page.tsx'),
   },
   {
+    name: 'MoreStamina',
+    url: 'https://thunderstore.io/c/repo/p/BobisMods/MoreStamina/',
+    pageFile: path.join(__dirname, '../src/app/repomod-MoreStamina/page.tsx'),
+  },
+  {
     name: 'REPORoles',
     url: 'https://thunderstore.io/c/repo/p/BobisMods/REPORoles/',
     pageFile: path.join(__dirname, '../src/app/repomod-REPORoles/page.tsx'),
@@ -161,6 +166,11 @@ const MOD_CONFIGS = [
     name: 'DeadTTS',
     url: 'https://thunderstore.io/c/repo/p/flipf17/DeadTTS/',
     pageFile: path.join(__dirname, '../src/app/repomod-DeadTTS/page.tsx'),
+  },
+  {
+    name: 'TestMod',
+    url: 'https://thunderstore.io/c/repo/p/test/TestMod/',
+    pageFile: 'src/app/repomod-TestMod/page.tsx'
   }
 ];
 

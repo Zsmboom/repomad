@@ -411,3 +411,671 @@
 [2025-03-25T03:07:00.721Z] 配置已保存
 [2025-03-25T03:07:00.721Z] 模组 DeadTTS 更新完成
 [2025-03-25T03:07:02.722Z] 模组更新检查完成，共更新了 2 个模组
+[2025-03-26T04:05:05.534Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-26T04:05:07.076Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:05:07.078Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:05:07.079Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-26T04:05:07.079Z] 模组 TeamHeals 没有更新
+[2025-03-26T04:05:07.080Z] 配置已保存
+[2025-03-26T04:05:09.082Z] 正在检查模组 MoreStamina 的更新...
+[2025-03-26T04:05:09.683Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:05:09.684Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:05:09.685Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/MoreStamina/1.0.1/
+[2025-03-26T04:05:09.685Z] 版本号变更: 无 -> 1.0.1
+[2025-03-26T04:05:09.685Z] 发现模组 MoreStamina 有更新
+[2025-03-26T04:05:09.685Z] 文件已存在，无需重新下载: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreStamina-1.0.1.zip
+[2025-03-26T04:05:09.686Z] 警告: 未找到版本号标签，无法更新版本号
+[2025-03-26T04:05:09.687Z] 配置已保存
+[2025-03-26T04:05:09.687Z] 模组 MoreStamina 更新完成
+[2025-03-26T04:05:11.689Z] 正在检查模组 REPORoles 的更新...
+[2025-03-26T04:05:12.617Z] 从元数据提取到版本号: 1.3.5
+[2025-03-26T04:05:12.618Z] 从表格提取到更新日期: 10 hours ago
+[2025-03-26T04:05:12.618Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.5/
+[2025-03-26T04:05:12.618Z] 版本号变更: 1.3.4 -> 1.3.5
+[2025-03-26T04:05:12.619Z] 发现模组 REPORoles 有更新
+[2025-03-26T04:05:12.619Z] 正在下载模组: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.5/
+[2025-03-26T04:05:12.619Z] 开始下载文件: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.5/
+[2025-03-26T04:05:14.010Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-REPORoles-1.3.5.zip
+[2025-03-26T04:05:14.010Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-REPORoles-1.3.5.zip
+[2025-03-26T04:05:14.011Z] 警告: 未找到版本号标签，无法更新版本号
+[2025-03-26T04:05:14.011Z] 警告: 未找到下载链接，无法更新下载链接
+[2025-03-26T04:05:14.012Z] 配置已保存
+[2025-03-26T04:05:14.012Z] 模组 REPORoles 更新完成
+[2025-03-26T04:05:16.014Z] 正在检查模组 MorePlayers 的更新...
+[2025-03-26T04:05:18.075Z] 从元数据提取到版本号: 1.0.4
+[2025-03-26T04:05:18.076Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:05:18.076Z] 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-26T04:05:18.076Z] 模组 MorePlayers 没有更新
+[2025-03-26T04:05:18.077Z] 配置已保存
+[2025-03-26T04:05:20.079Z] 正在检查模组 ShrinkerCart 的更新...
+[2025-03-26T04:05:20.774Z] 从元数据提取到版本号: 0.1.0
+[2025-03-26T04:05:20.776Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:05:20.776Z] 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-26T04:05:20.776Z] 模组 ShrinkerCart 没有更新
+[2025-03-26T04:05:20.777Z] 配置已保存
+[2025-03-26T04:05:22.779Z] 正在检查模组 Enemy_Location 的更新...
+[2025-03-26T04:05:23.387Z] 从元数据提取到版本号: 1.0.3
+[2025-03-26T04:05:23.388Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:05:23.388Z] 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-26T04:05:23.388Z] 模组 Enemy_Location 没有更新
+[2025-03-26T04:05:23.389Z] 配置已保存
+[2025-03-26T04:05:25.391Z] 正在检查模组 LegoGnomes 的更新...
+[2025-03-26T04:05:26.197Z] 从元数据提取到版本号: 1.0.2
+[2025-03-26T04:05:26.198Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:05:26.198Z] 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-26T04:05:26.198Z] 模组 LegoGnomes 没有更新
+[2025-03-26T04:05:26.199Z] 配置已保存
+[2025-03-26T04:05:28.201Z] 正在检查模组 EvenMoreHead 的更新...
+[2025-03-26T04:05:28.969Z] 从元数据提取到版本号: 0.1.6
+[2025-03-26T04:05:28.970Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:05:28.970Z] 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-26T04:05:28.971Z] 模组 EvenMoreHead 没有更新
+[2025-03-26T04:05:28.971Z] 配置已保存
+[2025-03-26T04:05:30.973Z] 正在检查模组 ImprovedStamina 的更新...
+[2025-03-26T04:05:32.026Z] 从元数据提取到版本号: 1.2.0
+[2025-03-26T04:05:32.027Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:05:32.029Z] 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-26T04:05:32.029Z] 模组 ImprovedStamina 没有更新
+[2025-03-26T04:05:32.029Z] 配置已保存
+[2025-03-26T04:05:34.030Z] 正在检查模组 InfiniteStamina 的更新...
+[2025-03-26T04:05:34.640Z] 从元数据提取到版本号: 1.0.0
+[2025-03-26T04:05:34.641Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:05:34.641Z] 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-26T04:05:34.641Z] 模组 InfiniteStamina 没有更新
+[2025-03-26T04:05:34.643Z] 配置已保存
+[2025-03-26T04:05:36.645Z] 正在检查模组 BensCosmetics 的更新...
+[2025-03-26T04:05:37.766Z] 从元数据提取到版本号: 1.4.3
+[2025-03-26T04:05:37.767Z] 从表格提取到更新日期: 2 hours ago
+[2025-03-26T04:05:37.768Z] 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.4.3/
+[2025-03-26T04:05:37.769Z] 版本号变更: 1.4.1 -> 1.4.3
+[2025-03-26T04:05:37.769Z] 发现模组 BensCosmetics 有更新
+[2025-03-26T04:05:37.770Z] 正在下载模组: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.4.3/
+[2025-03-26T04:05:37.770Z] 开始下载文件: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.4.3/
+[2025-03-26T04:05:44.152Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-BensCosmetics-1.4.3.zip
+[2025-03-26T04:05:44.153Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-BensCosmetics-1.4.3.zip
+[2025-03-26T04:05:44.156Z] 配置已保存
+[2025-03-26T04:05:44.156Z] 模组 BensCosmetics 更新完成
+[2025-03-26T04:05:46.159Z] 正在检查模组 REPOLib 的更新...
+[2025-03-26T04:05:47.183Z] 从元数据提取到版本号: 1.5.0
+[2025-03-26T04:05:47.184Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:05:47.184Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.5.0/
+[2025-03-26T04:05:47.184Z] 模组 REPOLib 没有更新
+[2025-03-26T04:05:47.185Z] 配置已保存
+[2025-03-26T04:05:49.186Z] 正在检查模组 MoreHead 的更新...
+[2025-03-26T04:05:49.760Z] 从元数据提取到版本号: 1.3.0
+[2025-03-26T04:05:49.761Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:05:49.761Z] 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.3.0/
+[2025-03-26T04:05:49.761Z] 版本号变更: 1.2.8 -> 1.3.0
+[2025-03-26T04:05:49.761Z] 发现模组 MoreHead 有更新
+[2025-03-26T04:05:49.762Z] 正在下载模组: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.3.0/
+[2025-03-26T04:05:49.762Z] 开始下载文件: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.3.0/
+[2025-03-26T04:05:51.505Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHead-1.3.0.zip
+[2025-03-26T04:05:51.505Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHead-1.3.0.zip
+[2025-03-26T04:05:51.506Z] 配置已保存
+[2025-03-26T04:05:51.506Z] 模组 MoreHead 更新完成
+[2025-03-26T04:05:53.508Z] 正在检查模组 MoreReviveHP 的更新...
+[2025-03-26T04:05:54.653Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:05:54.654Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:05:54.654Z] 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-26T04:05:54.654Z] 模组 MoreReviveHP 没有更新
+[2025-03-26T04:05:54.654Z] 配置已保存
+[2025-03-26T04:05:56.656Z] 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-26T04:05:57.519Z] 从元数据提取到版本号: 0.3.3
+[2025-03-26T04:05:57.520Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:05:57.520Z] 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.3.3/
+[2025-03-26T04:05:57.521Z] 版本号变更: 0.3.0 -> 0.3.3
+[2025-03-26T04:05:57.521Z] 发现模组 MoreHeadPlus 有更新
+[2025-03-26T04:05:57.521Z] 正在下载模组: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.3.3/
+[2025-03-26T04:05:57.521Z] 开始下载文件: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.3.3/
+[2025-03-26T04:06:01.124Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHeadPlus-0.3.3.zip
+[2025-03-26T04:06:01.125Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreHeadPlus-0.3.3.zip
+[2025-03-26T04:06:01.127Z] 配置已保存
+[2025-03-26T04:06:01.127Z] 模组 MoreHeadPlus 更新完成
+[2025-03-26T04:06:03.129Z] 正在检查模组 LateJoin 的更新...
+[2025-03-26T04:06:04.281Z] 从元数据提取到版本号: 0.1.2
+[2025-03-26T04:06:04.282Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:06:04.282Z] 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-26T04:06:04.282Z] 模组 LateJoin 没有更新
+[2025-03-26T04:06:04.283Z] 配置已保存
+[2025-03-26T04:06:06.285Z] 正在检查模组 MoreShopItems 的更新...
+[2025-03-26T04:06:07.047Z] 从元数据提取到版本号: 1.2.8
+[2025-03-26T04:06:07.047Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:06:07.048Z] 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.8/
+[2025-03-26T04:06:07.048Z] 版本号变更: 1.2.6 -> 1.2.8
+[2025-03-26T04:06:07.048Z] 发现模组 MoreShopItems 有更新
+[2025-03-26T04:06:07.048Z] 正在下载模组: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.8/
+[2025-03-26T04:06:07.048Z] 开始下载文件: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.8/
+[2025-03-26T04:06:09.000Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreShopItems-1.2.8.zip
+[2025-03-26T04:06:09.000Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreShopItems-1.2.8.zip
+[2025-03-26T04:06:09.002Z] 配置已保存
+[2025-03-26T04:06:09.002Z] 模组 MoreShopItems 更新完成
+[2025-03-26T04:06:11.003Z] 正在检查模组 TeamUpgrades 的更新...
+[2025-03-26T04:06:12.937Z] 从元数据提取到版本号: 1.1.4
+[2025-03-26T04:06:12.938Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:06:12.938Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+[2025-03-26T04:06:12.938Z] 模组 TeamUpgrades 没有更新
+[2025-03-26T04:06:12.939Z] 配置已保存
+[2025-03-26T04:06:14.940Z] 正在检查模组 MenuLib 的更新...
+[2025-03-26T04:06:15.653Z] 从元数据提取到版本号: 2.1.3
+[2025-03-26T04:06:15.654Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:06:15.654Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/MenuLib/2.1.3/
+[2025-03-26T04:06:15.654Z] 版本号变更: 2.1.1 -> 2.1.3
+[2025-03-26T04:06:15.655Z] 发现模组 MenuLib 有更新
+[2025-03-26T04:06:15.655Z] 正在下载模组: https://thunderstore.io/package/download/nickklmao/MenuLib/2.1.3/
+[2025-03-26T04:06:15.655Z] 开始下载文件: https://thunderstore.io/package/download/nickklmao/MenuLib/2.1.3/
+[2025-03-26T04:06:16.926Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MenuLib-2.1.3.zip
+[2025-03-26T04:06:16.927Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MenuLib-2.1.3.zip
+[2025-03-26T04:06:16.929Z] 配置已保存
+[2025-03-26T04:06:16.929Z] 模组 MenuLib 更新完成
+[2025-03-26T04:06:18.931Z] 正在检查模组 MoreUpgrades 的更新...
+[2025-03-26T04:06:19.900Z] 从元数据提取到版本号: 1.4.2
+[2025-03-26T04:06:19.901Z] 从表格提取到更新日期: 8 hours ago
+[2025-03-26T04:06:19.902Z] 提取到下载链接: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.4.2/
+[2025-03-26T04:06:19.902Z] 版本号变更: 1.3.8 -> 1.4.2
+[2025-03-26T04:06:19.902Z] 发现模组 MoreUpgrades 有更新
+[2025-03-26T04:06:19.902Z] 正在下载模组: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.4.2/
+[2025-03-26T04:06:19.903Z] 开始下载文件: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.4.2/
+[2025-03-26T04:06:20.968Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreUpgrades-1.4.2.zip
+[2025-03-26T04:06:20.968Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-MoreUpgrades-1.4.2.zip
+[2025-03-26T04:06:20.971Z] 配置已保存
+[2025-03-26T04:06:20.971Z] 模组 MoreUpgrades 更新完成
+[2025-03-26T04:06:22.973Z] 正在检查模组 ExtractionPointConfirmButton 的更新...
+[2025-03-26T04:06:24.147Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:06:24.148Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:06:24.148Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/ExtractionPointConfirmButton/1.0.1/
+[2025-03-26T04:06:24.148Z] 模组 ExtractionPointConfirmButton 没有更新
+[2025-03-26T04:06:24.149Z] 配置已保存
+[2025-03-26T04:06:26.151Z] 正在检查模组 LethalCompanyValuables 的更新...
+[2025-03-26T04:06:26.808Z] 从元数据提取到版本号: 1.1.1
+[2025-03-26T04:06:26.808Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:06:26.809Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/LethalCompanyValuables/1.1.1/
+[2025-03-26T04:06:26.809Z] 模组 LethalCompanyValuables 没有更新
+[2025-03-26T04:06:26.809Z] 配置已保存
+[2025-03-26T04:06:28.811Z] 正在检查模组 InfiniteEnergyCrystals 的更新...
+[2025-03-26T04:06:29.570Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:06:29.570Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:06:29.570Z] 提取到下载链接: https://thunderstore.io/package/download/Lazarus/InfiniteEnergyCrystals/1.0.1/
+[2025-03-26T04:06:29.571Z] 模组 InfiniteEnergyCrystals 没有更新
+[2025-03-26T04:06:29.571Z] 配置已保存
+[2025-03-26T04:06:31.574Z] 正在检查模组 EvenMoreHats 的更新...
+[2025-03-26T04:06:32.232Z] 从元数据提取到版本号: 1.2.2
+[2025-03-26T04:06:32.232Z] 从表格提取到更新日期: 5 hours ago
+[2025-03-26T04:06:32.233Z] 提取到下载链接: https://thunderstore.io/package/download/fedorabunnies/EvenMoreHats/1.2.2/
+[2025-03-26T04:06:32.233Z] 版本号变更: 1.2.1 -> 1.2.2
+[2025-03-26T04:06:32.233Z] 发现模组 EvenMoreHats 有更新
+[2025-03-26T04:06:32.233Z] 正在下载模组: https://thunderstore.io/package/download/fedorabunnies/EvenMoreHats/1.2.2/
+[2025-03-26T04:06:32.233Z] 开始下载文件: https://thunderstore.io/package/download/fedorabunnies/EvenMoreHats/1.2.2/
+[2025-03-26T04:06:45.139Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-EvenMoreHats-1.2.2.zip
+[2025-03-26T04:06:45.140Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-EvenMoreHats-1.2.2.zip
+[2025-03-26T04:06:45.142Z] 配置已保存
+[2025-03-26T04:06:45.142Z] 模组 EvenMoreHats 更新完成
+[2025-03-26T04:06:47.144Z] 正在检查模组 FunnyItems 的更新...
+[2025-03-26T04:06:48.813Z] 从元数据提取到版本号: 1.3.0
+[2025-03-26T04:06:48.814Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:06:48.815Z] 提取到下载链接: https://thunderstore.io/package/download/Ako/FunnyItems/1.3.0/
+[2025-03-26T04:06:48.815Z] 模组 FunnyItems 没有更新
+[2025-03-26T04:06:48.816Z] 配置已保存
+[2025-03-26T04:06:50.817Z] 正在检查模组 Mimic 的更新...
+[2025-03-26T04:06:51.730Z] 从元数据提取到版本号: 1.1.1
+[2025-03-26T04:06:51.731Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:06:51.733Z] 提取到下载链接: https://thunderstore.io/package/download/eth9n/Mimic/1.1.1/
+[2025-03-26T04:06:51.733Z] 版本号变更: 1.1.0 -> 1.1.1
+[2025-03-26T04:06:51.733Z] 发现模组 Mimic 有更新
+[2025-03-26T04:06:51.733Z] 正在下载模组: https://thunderstore.io/package/download/eth9n/Mimic/1.1.1/
+[2025-03-26T04:06:51.733Z] 开始下载文件: https://thunderstore.io/package/download/eth9n/Mimic/1.1.1/
+[2025-03-26T04:06:53.143Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-Mimic-1.1.1.zip
+[2025-03-26T04:06:53.143Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-Mimic-1.1.1.zip
+[2025-03-26T04:06:53.145Z] 配置已保存
+[2025-03-26T04:06:53.145Z] 模组 Mimic 更新完成
+[2025-03-26T04:06:55.148Z] 正在检查模组 Cart_Lights_MelanieMelicious 的更新...
+[2025-03-26T04:06:56.405Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:06:56.406Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:06:56.407Z] 提取到下载链接: https://thunderstore.io/package/download/MelanieMelicious/Cart_Lights_MelanieMelicious/1.0.1/
+[2025-03-26T04:06:56.407Z] 模组 Cart_Lights_MelanieMelicious 没有更新
+[2025-03-26T04:06:56.407Z] 配置已保存
+[2025-03-26T04:06:58.409Z] 正在检查模组 XUnity_AutoTranslator 的更新...
+[2025-03-26T04:06:59.272Z] 从元数据提取到版本号: 5.4.4
+[2025-03-26T04:06:59.273Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:06:59.273Z] 提取到下载链接: https://thunderstore.io/package/download/Hayrizan/XUnity_AutoTranslator/5.4.4/
+[2025-03-26T04:06:59.274Z] 模组 XUnity_AutoTranslator 没有更新
+[2025-03-26T04:06:59.275Z] 配置已保存
+[2025-03-26T04:07:01.276Z] 正在检查模组 CustomColors 的更新...
+[2025-03-26T04:07:02.033Z] 从元数据提取到版本号: 1.1.0
+[2025-03-26T04:07:02.036Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:07:02.036Z] 提取到下载链接: https://thunderstore.io/package/download/x753_REPO/CustomColors/1.1.0/
+[2025-03-26T04:07:02.036Z] 模组 CustomColors 没有更新
+[2025-03-26T04:07:02.037Z] 配置已保存
+[2025-03-26T04:07:04.039Z] 正在检查模组 Lethal_Plushies 的更新...
+[2025-03-26T04:07:04.698Z] 从元数据提取到版本号: 1.0.5
+[2025-03-26T04:07:04.699Z] 从表格提取到更新日期: 2 days ago
+[2025-03-26T04:07:04.700Z] 提取到下载链接: https://thunderstore.io/package/download/Spoopylocal/Lethal_Plushies/1.0.5/
+[2025-03-26T04:07:04.700Z] 模组 Lethal_Plushies 没有更新
+[2025-03-26T04:07:04.701Z] 配置已保存
+[2025-03-26T04:07:06.703Z] 正在检查模组 FovUpdate 的更新...
+[2025-03-26T04:07:07.513Z] 从元数据提取到版本号: 0.2.7
+[2025-03-26T04:07:07.514Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:07:07.514Z] 提取到下载链接: https://thunderstore.io/package/download/darmuh/FovUpdate/0.2.7/
+[2025-03-26T04:07:07.514Z] 模组 FovUpdate 没有更新
+[2025-03-26T04:07:07.515Z] 配置已保存
+[2025-03-26T04:07:09.517Z] 正在检查模组 FreecamSpectate 的更新...
+[2025-03-26T04:07:10.330Z] 从元数据提取到版本号: 1.1.0
+[2025-03-26T04:07:10.330Z] 从表格提取到更新日期: 2 days ago
+[2025-03-26T04:07:10.331Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/FreecamSpectate/1.1.0/
+[2025-03-26T04:07:10.331Z] 模组 FreecamSpectate 没有更新
+[2025-03-26T04:07:10.332Z] 配置已保存
+[2025-03-26T04:07:12.334Z] 正在检查模组 DeadTTS 的更新...
+[2025-03-26T04:07:13.181Z] 从元数据提取到版本号: 1.0.4
+[2025-03-26T04:07:13.182Z] 从表格提取到更新日期: 2 hours ago
+[2025-03-26T04:07:13.182Z] 提取到下载链接: https://thunderstore.io/package/download/flipf17/DeadTTS/1.0.4/
+[2025-03-26T04:07:13.183Z] 版本号变更: 1.0.3 -> 1.0.4
+[2025-03-26T04:07:13.183Z] 发现模组 DeadTTS 有更新
+[2025-03-26T04:07:13.183Z] 正在下载模组: https://thunderstore.io/package/download/flipf17/DeadTTS/1.0.4/
+[2025-03-26T04:07:13.183Z] 开始下载文件: https://thunderstore.io/package/download/flipf17/DeadTTS/1.0.4/
+[2025-03-26T04:07:14.662Z] 文件下载完成: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-DeadTTS-1.0.4.zip
+[2025-03-26T04:07:14.662Z] 已下载模组到: /Users/shiminzhang/Desktop/game/repomad/public/downloads/repomod-DeadTTS-1.0.4.zip
+[2025-03-26T04:07:14.663Z] 警告: 未找到版本号标签，无法更新版本号
+[2025-03-26T04:07:14.664Z] 警告: 未找到更新日期标签，无法更新日期信息
+[2025-03-26T04:07:14.664Z] 警告: 未找到下载链接，无法更新下载链接
+[2025-03-26T04:07:14.664Z] 警告: 未找到下载按钮文本，无法更新按钮文本
+[2025-03-26T04:07:14.664Z] 警告: 页面内容未发生变化，可能需要手动检查页面格式: /Users/shiminzhang/Desktop/game/repomad/src/app/repomod-DeadTTS/page.tsx
+[2025-03-26T04:07:14.666Z] 配置已保存
+[2025-03-26T04:07:14.666Z] 模组 DeadTTS 更新完成
+[2025-03-26T04:11:32.605Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-26T04:11:34.132Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:11:34.133Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:11:34.134Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-26T04:11:34.134Z] 模组 TeamHeals 没有更新
+[2025-03-26T04:11:34.135Z] 配置已保存
+[2025-03-26T04:11:36.136Z] 正在检查模组 MoreStamina 的更新...
+[2025-03-26T04:11:39.349Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:11:39.350Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:11:39.351Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/MoreStamina/1.0.1/
+[2025-03-26T04:11:39.351Z] 模组 MoreStamina 没有更新
+[2025-03-26T04:11:39.352Z] 配置已保存
+[2025-03-26T04:11:41.354Z] 正在检查模组 REPORoles 的更新...
+[2025-03-26T04:11:41.879Z] 从元数据提取到版本号: 1.3.5
+[2025-03-26T04:11:41.880Z] 从表格提取到更新日期: 10 hours ago
+[2025-03-26T04:11:41.881Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.5/
+[2025-03-26T04:11:41.881Z] 模组 REPORoles 没有更新
+[2025-03-26T04:11:41.881Z] 配置已保存
+[2025-03-26T04:11:43.883Z] 正在检查模组 MorePlayers 的更新...
+[2025-03-26T04:11:44.452Z] 从元数据提取到版本号: 1.0.4
+[2025-03-26T04:11:44.452Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:11:44.452Z] 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-26T04:11:44.452Z] 模组 MorePlayers 没有更新
+[2025-03-26T04:11:44.453Z] 配置已保存
+[2025-03-26T04:11:46.454Z] 正在检查模组 ShrinkerCart 的更新...
+[2025-03-26T04:11:47.113Z] 从元数据提取到版本号: 0.1.0
+[2025-03-26T04:11:47.113Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:11:47.114Z] 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-26T04:11:47.114Z] 模组 ShrinkerCart 没有更新
+[2025-03-26T04:11:47.114Z] 配置已保存
+[2025-03-26T04:11:49.116Z] 正在检查模组 Enemy_Location 的更新...
+[2025-03-26T04:11:49.686Z] 从元数据提取到版本号: 1.0.3
+[2025-03-26T04:11:49.687Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:11:49.687Z] 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-26T04:11:49.688Z] 模组 Enemy_Location 没有更新
+[2025-03-26T04:11:49.688Z] 配置已保存
+[2025-03-26T04:11:51.690Z] 正在检查模组 LegoGnomes 的更新...
+[2025-03-26T04:11:52.242Z] 从元数据提取到版本号: 1.0.2
+[2025-03-26T04:11:52.243Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:11:52.243Z] 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-26T04:11:52.244Z] 模组 LegoGnomes 没有更新
+[2025-03-26T04:11:52.244Z] 配置已保存
+[2025-03-26T04:11:54.246Z] 正在检查模组 EvenMoreHead 的更新...
+[2025-03-26T04:11:54.796Z] 从元数据提取到版本号: 0.1.6
+[2025-03-26T04:11:54.797Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:11:54.799Z] 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-26T04:11:54.799Z] 模组 EvenMoreHead 没有更新
+[2025-03-26T04:11:54.800Z] 配置已保存
+[2025-03-26T04:11:56.799Z] 正在检查模组 ImprovedStamina 的更新...
+[2025-03-26T04:11:57.971Z] 从元数据提取到版本号: 1.2.0
+[2025-03-26T04:11:57.973Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:11:57.974Z] 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-26T04:11:57.974Z] 模组 ImprovedStamina 没有更新
+[2025-03-26T04:11:57.975Z] 配置已保存
+[2025-03-26T04:11:59.977Z] 正在检查模组 InfiniteStamina 的更新...
+[2025-03-26T04:12:01.657Z] 从元数据提取到版本号: 1.0.0
+[2025-03-26T04:12:01.658Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:12:01.659Z] 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-26T04:12:01.659Z] 模组 InfiniteStamina 没有更新
+[2025-03-26T04:12:01.660Z] 配置已保存
+[2025-03-26T04:12:03.662Z] 正在检查模组 BensCosmetics 的更新...
+[2025-03-26T04:12:04.220Z] 从元数据提取到版本号: 1.4.3
+[2025-03-26T04:12:04.222Z] 从表格提取到更新日期: 2 hours ago
+[2025-03-26T04:12:04.223Z] 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.4.3/
+[2025-03-26T04:12:04.224Z] 模组 BensCosmetics 没有更新
+[2025-03-26T04:12:04.224Z] 配置已保存
+[2025-03-26T04:12:06.227Z] 正在检查模组 REPOLib 的更新...
+[2025-03-26T04:12:06.884Z] 从元数据提取到版本号: 1.5.0
+[2025-03-26T04:12:06.885Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:12:06.885Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.5.0/
+[2025-03-26T04:12:06.886Z] 模组 REPOLib 没有更新
+[2025-03-26T04:12:06.886Z] 配置已保存
+[2025-03-26T04:12:08.888Z] 正在检查模组 MoreHead 的更新...
+[2025-03-26T04:12:09.549Z] 从元数据提取到版本号: 1.3.0
+[2025-03-26T04:12:09.551Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:12:09.551Z] 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.3.0/
+[2025-03-26T04:12:09.552Z] 模组 MoreHead 没有更新
+[2025-03-26T04:12:09.553Z] 配置已保存
+[2025-03-26T04:12:11.555Z] 正在检查模组 MoreReviveHP 的更新...
+[2025-03-26T04:12:12.201Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:12:12.202Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:12:12.203Z] 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-26T04:12:12.204Z] 模组 MoreReviveHP 没有更新
+[2025-03-26T04:12:12.204Z] 配置已保存
+[2025-03-26T04:12:14.207Z] 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-26T04:12:14.752Z] 从元数据提取到版本号: 0.3.3
+[2025-03-26T04:12:14.752Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:12:14.753Z] 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.3.3/
+[2025-03-26T04:12:14.753Z] 模组 MoreHeadPlus 没有更新
+[2025-03-26T04:12:14.753Z] 配置已保存
+[2025-03-26T04:12:16.756Z] 正在检查模组 LateJoin 的更新...
+[2025-03-26T04:12:17.318Z] 从元数据提取到版本号: 0.1.2
+[2025-03-26T04:12:17.319Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:12:17.319Z] 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-26T04:12:17.319Z] 模组 LateJoin 没有更新
+[2025-03-26T04:12:17.320Z] 配置已保存
+[2025-03-26T04:12:19.322Z] 正在检查模组 MoreShopItems 的更新...
+[2025-03-26T04:12:19.882Z] 从元数据提取到版本号: 1.2.8
+[2025-03-26T04:12:19.883Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:12:19.883Z] 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.8/
+[2025-03-26T04:12:19.883Z] 模组 MoreShopItems 没有更新
+[2025-03-26T04:12:19.884Z] 配置已保存
+[2025-03-26T04:12:21.885Z] 正在检查模组 TeamUpgrades 的更新...
+[2025-03-26T04:12:22.435Z] 从元数据提取到版本号: 1.1.4
+[2025-03-26T04:12:22.435Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:12:22.435Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+[2025-03-26T04:12:22.435Z] 模组 TeamUpgrades 没有更新
+[2025-03-26T04:12:22.436Z] 配置已保存
+[2025-03-26T04:12:24.437Z] 正在检查模组 MenuLib 的更新...
+[2025-03-26T04:12:24.973Z] 从元数据提取到版本号: 2.1.3
+[2025-03-26T04:12:24.974Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:12:24.974Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/MenuLib/2.1.3/
+[2025-03-26T04:12:24.974Z] 模组 MenuLib 没有更新
+[2025-03-26T04:12:24.975Z] 配置已保存
+[2025-03-26T04:12:26.976Z] 正在检查模组 MoreUpgrades 的更新...
+[2025-03-26T04:12:28.074Z] 从元数据提取到版本号: 1.4.2
+[2025-03-26T04:12:28.075Z] 从表格提取到更新日期: 8 hours ago
+[2025-03-26T04:12:28.076Z] 提取到下载链接: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.4.2/
+[2025-03-26T04:12:28.076Z] 模组 MoreUpgrades 没有更新
+[2025-03-26T04:12:28.077Z] 配置已保存
+[2025-03-26T04:12:30.080Z] 正在检查模组 ExtractionPointConfirmButton 的更新...
+[2025-03-26T04:12:30.633Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:12:30.634Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:12:30.634Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/ExtractionPointConfirmButton/1.0.1/
+[2025-03-26T04:12:30.634Z] 模组 ExtractionPointConfirmButton 没有更新
+[2025-03-26T04:12:30.635Z] 配置已保存
+[2025-03-26T04:12:32.635Z] 正在检查模组 LethalCompanyValuables 的更新...
+[2025-03-26T04:12:33.193Z] 从元数据提取到版本号: 1.1.1
+[2025-03-26T04:12:33.194Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:12:33.194Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/LethalCompanyValuables/1.1.1/
+[2025-03-26T04:12:33.195Z] 模组 LethalCompanyValuables 没有更新
+[2025-03-26T04:12:33.195Z] 配置已保存
+[2025-03-26T04:12:35.197Z] 正在检查模组 InfiniteEnergyCrystals 的更新...
+[2025-03-26T04:12:35.854Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:12:35.854Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:12:35.855Z] 提取到下载链接: https://thunderstore.io/package/download/Lazarus/InfiniteEnergyCrystals/1.0.1/
+[2025-03-26T04:12:35.855Z] 模组 InfiniteEnergyCrystals 没有更新
+[2025-03-26T04:12:35.855Z] 配置已保存
+[2025-03-26T04:12:37.858Z] 正在检查模组 EvenMoreHats 的更新...
+[2025-03-26T04:12:39.131Z] 从元数据提取到版本号: 1.2.2
+[2025-03-26T04:12:39.132Z] 从表格提取到更新日期: 5 hours ago
+[2025-03-26T04:12:39.132Z] 提取到下载链接: https://thunderstore.io/package/download/fedorabunnies/EvenMoreHats/1.2.2/
+[2025-03-26T04:12:39.132Z] 模组 EvenMoreHats 没有更新
+[2025-03-26T04:12:39.133Z] 配置已保存
+[2025-03-26T04:12:41.135Z] 正在检查模组 FunnyItems 的更新...
+[2025-03-26T04:12:41.673Z] 从元数据提取到版本号: 1.3.0
+[2025-03-26T04:12:41.674Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:12:41.674Z] 提取到下载链接: https://thunderstore.io/package/download/Ako/FunnyItems/1.3.0/
+[2025-03-26T04:12:41.675Z] 模组 FunnyItems 没有更新
+[2025-03-26T04:12:41.675Z] 配置已保存
+[2025-03-26T04:12:43.676Z] 正在检查模组 Mimic 的更新...
+[2025-03-26T04:12:44.353Z] 从元数据提取到版本号: 1.1.1
+[2025-03-26T04:12:44.355Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:12:44.355Z] 提取到下载链接: https://thunderstore.io/package/download/eth9n/Mimic/1.1.1/
+[2025-03-26T04:12:44.355Z] 模组 Mimic 没有更新
+[2025-03-26T04:12:44.356Z] 配置已保存
+[2025-03-26T04:12:46.358Z] 正在检查模组 Cart_Lights_MelanieMelicious 的更新...
+[2025-03-26T04:12:47.431Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:12:47.432Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:12:47.432Z] 提取到下载链接: https://thunderstore.io/package/download/MelanieMelicious/Cart_Lights_MelanieMelicious/1.0.1/
+[2025-03-26T04:12:47.432Z] 模组 Cart_Lights_MelanieMelicious 没有更新
+[2025-03-26T04:12:47.433Z] 配置已保存
+[2025-03-26T04:12:49.434Z] 正在检查模组 XUnity_AutoTranslator 的更新...
+[2025-03-26T04:12:51.112Z] 从元数据提取到版本号: 5.4.4
+[2025-03-26T04:12:51.113Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:12:51.113Z] 提取到下载链接: https://thunderstore.io/package/download/Hayrizan/XUnity_AutoTranslator/5.4.4/
+[2025-03-26T04:12:51.113Z] 模组 XUnity_AutoTranslator 没有更新
+[2025-03-26T04:12:51.116Z] 配置已保存
+[2025-03-26T04:12:53.117Z] 正在检查模组 CustomColors 的更新...
+[2025-03-26T04:12:53.670Z] 从元数据提取到版本号: 1.1.0
+[2025-03-26T04:12:53.671Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:12:53.671Z] 提取到下载链接: https://thunderstore.io/package/download/x753_REPO/CustomColors/1.1.0/
+[2025-03-26T04:12:53.672Z] 模组 CustomColors 没有更新
+[2025-03-26T04:12:53.672Z] 配置已保存
+[2025-03-26T04:12:55.674Z] 正在检查模组 Lethal_Plushies 的更新...
+[2025-03-26T04:12:56.334Z] 从元数据提取到版本号: 1.0.5
+[2025-03-26T04:12:56.335Z] 从表格提取到更新日期: 2 days ago
+[2025-03-26T04:12:56.336Z] 提取到下载链接: https://thunderstore.io/package/download/Spoopylocal/Lethal_Plushies/1.0.5/
+[2025-03-26T04:12:56.336Z] 模组 Lethal_Plushies 没有更新
+[2025-03-26T04:12:56.337Z] 配置已保存
+[2025-03-26T04:12:58.339Z] 正在检查模组 FovUpdate 的更新...
+[2025-03-26T04:12:59.000Z] 从元数据提取到版本号: 0.2.7
+[2025-03-26T04:12:59.001Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:12:59.002Z] 提取到下载链接: https://thunderstore.io/package/download/darmuh/FovUpdate/0.2.7/
+[2025-03-26T04:12:59.002Z] 模组 FovUpdate 没有更新
+[2025-03-26T04:12:59.002Z] 配置已保存
+[2025-03-26T04:13:01.005Z] 正在检查模组 FreecamSpectate 的更新...
+[2025-03-26T04:13:01.661Z] 从元数据提取到版本号: 1.1.0
+[2025-03-26T04:13:01.662Z] 从表格提取到更新日期: 2 days ago
+[2025-03-26T04:13:01.663Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/FreecamSpectate/1.1.0/
+[2025-03-26T04:13:01.663Z] 模组 FreecamSpectate 没有更新
+[2025-03-26T04:13:01.664Z] 配置已保存
+[2025-03-26T04:13:03.665Z] 正在检查模组 DeadTTS 的更新...
+[2025-03-26T04:13:04.472Z] 从元数据提取到版本号: 1.0.4
+[2025-03-26T04:13:04.473Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:13:04.473Z] 提取到下载链接: https://thunderstore.io/package/download/flipf17/DeadTTS/1.0.4/
+[2025-03-26T04:13:04.473Z] 模组 DeadTTS 没有更新
+[2025-03-26T04:13:04.473Z] 配置已保存
+[2025-03-26T04:13:32.614Z] 正在检查模组 TeamHeals 的更新...
+[2025-03-26T04:13:34.986Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:13:34.988Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:13:34.989Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamHeals/1.0.1/
+[2025-03-26T04:13:34.989Z] 模组 TeamHeals 没有更新
+[2025-03-26T04:13:34.990Z] 配置已保存
+[2025-03-26T04:13:36.992Z] 正在检查模组 MoreStamina 的更新...
+[2025-03-26T04:13:38.184Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:13:38.185Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:13:38.185Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/MoreStamina/1.0.1/
+[2025-03-26T04:13:38.185Z] 模组 MoreStamina 没有更新
+[2025-03-26T04:13:38.186Z] 配置已保存
+[2025-03-26T04:13:40.189Z] 正在检查模组 REPORoles 的更新...
+[2025-03-26T04:13:40.885Z] 从元数据提取到版本号: 1.3.5
+[2025-03-26T04:13:40.887Z] 从表格提取到更新日期: 10 hours ago
+[2025-03-26T04:13:40.887Z] 提取到下载链接: https://thunderstore.io/package/download/BobisMods/REPORoles/1.3.5/
+[2025-03-26T04:13:40.887Z] 模组 REPORoles 没有更新
+[2025-03-26T04:13:40.888Z] 配置已保存
+[2025-03-26T04:13:42.891Z] 正在检查模组 MorePlayers 的更新...
+[2025-03-26T04:13:43.648Z] 从元数据提取到版本号: 1.0.4
+[2025-03-26T04:13:43.649Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:13:43.649Z] 提取到下载链接: https://thunderstore.io/package/download/zelofi/MorePlayers/1.0.4/
+[2025-03-26T04:13:43.649Z] 模组 MorePlayers 没有更新
+[2025-03-26T04:13:43.650Z] 配置已保存
+[2025-03-26T04:13:45.651Z] 正在检查模组 ShrinkerCart 的更新...
+[2025-03-26T04:13:47.036Z] 从元数据提取到版本号: 0.1.0
+[2025-03-26T04:13:47.037Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:13:47.037Z] 提取到下载链接: https://thunderstore.io/package/download/Oksamies/ShrinkerCart/0.1.0/
+[2025-03-26T04:13:47.037Z] 模组 ShrinkerCart 没有更新
+[2025-03-26T04:13:47.038Z] 配置已保存
+[2025-03-26T04:13:49.039Z] 正在检查模组 Enemy_Location 的更新...
+[2025-03-26T04:13:49.900Z] 从元数据提取到版本号: 1.0.3
+[2025-03-26T04:13:49.901Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:13:49.901Z] 提取到下载链接: https://thunderstore.io/package/download/WZK/Enemy_Location/1.0.3/
+[2025-03-26T04:13:49.901Z] 模组 Enemy_Location 没有更新
+[2025-03-26T04:13:49.902Z] 配置已保存
+[2025-03-26T04:13:51.903Z] 正在检查模组 LegoGnomes 的更新...
+[2025-03-26T04:13:52.871Z] 从元数据提取到版本号: 1.0.2
+[2025-03-26T04:13:52.872Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:13:52.872Z] 提取到下载链接: https://thunderstore.io/package/download/ColtG5/LegoGnomes/1.0.2/
+[2025-03-26T04:13:52.872Z] 模组 LegoGnomes 没有更新
+[2025-03-26T04:13:52.873Z] 配置已保存
+[2025-03-26T04:13:54.875Z] 正在检查模组 EvenMoreHead 的更新...
+[2025-03-26T04:13:55.625Z] 从元数据提取到版本号: 0.1.6
+[2025-03-26T04:13:55.626Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:13:55.626Z] 提取到下载链接: https://thunderstore.io/package/download/DEMMERS/EvenMoreHead/0.1.6/
+[2025-03-26T04:13:55.626Z] 模组 EvenMoreHead 没有更新
+[2025-03-26T04:13:55.627Z] 配置已保存
+[2025-03-26T04:13:57.628Z] 正在检查模组 ImprovedStamina 的更新...
+[2025-03-26T04:13:58.327Z] 从元数据提取到版本号: 1.2.0
+[2025-03-26T04:13:58.328Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:13:58.329Z] 提取到下载链接: https://thunderstore.io/package/download/Flopper/ImprovedStamina/1.2.0/
+[2025-03-26T04:13:58.329Z] 模组 ImprovedStamina 没有更新
+[2025-03-26T04:13:58.329Z] 配置已保存
+[2025-03-26T04:14:00.331Z] 正在检查模组 InfiniteStamina 的更新...
+[2025-03-26T04:14:01.049Z] 从元数据提取到版本号: 1.0.0
+[2025-03-26T04:14:01.050Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:14:01.050Z] 提取到下载链接: https://thunderstore.io/package/download/GalaCorp/InfiniteStamina/1.0.0/
+[2025-03-26T04:14:01.050Z] 模组 InfiniteStamina 没有更新
+[2025-03-26T04:14:01.051Z] 配置已保存
+[2025-03-26T04:14:03.052Z] 正在检查模组 BensCosmetics 的更新...
+[2025-03-26T04:14:03.919Z] 从元数据提取到版本号: 1.4.3
+[2025-03-26T04:14:03.920Z] 从表格提取到更新日期: 2 hours ago
+[2025-03-26T04:14:03.920Z] 提取到下载链接: https://thunderstore.io/package/download/Bengimi/BensCosmetics/1.4.3/
+[2025-03-26T04:14:03.920Z] 模组 BensCosmetics 没有更新
+[2025-03-26T04:14:03.922Z] 配置已保存
+[2025-03-26T04:14:05.924Z] 正在检查模组 REPOLib 的更新...
+[2025-03-26T04:14:06.993Z] 从元数据提取到版本号: 1.5.0
+[2025-03-26T04:14:06.994Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:14:06.995Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/REPOLib/1.5.0/
+[2025-03-26T04:14:06.995Z] 模组 REPOLib 没有更新
+[2025-03-26T04:14:06.995Z] 配置已保存
+[2025-03-26T04:14:08.996Z] 正在检查模组 MoreHead 的更新...
+[2025-03-26T04:14:09.617Z] 从元数据提取到版本号: 1.3.0
+[2025-03-26T04:14:09.618Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:14:09.618Z] 提取到下载链接: https://thunderstore.io/package/download/YMC_MHZ/MoreHead/1.3.0/
+[2025-03-26T04:14:09.618Z] 模组 MoreHead 没有更新
+[2025-03-26T04:14:09.619Z] 配置已保存
+[2025-03-26T04:14:11.621Z] 正在检查模组 MoreReviveHP 的更新...
+[2025-03-26T04:14:12.289Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:14:12.290Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:14:12.290Z] 提取到下载链接: https://thunderstore.io/package/download/Tidaleus/MoreReviveHP/1.0.1/
+[2025-03-26T04:14:12.290Z] 模组 MoreReviveHP 没有更新
+[2025-03-26T04:14:12.291Z] 配置已保存
+[2025-03-26T04:14:14.292Z] 正在检查模组 MoreHeadPlus 的更新...
+[2025-03-26T04:14:14.916Z] 从元数据提取到版本号: 0.3.3
+[2025-03-26T04:14:14.917Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:14:14.918Z] 提取到下载链接: https://thunderstore.io/package/download/RESET/MoreHeadPlus/0.3.3/
+[2025-03-26T04:14:14.918Z] 模组 MoreHeadPlus 没有更新
+[2025-03-26T04:14:14.919Z] 配置已保存
+[2025-03-26T04:14:16.921Z] 正在检查模组 LateJoin 的更新...
+[2025-03-26T04:14:17.843Z] 从元数据提取到版本号: 0.1.2
+[2025-03-26T04:14:17.844Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:14:17.844Z] 提取到下载链接: https://thunderstore.io/package/download/Rebateman/LateJoin/0.1.2/
+[2025-03-26T04:14:17.844Z] 模组 LateJoin 没有更新
+[2025-03-26T04:14:17.845Z] 配置已保存
+[2025-03-26T04:14:19.846Z] 正在检查模组 MoreShopItems 的更新...
+[2025-03-26T04:14:20.529Z] 从元数据提取到版本号: 1.2.8
+[2025-03-26T04:14:20.530Z] 从表格提取到更新日期: 4 hours ago
+[2025-03-26T04:14:20.530Z] 提取到下载链接: https://thunderstore.io/package/download/GalaxyMods/MoreShopItems/1.2.8/
+[2025-03-26T04:14:20.530Z] 模组 MoreShopItems 没有更新
+[2025-03-26T04:14:20.531Z] 配置已保存
+[2025-03-26T04:14:22.532Z] 正在检查模组 TeamUpgrades 的更新...
+[2025-03-26T04:14:23.269Z] 从元数据提取到版本号: 1.1.4
+[2025-03-26T04:14:23.270Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:14:23.270Z] 提取到下载链接: https://thunderstore.io/package/download/EvilCheetah/TeamUpgrades/1.1.4/
+[2025-03-26T04:14:23.270Z] 模组 TeamUpgrades 没有更新
+[2025-03-26T04:14:23.270Z] 配置已保存
+[2025-03-26T04:14:25.272Z] 正在检查模组 MenuLib 的更新...
+[2025-03-26T04:14:26.443Z] 从元数据提取到版本号: 2.1.3
+[2025-03-26T04:14:26.443Z] 从表格提取到更新日期: 5 hours ago
+[2025-03-26T04:14:26.444Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/MenuLib/2.1.3/
+[2025-03-26T04:14:26.444Z] 模组 MenuLib 没有更新
+[2025-03-26T04:14:26.444Z] 配置已保存
+[2025-03-26T04:14:28.445Z] 正在检查模组 MoreUpgrades 的更新...
+[2025-03-26T04:14:29.125Z] 从元数据提取到版本号: 1.4.2
+[2025-03-26T04:14:29.126Z] 从表格提取到更新日期: 8 hours ago
+[2025-03-26T04:14:29.126Z] 提取到下载链接: https://thunderstore.io/package/download/BULLETBOT/MoreUpgrades/1.4.2/
+[2025-03-26T04:14:29.126Z] 模组 MoreUpgrades 没有更新
+[2025-03-26T04:14:29.127Z] 配置已保存
+[2025-03-26T04:14:31.128Z] 正在检查模组 ExtractionPointConfirmButton 的更新...
+[2025-03-26T04:14:32.321Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:14:32.322Z] 从表格提取到更新日期: 3 weeks ago
+[2025-03-26T04:14:32.322Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/ExtractionPointConfirmButton/1.0.1/
+[2025-03-26T04:14:32.322Z] 模组 ExtractionPointConfirmButton 没有更新
+[2025-03-26T04:14:32.322Z] 配置已保存
+[2025-03-26T04:14:34.324Z] 正在检查模组 LethalCompanyValuables 的更新...
+[2025-03-26T04:14:34.972Z] 从元数据提取到版本号: 1.1.1
+[2025-03-26T04:14:34.973Z] 从表格提取到更新日期: a week ago
+[2025-03-26T04:14:34.974Z] 提取到下载链接: https://thunderstore.io/package/download/Zehs/LethalCompanyValuables/1.1.1/
+[2025-03-26T04:14:34.975Z] 模组 LethalCompanyValuables 没有更新
+[2025-03-26T04:14:34.976Z] 配置已保存
+[2025-03-26T04:14:36.978Z] 正在检查模组 InfiniteEnergyCrystals 的更新...
+[2025-03-26T04:14:38.018Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:14:38.019Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:14:38.020Z] 提取到下载链接: https://thunderstore.io/package/download/Lazarus/InfiniteEnergyCrystals/1.0.1/
+[2025-03-26T04:14:38.020Z] 模组 InfiniteEnergyCrystals 没有更新
+[2025-03-26T04:14:38.021Z] 配置已保存
+[2025-03-26T04:14:40.021Z] 正在检查模组 EvenMoreHats 的更新...
+[2025-03-26T04:14:40.782Z] 从元数据提取到版本号: 1.2.2
+[2025-03-26T04:14:40.783Z] 从表格提取到更新日期: 5 hours ago
+[2025-03-26T04:14:40.783Z] 提取到下载链接: https://thunderstore.io/package/download/fedorabunnies/EvenMoreHats/1.2.2/
+[2025-03-26T04:14:40.783Z] 模组 EvenMoreHats 没有更新
+[2025-03-26T04:14:40.784Z] 配置已保存
+[2025-03-26T04:14:42.786Z] 正在检查模组 FunnyItems 的更新...
+[2025-03-26T04:14:43.750Z] 从元数据提取到版本号: 1.3.0
+[2025-03-26T04:14:43.751Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:14:43.751Z] 提取到下载链接: https://thunderstore.io/package/download/Ako/FunnyItems/1.3.0/
+[2025-03-26T04:14:43.751Z] 模组 FunnyItems 没有更新
+[2025-03-26T04:14:43.752Z] 配置已保存
+[2025-03-26T04:14:45.754Z] 正在检查模组 Mimic 的更新...
+[2025-03-26T04:14:46.415Z] 从元数据提取到版本号: 1.1.1
+[2025-03-26T04:14:46.416Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:14:46.417Z] 提取到下载链接: https://thunderstore.io/package/download/eth9n/Mimic/1.1.1/
+[2025-03-26T04:14:46.418Z] 模组 Mimic 没有更新
+[2025-03-26T04:14:46.418Z] 配置已保存
+[2025-03-26T04:14:48.420Z] 正在检查模组 Cart_Lights_MelanieMelicious 的更新...
+[2025-03-26T04:14:49.127Z] 从元数据提取到版本号: 1.0.1
+[2025-03-26T04:14:49.127Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:14:49.128Z] 提取到下载链接: https://thunderstore.io/package/download/MelanieMelicious/Cart_Lights_MelanieMelicious/1.0.1/
+[2025-03-26T04:14:49.128Z] 模组 Cart_Lights_MelanieMelicious 没有更新
+[2025-03-26T04:14:49.129Z] 配置已保存
+[2025-03-26T04:14:51.130Z] 正在检查模组 XUnity_AutoTranslator 的更新...
+[2025-03-26T04:14:51.803Z] 从元数据提取到版本号: 5.4.4
+[2025-03-26T04:14:51.804Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:14:51.805Z] 提取到下载链接: https://thunderstore.io/package/download/Hayrizan/XUnity_AutoTranslator/5.4.4/
+[2025-03-26T04:14:51.805Z] 模组 XUnity_AutoTranslator 没有更新
+[2025-03-26T04:14:51.805Z] 配置已保存
+[2025-03-26T04:14:53.807Z] 正在检查模组 CustomColors 的更新...
+[2025-03-26T04:14:54.512Z] 从元数据提取到版本号: 1.1.0
+[2025-03-26T04:14:54.512Z] 从表格提取到更新日期: 2 weeks ago
+[2025-03-26T04:14:54.513Z] 提取到下载链接: https://thunderstore.io/package/download/x753_REPO/CustomColors/1.1.0/
+[2025-03-26T04:14:54.513Z] 模组 CustomColors 没有更新
+[2025-03-26T04:14:54.513Z] 配置已保存
+[2025-03-26T04:14:56.514Z] 正在检查模组 Lethal_Plushies 的更新...
+[2025-03-26T04:14:57.164Z] 从元数据提取到版本号: 1.0.5
+[2025-03-26T04:14:57.165Z] 从表格提取到更新日期: 2 days ago
+[2025-03-26T04:14:57.165Z] 提取到下载链接: https://thunderstore.io/package/download/Spoopylocal/Lethal_Plushies/1.0.5/
+[2025-03-26T04:14:57.165Z] 模组 Lethal_Plushies 没有更新
+[2025-03-26T04:14:57.166Z] 配置已保存
+[2025-03-26T04:14:59.168Z] 正在检查模组 FovUpdate 的更新...
+[2025-03-26T04:14:59.933Z] 从元数据提取到版本号: 0.2.7
+[2025-03-26T04:14:59.933Z] 从表格提取到更新日期: a day ago
+[2025-03-26T04:14:59.934Z] 提取到下载链接: https://thunderstore.io/package/download/darmuh/FovUpdate/0.2.7/
+[2025-03-26T04:14:59.934Z] 模组 FovUpdate 没有更新
+[2025-03-26T04:14:59.935Z] 配置已保存
+[2025-03-26T04:15:01.936Z] 正在检查模组 FreecamSpectate 的更新...
+[2025-03-26T04:15:02.590Z] 从元数据提取到版本号: 1.1.0
+[2025-03-26T04:15:02.591Z] 从表格提取到更新日期: 2 days ago
+[2025-03-26T04:15:02.591Z] 提取到下载链接: https://thunderstore.io/package/download/nickklmao/FreecamSpectate/1.1.0/
+[2025-03-26T04:15:02.591Z] 模组 FreecamSpectate 没有更新
+[2025-03-26T04:15:02.592Z] 配置已保存
+[2025-03-26T04:15:04.593Z] 正在检查模组 DeadTTS 的更新...
+[2025-03-26T04:15:05.462Z] 从元数据提取到版本号: 1.0.4
+[2025-03-26T04:15:05.463Z] 从表格提取到更新日期: 3 hours ago
+[2025-03-26T04:15:05.464Z] 提取到下载链接: https://thunderstore.io/package/download/flipf17/DeadTTS/1.0.4/
+[2025-03-26T04:15:05.465Z] 模组 DeadTTS 没有更新
+[2025-03-26T04:15:05.465Z] 配置已保存
+[2025-03-26T04:15:07.467Z] 正在检查模组 TestMod 的更新...
+[2025-03-26T04:15:08.135Z] 获取模组信息失败: Request failed with status code 404
+[2025-03-26T04:15:08.135Z] 处理模组 TestMod 时出错: 无法获取模组信息

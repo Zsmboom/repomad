@@ -36,7 +36,7 @@ export default function MoreStaminaPage() {
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: March 18, 2023</span>
+                <span>Last updated: 3 weeks ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-green-500/20">
@@ -195,11 +195,11 @@ export default function MoreStaminaPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repo-MoreStamina-1.0.1.zip" 
+                    href="/downloads/repomod-MoreStamina-1.0.1.zip" 
                     className="inline-flex items-center px-8 py-4 bg-green-600 text-white text-lg rounded-md hover:bg-green-700 transition-colors"
                   >
                     <FiDownload className="mr-2" />
-                    Download R.E.P.O. MoreStamina v1.0.1
+                    Download MoreStamina v1.0.1
                   </a>
                   
                   <div className="mt-16">

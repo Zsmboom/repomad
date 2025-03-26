@@ -31,12 +31,12 @@ export default function MoreHeadPage() {
               <h1 className="text-4xl md:text-5xl font-bold mb-3 flex items-center">
                 <GiHumanTarget className="mr-4 text-amber-400" /> 
                 MoreHead
-                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.2.7</span>
+                <span className="ml-3 text-sm bg-amber-700 px-2 py-1 rounded-full">v1.3.0</span>
               </h1>
               
               <div className="flex items-center mb-6 text-gray-400">
                 <FiCalendar className="mr-2" />
-                <span>Last updated: 7 hours ago</span>
+                <span>Last updated: 4 hours ago</span>
               </div>
               
               <div className="bg-gray-900/50 p-6 rounded-lg mb-8 border border-amber-500/20">
@@ -139,11 +139,11 @@ export default function MoreHeadPage() {
                   </div>
                   
                   <a 
-                    href="/downloads/repomod-MoreHead-1.2.7.zip" 
+                    href="/downloads/repomod-MoreHead-1.3.0.zip" 
                     className="inline-flex items-center px-8 py-4 bg-amber-700 text-white text-lg rounded-md hover:bg-amber-600 transition-colors"
                   >
                     <FiDownload className="mr-2" />
-                    Download MoreHead v1.2.7
+                    Download MoreHead v1.3.0
                   </a>
                   
                   <div className="mt-16">
