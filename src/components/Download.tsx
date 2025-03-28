@@ -210,6 +210,41 @@ const modDefaults = [
     detailUrl: '/repomod-DeadTTS',
     isNew: true,
     nameOverride: 'DeadTTS' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Better Truck Heals',
+    description: 'Increases heal amount to 50 instead of default 25 with full REPOConfig customization',
+    detailUrl: '/repomod-BetterTruckHeals',
+    isNew: true,
+    nameOverride: 'BetterTruckHeals' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'XH DamageShow EnemyHealthBar',
+    description: 'Displays enemy health bars and damage numbers for better combat awareness',
+    detailUrl: '/repomod-XH_DamageShow_EnemyHealthBar',
+    isNew: true,
+    nameOverride: 'XH_DamageShow_EnemyHealthBar' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Improved Stamina',
+    description: 'Enhances stamina regeneration with dynamic scaling and customizable settings',
+    detailUrl: '/repomod-ImprovedStamina',
+    isNew: true,
+    nameOverride: 'ImprovedStamina' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'THE FINALS Valuables',
+    description: 'Adds collectible valuables from the hit game THE FINALS to R.E.P.O.',
+    detailUrl: '/repomod-TheFinalsValuables',
+    isNew: true,
+    nameOverride: 'TheFinalsValuables' // 用于匹配config.json中的键名
+  },
+  {
+    name: 'Berserker Enemies',
+    description: 'Enemies rage when injured, gaining speed and damage with dynamic health bars',
+    detailUrl: '/repomod-BerserkerEnemies',
+    isNew: true,
+    nameOverride: 'BerserkerEnemies' // 用于匹配config.json中的键名
   }
 ];
 
@@ -287,9 +322,31 @@ export default function Download() {
         const response = await fetch('/api/mods');
         const configData = await response.json();
         
+        // 定义要显示的9个特定mod (按要求排序)
+        const specificModIds = [
+          'R.E.P.O. Roles', 
+          'R.E.P.O. MorePlayers', 
+          'MoreHead', 
+          'LateJoin', 
+          'MoreUpgrades', 
+          'REPOLib', 
+          'TeamUpgrades', 
+          'MenuLib', 
+          'MoreHeadPlus'
+        ];
+        
         if (configData && configData.mods) {
-          // 将配置信息与默认模组信息合并
-          const updatedMods = modDefaults.map(mod => {
+          // 筛选出指定的9个mod并保持顺序
+          const filteredMods = specificModIds
+            .map(modId => {
+              // 查找匹配的mod
+              const mod = modDefaults.find(mod => mod.name === modId);
+              return mod; // 明确返回mod或undefined
+            })
+            .filter((mod): mod is typeof modDefaults[0] => mod !== undefined); // 类型守卫确保过滤掉undefined值
+          
+          // 将配置信息与筛选后的模组信息合并
+          const updatedMods = filteredMods.map(mod => {
             const configKey = mod.nameOverride || mod.name;
             const modConfig = configData.mods[configKey];
             
@@ -342,13 +399,35 @@ export default function Download() {
           
           setModVersions(updatedMods);
         } else {
-          // 如果API调用失败，使用默认信息
-          setModVersions(modDefaults);
+          // 如果API调用失败，使用过滤后的默认信息
+          const filteredDefaultMods = specificModIds
+            .map(modId => {
+              const mod = modDefaults.find(mod => mod.name === modId);
+              return mod; // 明确返回mod或undefined
+            })
+            .filter((mod): mod is typeof modDefaults[0] => mod !== undefined); // 类型守卫确保过滤掉undefined值
+          setModVersions(filteredDefaultMods);
         }
       } catch (error) {
         console.error('Error fetching mod info:', error);
-        // 如果发生错误，使用默认信息
-        setModVersions(modDefaults);
+        // 如果发生错误，使用过滤后的默认信息
+        const filteredDefaultMods = [
+          'R.E.P.O. Roles', 
+          'R.E.P.O. MorePlayers', 
+          'MoreHead', 
+          'LateJoin', 
+          'MoreUpgrades', 
+          'REPOLib', 
+          'TeamUpgrades', 
+          'MenuLib', 
+          'MoreHeadPlus'
+        ]
+          .map(modId => {
+            const mod = modDefaults.find(mod => mod.name === modId);
+            return mod; // 明确返回mod或undefined
+          })
+          .filter((mod): mod is typeof modDefaults[0] => mod !== undefined); // 类型守卫确保过滤掉undefined值
+        setModVersions(filteredDefaultMods);
       } finally {
         setIsLoading(false);
       }
@@ -383,7 +462,7 @@ export default function Download() {
           <div className="bg-amber-900/50 border border-amber-700 p-4 rounded-lg">
             <h3 className="font-semibold mb-2 text-xl text-amber-400">Coming Soon</h3>
             <p className="text-lg">
-              We're actively developing many more exciting mods for REPO! Stay tuned for new gameplay features, visual enhancements, quality of life improvements, and much more. Check back regularly for updates!
+              We check for updates daily and add at least 5 new mods twice a week! Stay tuned for new gameplay features, visual enhancements, quality of life improvements, and much more. Bookmark this site to discover the latest REPO MODS as soon as they're released!
             </p>
           </div>
         </motion.div>
@@ -468,62 +547,90 @@ export default function Download() {
           </div>
         </div>
         
-        <h3 className="text-2xl font-semibold mb-6 mt-12">Popular Mods</h3>
+        <div className="flex justify-between items-center mb-6 mt-12">
+          <h3 className="text-2xl font-semibold">Popular Mods</h3>
+          <Link href="/repo-mods-Download" className="inline-flex items-center px-4 py-2 bg-amber-700 hover:bg-amber-600 rounded-lg transition">
+            <span className="mr-2">More Mods</span>
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+            </svg>
+          </Link>
+        </div>
         
         {isLoading ? (
           <div className="text-center py-12">
             <p>Loading mods information...</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {modVersions.map((mod, index) => {
-              let icon;
-              
-              // 为不同模组分配不同图标
-              if (mod.name.includes('Team')) {
-                icon = <FaUsers className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Head')) {
-                icon = <GiClothes className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Stamina')) {
-                icon = <FaRunning className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Health') || mod.name.includes('Heal') || mod.name.includes('Revive')) {
-                icon = <FaHeartbeat className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Players')) {
-                icon = <FaUserPlus className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Lib')) {
-                icon = <VscLibrary className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Role')) {
-                icon = <GiHumanTarget className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Lego')) {
-                icon = <GiPartyHat className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Extract')) {
-                icon = <FiTarget className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Enemy')) {
-                icon = <GiRobotGolem className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Menu')) {
-                icon = <RiCodeSSlashLine className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Shop')) {
-                icon = <FiDollarSign className="text-2xl text-amber-500 mr-2" />;
-              } else if (mod.name.includes('Valuable')) {
-                icon = <FiDollarSign className="text-2xl text-amber-500 mr-2" />;
-              } else {
-                icon = <FiPackage className="text-2xl text-amber-500 mr-2" />;
-              }
-  
-              return (
-                <ModCard
-                  key={index}
-                  title={mod.name}
-                  description={mod.description}
-                  icon={icon}
-                  detailUrl={mod.detailUrl}
-                  delay={0.1 + index * 0.05}
-                  version={mod.version}
-                  date={mod.date}
-                />
-              );
-            })}
-          </div>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {modVersions.map((mod, index) => {
+                let icon;
+                
+                // 为不同模组分配不同图标
+                if (mod.name.includes('Team')) {
+                  icon = <FaUsers className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Head')) {
+                  icon = <GiClothes className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Stamina')) {
+                  icon = <FaRunning className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Health') || mod.name.includes('Heal') || mod.name.includes('Revive')) {
+                  icon = <FaHeartbeat className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Players')) {
+                  icon = <FaUserPlus className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Lib')) {
+                  icon = <VscLibrary className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Role')) {
+                  icon = <GiHumanTarget className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Lego')) {
+                  icon = <GiPartyHat className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Extract')) {
+                  icon = <FiTarget className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Enemy')) {
+                  icon = <GiRobotGolem className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Menu')) {
+                  icon = <RiCodeSSlashLine className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Shop')) {
+                  icon = <FiDollarSign className="text-2xl text-amber-500 mr-2" />;
+                } else if (mod.name.includes('Valuable')) {
+                  icon = <FiDollarSign className="text-2xl text-amber-500 mr-2" />;
+                } else {
+                  icon = <FiPackage className="text-2xl text-amber-500 mr-2" />;
+                }
+    
+                return (
+                  <ModCard
+                    key={index}
+                    title={mod.name}
+                    description={mod.description}
+                    icon={icon}
+                    detailUrl={mod.detailUrl}
+                    delay={0.1 + index * 0.05}
+                    version={mod.version}
+                    date={mod.date}
+                  />
+                );
+              })}
+            </div>
+            
+            <motion.div 
+              className="flex justify-center mt-12"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+            >
+              <Link 
+                href="/repo-mods-Download" 
+                className="px-8 py-4 bg-amber-600 hover:bg-amber-500 text-white text-lg font-semibold rounded-lg transition-all shadow-lg hover:shadow-xl flex items-center group"
+              >
+                <span className="mr-2">View All Mods</span>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </Link>
+            </motion.div>
+          </>
         )}
       </div>
     </section>

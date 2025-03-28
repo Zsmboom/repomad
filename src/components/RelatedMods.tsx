@@ -100,6 +100,12 @@ const mods: Mod[] = [
     path: '/repomod-MoreStamina'
   },
   {
+    id: 'improvedStamina',
+    name: 'Improved Stamina',
+    description: 'Dynamic stamina regeneration system with scaling regen rates and configurable settings.',
+    path: '/repomod-ImprovedStamina'
+  },
+  {
     id: 'shrinkerCart',
     name: 'ShrinkerCart',
     description: 'Reduces the size of the cart for easier navigation through narrow spaces.',
@@ -182,6 +188,30 @@ const mods: Mod[] = [
     name: 'Dead TTS',
     description: 'Enables text-to-speech communication from dead players with directional audio.',
     path: '/repomod-DeadTTS'
+  },
+  {
+    id: 'betterTruckHeals',
+    name: 'Better Truck Heals',
+    description: 'Configurable heal amount that increases truck healing from 25 to 50 health points.',
+    path: '/repomod-BetterTruckHeals'
+  },
+  {
+    id: 'xhDamageShowEnemyHealthBar',
+    name: 'XH DamageShow EnemyHealthBar',
+    description: 'Shows enemy health bars and damage numbers for improved combat feedback.',
+    path: '/repomod-XH_DamageShow_EnemyHealthBar'
+  },
+  {
+    id: 'theFinalsValuables',
+    name: 'THE FINALS Valuables',
+    description: 'Adds collectible valuables from the hit game THE FINALS for players to find and sell.',
+    path: '/repomod-TheFinalsValuables'
+  },
+  {
+    id: 'berserkerEnemies',
+    name: 'Berserker Enemies',
+    description: 'Enemies enter rage mode when damaged, increasing their speed and attack damage.',
+    path: '/repomod-BerserkerEnemies'
   }
 ];
 

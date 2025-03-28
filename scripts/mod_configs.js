@@ -164,8 +164,28 @@ const MOD_CONFIGS = [
   },
   {
     name: 'DeadTTS',
-    url: 'https://thunderstore.io/c/repo/p/flipf17/DeadTTS/',
+    url: 'https://thunderstore.io/c/repo/p/TTSPlugin/DeadTTS/',
     pageFile: path.join(__dirname, '../src/app/repomod-DeadTTS/page.tsx'),
+  },
+  {
+    name: 'BetterTruckHeals',
+    url: 'https://thunderstore.io/c/repo/p/Lazarus/BetterTruckHeals/',
+    pageFile: path.join(__dirname, '../src/app/repomod-BetterTruckHeals/page.tsx'),
+  },
+  {
+    name: 'XH_DamageShow_EnemyHealthBar',
+    url: 'https://thunderstore.io/c/repo/p/XiaohaiMod/XH_DamageShow_EnemyHealthBar/',
+    pageFile: path.join(__dirname, '../src/app/repomod-XH_DamageShow_EnemyHealthBar/page.tsx'),
+  },
+  {
+    name: 'TheFinalsValuables',
+    url: 'https://thunderstore.io/c/repo/p/huxsTF/TheFinalsValuables/',
+    pageFile: path.join(__dirname, '../src/app/repomod-TheFinalsValuables/page.tsx'),
+  },
+  {
+    name: 'BerserkerEnemies',
+    url: 'https://thunderstore.io/c/repo/p/CygnusX/BerserkerEnemies/',
+    pageFile: path.join(__dirname, '../src/app/repomod-BerserkerEnemies/page.tsx'),
   },
   {
     name: 'TestMod',

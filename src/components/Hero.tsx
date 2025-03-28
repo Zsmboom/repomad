@@ -25,13 +25,13 @@ export default function Hero() {
             
             <div className="bg-blue-50 dark:bg-gray-700 border-l-4 border-blue-500 p-4 mb-6 rounded-r-md">
               <p className="text-gray-700 dark:text-gray-200">
-                <span className="font-semibold">Stay Updated!</span> We upload new mods and updates as soon as they're available. Bookmark this site to discover the latest REPO MODS first!
+                <span className="font-semibold">Stay Updated!</span> We check for updates daily and add at least 5 new mods twice a week. Bookmark this site to discover the latest REPO MODS as soon as they're released!
               </p>
             </div>
             
             <div className="bg-amber-50 dark:bg-amber-900 border-l-4 border-amber-500 p-4 mb-6 rounded-r-md">
               <p className="text-gray-800 dark:text-amber-100">
-                <span className="font-bold text-amber-600 dark:text-amber-300">🔥 JUST UPDATED!</span> We've added exciting new mods including <Link href="/repomod-DeadTTS" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">DeadTTS</Link> (hear dead players' voices), <Link href="/repomod-FreecamSpectate" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">FreecamSpectate</Link> (free camera while spectating), <Link href="/repomod-Lethal_Plushies" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Lethal Plushies</Link>, <Link href="/repomod-CustomColors" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">CustomColors</Link> (RGB color sliders), and <Link href="/repomod-Mimic" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Mimic</Link> (enemy voice mimicking)!
+                <span className="font-bold text-amber-600 dark:text-amber-300">🔥 JUST UPDATED!</span> We've added exciting new mods including <Link href="/repomod-BetterTruckHeals" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">BetterTruckHeals</Link> (improved healing), <Link href="/repomod-XH_DamageShow_EnemyHealthBar" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">XH DamageShow</Link> (enemy health bars), <Link href="/repomod-ImprovedStamina" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">ImprovedStamina</Link>, <Link href="/repomod-TheFinalsValuables" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">TheFinalsValuables</Link>, and <Link href="/repomod-BerserkerEnemies" className="font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors">BerserkerEnemies</Link> (challenging unkillable enemies)!
               </p>
             </div>
             

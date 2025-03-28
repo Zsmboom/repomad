@@ -20,7 +20,7 @@ export default function LegoGnomesMod() {
           className="bg-gray-800/70 backdrop-blur-sm rounded-lg p-8 border border-yellow-500/30 mb-8"
         >
           <div className="mb-4">
-            <Link href="/#download" className="inline-flex items-center text-yellow-400 hover:text-yellow-300 transition-colors">
+            <Link href="/repo-mods-Download" className="inline-flex items-center text-yellow-400 hover:text-yellow-300 transition-colors">
               <FiArrowLeft className="mr-2" />
               Back to all mods
             </Link>

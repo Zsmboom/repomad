@@ -16,7 +16,7 @@ export default function DeadTTSPage() {
         {/* Back button and title */}
         <div className="container mx-auto px-4 py-8">
           <Link 
-            href="/#mods" 
+            href="/repo-mods-Download" 
             className="text-gray-400 hover:text-purple-400 transition mb-4 flex items-center gap-2"
           >
             ← Back to all mods
@@ -129,13 +129,13 @@ export default function DeadTTSPage() {
 
           {/* Download button */}
           <div className="mb-16 text-center">
-            <Link 
-              href="/#download" 
+            <a 
+              href="/downloads/repomod-DeadTTS-1.0.4.zip" 
               className="inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white py-4 px-8 rounded-lg font-bold text-xl transition transform hover:scale-105 shadow-lg"
             >
               <FaDownload />
               Download Dead TTS Mod
-            </Link>
+            </a>
           </div>
 
           {/* Related mods */}

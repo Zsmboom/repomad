@@ -8,46 +8,46 @@ import { FiUsers, FiZap, FiSettings, FiCpu, FiBox, FiCode, FiStar } from 'react-
 // 新增mod列表数据
 const newMods = [
   {
-    name: "DeadTTS",
-    description: "Hear TTS voice from dead players with directional audio",
-    color: "bg-purple-500",
-    link: "/repomod-DeadTTS"
-  },
-  {
-    name: "FreecamSpectate",
-    description: "Fly around freely while spectating your teammates",
-    color: "bg-blue-500",
-    link: "/repomod-FreecamSpectate"
-  },
-  {
-    name: "Lethal Plushies",
-    description: "Adds cute plushies of various Lethal Company enemies",
+    name: "BetterTruckHeals",
+    description: "Increases truck heal amount to 50 instead of default 25, fully configurable",
     color: "bg-green-500",
-    link: "/repomod-Lethal_Plushies"
+    link: "/repomod-BetterTruckHeals"
   },
   {
-    name: "CustomColors",
-    description: "Customize your character with RGB color sliders",
+    name: "XH DamageShow",
+    description: "Shows enemy health bars and damage numbers when attacking",
     color: "bg-red-500",
-    link: "/repomod-CustomColors"
+    link: "/repomod-XH_DamageShow_EnemyHealthBar"
   },
   {
-    name: "FovUpdate",
-    description: "Adjust your FOV and screen settings for better visibility",
-    color: "bg-amber-500",
-    link: "/repomod-FovUpdate"
+    name: "ImprovedStamina",
+    description: "Enhanced stamina regeneration system with dynamic recovery mechanics",
+    color: "bg-blue-500",
+    link: "/repomod-ImprovedStamina"
   },
   {
-    name: "Mimic",
-    description: "Enemies can mimic player voices for a scarier experience",
-    color: "bg-indigo-500",
-    link: "/repomod-Mimic"
-  },
-  {
-    name: "Cart Lights",
-    description: "Adds lights to the front of medium and pocket carts",
+    name: "TheFinalsValuables",
+    description: "Adds collectible valuables from the hit game THE FINALS",
     color: "bg-yellow-500",
-    link: "/repomod-Cart_Lights_MelanieMelicious"
+    link: "/repomod-TheFinalsValuables"
+  },
+  {
+    name: "BerserkerEnemies",
+    description: "Enemies can enter berserker mode becoming unkillable but more valuable",
+    color: "bg-purple-500",
+    link: "/repomod-BerserkerEnemies"
+  },
+  {
+    name: "SossicValuables",
+    description: "Simply adds new valuable items to discover and collect",
+    color: "bg-amber-500",
+    link: "/repomod-SossicValuables"
+  },
+  {
+    name: "PopochisCosmetics",
+    description: "Adds new cosmetics including Pink and Green Pig heads",
+    color: "bg-indigo-500",
+    link: "/repomod-PopochisCosmetics"
   }
 ];
 
@@ -55,7 +55,7 @@ const features = [
   {
     icon: <FiStar className="h-8 w-8 text-amber-500" />,
     title: 'Latest REPO MODS Updates',
-    description: 'Experience our newest exciting mods: DeadTTS (TTS voices from dead players), FreecamSpectate (free camera while spectating), Lethal Plushies, CustomColors (RGB color customization), FovUpdate (FOV adjustment) and Mimic (enemy voice mimicking)!'
+    description: 'Experience our newest exciting mods: BetterTruckHeals, XH DamageShow with enemy health bars, ImprovedStamina with dynamic regeneration, TheFinalsValuables collectibles, and BerserkerEnemies that add a new challenge with unkillable berserker enemies!'
   },
   {
     icon: <FiBox className="h-8 w-8 text-blue-500" />,

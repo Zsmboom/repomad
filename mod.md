@@ -362,7 +362,7 @@ Each player will have a random TTS pitch while dead. This way, dead players can 
 
 This mod shouldn't allow dead players to alert monsters.
 
-
+-----------以上完成3.25-------------
 
 # BetterTruckHeals
 名称：BetterTruckHeals
@@ -376,8 +376,128 @@ Increases Heal amount to 50 instead of default 25!
 # XH DamageShow EnemyHealthBar
 名称：XH DamageShow EnemyHealthBar
 跟踪地址：https://thunderstore.io/c/repo/p/XiaohaiMod/XH_DamageShow_EnemyHealthBar/
-文件地址：
+文件地址：public/downloads/repomod-XH_DamageShow_EnemyHealthBar-1.0.1.zip
 介绍内容：怪物血条显示和伤害数值显示
 
 
------------以上完成3.25-------------
+
+# ImprovedStamina
+名称：ImprovedStamina
+跟踪地址：https://thunderstore.io/c/repo/p/Flopper/ImprovedStamina/
+文件地址：public/downloads/repomod-ImprovedStamina-1.2.0.zip
+介绍内容：This is a mod that enhances the stamina regeneration system in the game. Instead of the default recharge behavior, this mod introduces a dynamic stamina regen mechanic:
+
+Default Configuration:
+Gradual Stamina Regeneration: After stopping sprinting, stamina starts regenerating after 0.5 seconds.
+Scaling Regen Rate: Over 3.0 seconds, the regeneration rate increases up to +8 stamina per second.
+More Natural Recovery: The system ensures a smoother and more responsive stamina recovery experience.
+This mod does not alter any other movement mechanics.
+
+Configuration
+You can update the configuration which is located at BepInEx/config/ImprovedStamina.cfg
+Setting	Default Value	Max Value	Description
+MaxRegenRate	8.0	25.0	The maximum stamina regeneration multiplier.
+RegenRampUpTime	3.0	25.0	The time (in seconds) it takes for stamina regeneration to reach max speed.
+DelayBeforeRegen	0.5	25.0	The delay (in seconds) after stopping sprinting before regeneration starts.
+SprintDrainMultiplier	1.0	10.0	Multiplier for stamina cost when sprinting. 1.0x is the game's default.
+
+
+------------------------
+
+# TheFinalsValuables
+名称：TheFinalsValuables
+跟踪地址：https://thunderstore.io/c/repo/p/huxsTF/TheFinalsValuables/
+文件地址：public/downloads/repomod-TheFinalsValuables-1.0.0.zip
+介绍内容：Adds valuables from hit game THE FINALS.
+
+----------------------------------
+
+# BerserkerEnemies
+名称：BerserkerEnemies
+跟踪地址：https://thunderstore.io/c/repo/p/FNKT_Labs/BerserkerEnemies/
+文件地址：public/downloads/repomod-BerserkerEnemies-1.0.1.zip
+介绍内容：Berserker Enemies
+When enemies go berserk, your only option is to hide!
+
+After reaching a certain level, enemies can enter berserker mode. But what does this mean?
+Berserkers become unkillable. They take no damage from players or objects, cannot be stunned, and cannot be picked up.
+However, if a berserker somehow dies, its drop will be especially valuable.
+
+That’s all—good luck!
+
+Features
+Visual Changes: Berserkers have a distinct look. They glow and emit red smoke, making it clear when they’re enraged!
+Buffed Enemies: Players cannot damage or grab berserkers in any way.
+Settings
+Enabled: Toggle whether the mod spawns berserkers.
+Staring Level: Define the level at which berserkers begin appearing.
+Min: Set the minimum spawn chance.
+Max: Set the maximum spawn chance.
+Enemies: Choose which enemy types can become berserkers.
+
+--------------------3-28-----------------
+
+# SossicValuables
+名称：SossicValuables
+跟踪地址：https://thunderstore.io/c/repo/p/Sossic/SossicValuables/
+文件地址：public/downloads/repomod-SossicValuables-1.3.0.zip
+介绍内容：Simply adds a new valuable.
+
+
+# PopochisCosmetics
+名称：PopochisCosmetics
+跟踪地址：https://thunderstore.io/c/repo/p/Anilom/PopochisCosmetics/
+文件地址：public/downloads/repomod-PopochisCosmetics-1.0.0.zip
+介绍内容：Adds several cosmetics expanding MoreHead mod.
+Cosmetics list:
+Pig (Pink)
+Pig (Green)
+
+
+# VanillaUpgrades
+名称：VanillaUpgrades
+跟踪地址：https://thunderstore.io/c/repo/p/BULLETBOT/VanillaUpgrades/
+文件地址：public/downloads/repomod-VanillaUpgrades-1.0.3.zip
+介绍内容：Adds more configurations to the base upgrade items similar to MoreUpgrades mod.
+
+Configuration
+Enabled: Whether the upgrade item can be spawned to the shop.
+Max Amount: The maximum number of times the upgrade item can appear in the truck.
+Max Amount In Shop: The maximum number of times the upgrade item can appear in the shop.
+Minimum Price: The minimum cost to purchase the upgrade item.
+Maximum Price: The maximum cost to purchase the upgrade item.
+Price Increase Scaling: The scale of the price increase based on the total number of upgrade item purchased.
+Max Purchase Amount: The maximum number of times the upgrade item can be purchased before it is no longer available in the shop.
+Allow Team Upgrades: Whether the upgrade item applies to the entire team instead of just one player.
+Sync Host Upgrades: Whether the host should sync the item upgrade for the entire team.
+Starting Amount: The number of times the upgrade item is applied at the start of the game.
+
+
+# BubblesVanity
+名称：BubblesVanity
+跟踪地址：https://thunderstore.io/c/repo/p/PenguPop/BubblesVanity/
+文件地址：public/downloads/repomod-BubblesVanity-1.0.0.zip
+介绍内容：Just some random hats for fun ( more coming later! ) Currently has multiple hats including Low-Poly Attenna, Low-Poly Straw Hat, Low-Poly Trafalgar Law Hat, SSB-Wii Luigi Hat, SSB-Wii Mario Hat
+
+
+# SilentHillSounds
+名称：SilentHillSounds
+跟踪地址：https://thunderstore.io/c/repo/p/BananaMilk/SilentHillSounds/
+文件地址：public/downloads/repomod-SilentHillSounds-1.0.3.zip
+介绍内容：Replaces the blackout sounds to various silent hill sounds
+
+
+# SilentHillMainMenu
+名称：SilentHillMainMenu
+跟踪地址：https://thunderstore.io/c/repo/p/BananaMilk/SilentHillMainMenu/
+文件地址：public/downloads/repomod-SilentHillMainMenu-1.0.3.zip
+介绍内容：Replaces main menu music with Not Tomorrow，Replaces menu music with Not Tomorrow from Silent Hill
+
+
+# SmoothCosmetics
+名称：SmoothCosmetics
+跟踪地址：https://thunderstore.io/c/repo/p/SmoothSquad/SmoothCosmetics/
+文件地址：public/downloads/repomod-SmoothCosmetics-1.0.0.zip
+介绍内容：Some cosmetics for my friends  This mod requires the following mods to function：MoreHead
+
+
