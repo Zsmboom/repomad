@@ -1,4 +1,7 @@
 {
+  "version": 2,
+  "buildCommand": "npm config set registry https://registry.npmjs.org/ && npm run build",
+  "installCommand": "npm config set registry https://registry.npmjs.org/ && npm install",
   "framework": "nextjs",
   "headers": [
     {
