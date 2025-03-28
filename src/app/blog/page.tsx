@@ -12,6 +12,13 @@ export const metadata: Metadata = {
 export default function BlogPage() {
   const blogPosts = [
     {
+      id: 'top-8-essential-repo-mods',
+      title: '8 Best R.E.P.O. MODs and Installation Guide',
+      date: 'April 1, 2025',
+      excerpt: 'Discover the top 8 R.E.P.O. mods that will transform your gameplay experience, from expanding player count to enhancing customization options.',
+      slug: 'top-8-essential-repo-mods',
+    },
+    {
       id: 'new-mods-march-28-2025',
       title: 'Latest R.E.P.O. Mods Update - March 28, 2025',
       date: 'March 28, 2025',
