@@ -18,10 +18,10 @@ const nextConfig = {
         has: [
           {
             type: 'host',
-            value: 'www.fischmacroo.com',
+            value: 'www.repomod.com',
           },
         ],
-        destination: 'https://fischmacroo.com/:path*',
+        destination: 'https://repomod.com/:path*',
         permanent: true,
       },
     ];

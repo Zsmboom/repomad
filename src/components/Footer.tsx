@@ -120,7 +120,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="https://steamcommunity.com/app/3241660/discussions/" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
-                  Steam 社区
+                  Steam Community
                 </a>
               </li>
             </ul>

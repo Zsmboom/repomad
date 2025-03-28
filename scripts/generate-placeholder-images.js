@@ -22,9 +22,9 @@ function createPlaceholderImage(filePath, width, height, text, bgColor = '#3b82f
 
 // 定义要创建的占位图片
 const placeholders = [
-  { path: 'public/images/hero/fishing-game.svg', width: 800, height: 600, text: 'Fisch Game Screenshot', bgColor: '#1e40af' },
-  { path: 'public/images/hero/fisch-hero.svg', width: 800, height: 600, text: 'Fisch Hero Image', bgColor: '#1e3a8a' },
-  { path: 'public/images/screenshots/macro-interface.svg', width: 800, height: 600, text: 'Fisch Macro Interface', bgColor: '#0f766e' },
+  { path: 'public/images/hero/gaming-screenshot.svg', width: 800, height: 600, text: 'REPO Game Screenshot', bgColor: '#1e40af' },
+  { path: 'public/images/hero/repo-hero.svg', width: 800, height: 600, text: 'REPO Hero Image', bgColor: '#1e3a8a' },
+  { path: 'public/images/screenshots/mod-interface.svg', width: 800, height: 600, text: 'REPOMOD Interface', bgColor: '#0f766e' },
   { path: 'public/images/about/team-working.svg', width: 600, height: 400, text: 'Team Working', bgColor: '#4f46e5' },
   { path: 'public/images/about/mission.svg', width: 600, height: 400, text: 'Our Mission', bgColor: '#7e22ce' },
   { path: 'public/images/team/john-doe.svg', width: 300, height: 300, text: 'JD', bgColor: '#be185d' },

@@ -15,19 +15,19 @@ function createOGImage() {
   <rect x="50" y="50" width="1100" height="530" rx="15" fill="#2563eb"/>
   
   <text x="600" y="200" font-family="Arial, sans-serif" font-size="80px" font-weight="bold" fill="#ffffff" text-anchor="middle">
-    Fisch Macro
+    REPOMOD
   </text>
   
   <text x="600" y="300" font-family="Arial, sans-serif" font-size="40px" fill="#e0f2fe" text-anchor="middle">
-    Automation Tool for Roblox Fisch Game
+    The Ultimate Mods for REPO Game
   </text>
   
   <text x="600" y="400" font-family="Arial, sans-serif" font-size="30px" fill="#bfdbfe" text-anchor="middle">
-    Enhance your gaming experience with automated fishing
+    Enhance your gaming experience with comprehensive mods
   </text>
   
   <text x="600" y="550" font-family="Arial, sans-serif" font-size="24px" fill="#93c5fd" text-anchor="middle">
-    www.fischmacroo.com
+    www.repomod.com
   </text>
 </svg>`;
 
