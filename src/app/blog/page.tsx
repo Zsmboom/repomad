@@ -16,7 +16,7 @@ export default function BlogPage() {
       title: '8 Best R.E.P.O. MODs and Installation Guide',
       date: 'April 1, 2025',
       excerpt: 'Discover the top 8 R.E.P.O. mods that will transform your gameplay experience, from expanding player count to enhancing customization options.',
-      slug: 'top-8-essential-repo-mods',
+      slug: '8-Best-REPO-MODs-and-Installation-Guide',
     },
     {
       id: 'new-mods-march-28-2025',
