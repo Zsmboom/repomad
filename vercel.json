@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "npm config set registry https://registry.npmjs.org/ && npm run build",
-  "installCommand": "npm config set registry https://registry.npmjs.org/ && npm install",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --no-package-lock",
   "framework": "nextjs",
   "headers": [
     {
