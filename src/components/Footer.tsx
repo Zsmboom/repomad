@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { FiGithub, FiTwitter, FiMail, FiYoutube } from 'react-icons/fi';
-import { FaDiscord, FaSteam } from 'react-icons/fa';
+import { FaDiscord, FaSteam, FaTwitch, FaTiktok, FaInstagram } from 'react-icons/fa';
 import ShareButtons from './ShareButtons';
 
 export default function Footer() {
@@ -35,6 +35,18 @@ export default function Footer() {
               </a>
               <a href="https://store.steampowered.com" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Steam">
                 <FaSteam className="h-5 w-5" />
+              </a>
+              <a href="https://www.youtube.com/@semiwork" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <FiYoutube className="h-5 w-5" />
+              </a>
+              <a href="https://www.tiktok.com/@semiwork?lang=en" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                <FaTiktok className="h-5 w-5" />
+              </a>
+              <a href="https://www.twitch.tv/semiwork" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
+                <FaTwitch className="h-5 w-5" />
+              </a>
+              <a href="https://www.instagram.com/semiworkstudios/" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <FaInstagram className="h-5 w-5" />
               </a>
             </div>
             <ShareButtons 
@@ -105,6 +117,11 @@ export default function Footer() {
                 <Link href="/contact" className="text-gray-400 hover:text-white">
                   Contact
                 </Link>
+              </li>
+              <li>
+                <a href="https://steamcommunity.com/app/3241660/discussions/" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
+                  Steam 社区
+                </a>
               </li>
             </ul>
           </div>
