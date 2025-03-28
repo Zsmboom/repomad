@@ -2,7 +2,7 @@
 
 import { usePathname, useSearchParams } from 'next/navigation';
 import Script from 'next/script';
-import { useEffect } from 'react';
+import { useEffect, Suspense } from 'react';
 
 // Google Analytics 测量ID
 const GA_MEASUREMENT_ID = 'G-DX9T2CB3DD';
@@ -43,7 +43,8 @@ export function AnalyticsScripts() {
   );
 }
 
-export function AnalyticsTracker() {
+// 实际追踪器组件
+function AnalyticsTrackerInner() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   
@@ -61,6 +62,15 @@ export function AnalyticsTracker() {
   }, [pathname, searchParams]);
   
   return null;
+}
+
+// 带有Suspense边界的包装器
+export function AnalyticsTracker() {
+  return (
+    <Suspense fallback={null}>
+      <AnalyticsTrackerInner />
+    </Suspense>
+  );
 }
 
 export default function AnalyticsProvider({
