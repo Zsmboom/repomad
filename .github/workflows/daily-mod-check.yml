@@ -23,10 +23,22 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-          cache: 'npm'
+          
+      - name: Clean npm cache
+        run: |
+          npm cache clean --force
+          rm -rf node_modules package-lock.json
+      
+      - name: Setup .npmrc
+        run: |
+          echo "registry=https://registry.npmjs.org/" > .npmrc
+          echo "strict-ssl=true" >> .npmrc
+          echo "force=true" >> .npmrc
+          echo "audit=false" >> .npmrc
+          echo "fund=false" >> .npmrc
           
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-package-lock
       
       - name: Create directories if not exist
         run: |
@@ -52,4 +64,18 @@ jobs:
           
           # 提交和推送变更
           git commit -m "自动更新: 模组检查 $(date +'%Y-%m-%d')"
-          git push 
+          git push
+          
+      # 新增：触发Vercel部署  
+      - name: Trigger Vercel Deployment
+        if: success()
+        run: |
+          # 使用curl触发Vercel部署webhook
+          if [ -n "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}" ]; then
+            echo "正在触发Vercel部署..."
+            curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"
+          else
+            echo "未配置Vercel部署Webhook URL，跳过触发部署"
+            echo "请在GitHub仓库设置中添加名为VERCEL_DEPLOY_HOOK_URL的secret"
+            echo "该URL可在Vercel项目设置的Git Integration > Deploy Hooks中创建"
+          fi 
